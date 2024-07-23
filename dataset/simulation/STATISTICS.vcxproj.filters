@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Файлы исходного кода">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Заголовочные файлы">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Файлы исходного кода\GitHUB">
+      <UniqueIdentifier>{600c8799-b6ae-4b7c-8784-76733fa4ec57}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Файлы исходного кода\GitHUB</Filter>
+    </ClCompile>
+    <ClCompile Include="HelpFucntions.cpp">
+      <Filter>Файлы исходного кода\GitHUB</Filter>
+    </ClCompile>
+    <ClCompile Include="HomogeneityTest.cpp">
+      <Filter>Файлы исходного кода\GitHUB</Filter>
+    </ClCompile>
+    <ClCompile Include="ConvergenceToLimitLaw.cpp">
+      <Filter>Файлы исходного кода\GitHUB</Filter>
+    </ClCompile>
+    <ClCompile Include="EDF.cpp">
+      <Filter>Файлы исходного кода\GitHUB</Filter>
+    </ClCompile>
+    <ClCompile Include="SearchN.cpp">
+      <Filter>Файлы исходного кода\GitHUB</Filter>
+    </ClCompile>
+    <ClCompile Include="AlternativeHypotheses.cpp">
+      <Filter>Файлы исходного кода\GitHUB</Filter>
+    </ClCompile>
+    <ClCompile Include="MP.cpp">
+      <Filter>Файлы исходного кода\GitHUB</Filter>
+    </ClCompile>
+    <ClCompile Include="TestPower.cpp">
+      <Filter>Файлы исходного кода\GitHUB</Filter>
+    </ClCompile>
+    <ClCompile Include="Sample.cpp">
+      <Filter>Файлы исходного кода\GitHUB</Filter>
+    </ClCompile>
+    <ClCompile Include="Power.cpp">
+      <Filter>Файлы исходного кода\GitHUB</Filter>
+    </ClCompile>
+    <ClCompile Include="StatisticsSample.cpp">
+      <Filter>Файлы исходного кода\GitHUB</Filter>
+    </ClCompile>
+    <ClCompile Include="KaplanMeyerEstimate.cpp">
+      <Filter>Файлы исходного кода\GitHUB</Filter>
+    </ClCompile>
+    <ClCompile Include="NelsonAalenSurvivalEstimate.cpp">
+      <Filter>Файлы исходного кода\GitHUB</Filter>
+    </ClCompile>
+    <ClCompile Include="mt19937boost.cpp">
+      <Filter>Файлы исходного кода\GitHUB</Filter>
+    </ClCompile>
+    <ClCompile Include="Distribution.cpp">
+      <Filter>Файлы исходного кода\GitHUB</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="simulation_for_machine_learning.h">
+      <Filter>Файлы исходного кода\GitHUB</Filter>
+    </ClInclude>
+    <ClInclude Include="HelpFucntions.h">
+      <Filter>Файлы исходного кода\GitHUB</Filter>
+    </ClInclude>
+    <ClInclude Include="HomogeneityTest.h">
+      <Filter>Файлы исходного кода\GitHUB</Filter>
+    </ClInclude>
+    <ClInclude Include="ConvergenceToLimitLaw.h">
+      <Filter>Файлы исходного кода\GitHUB</Filter>
+    </ClInclude>
+    <ClInclude Include="EDF.h">
+      <Filter>Файлы исходного кода\GitHUB</Filter>
+    </ClInclude>
+    <ClInclude Include="SearchN.h">
+      <Filter>Файлы исходного кода\GitHUB</Filter>
+    </ClInclude>
+    <ClInclude Include="AlternativeHypotheses.h">
+      <Filter>Файлы исходного кода\GitHUB</Filter>
+    </ClInclude>
+    <ClInclude Include="MP.h">
+      <Filter>Файлы исходного кода\GitHUB</Filter>
+    </ClInclude>
+    <ClInclude Include="TestPower.h">
+      <Filter>Файлы исходного кода\GitHUB</Filter>
+    </ClInclude>
+    <ClInclude Include="Sample.h">
+      <Filter>Файлы исходного кода\GitHUB</Filter>
+    </ClInclude>
+    <ClInclude Include="Power.h">
+      <Filter>Файлы исходного кода\GitHUB</Filter>
+    </ClInclude>
+    <ClInclude Include="StatisticsSample.h">
+      <Filter>Файлы исходного кода\GitHUB</Filter>
+    </ClInclude>
+    <ClInclude Include="KaplanMeyerEstimate.h">
+      <Filter>Файлы исходного кода\GitHUB</Filter>
+    </ClInclude>
+    <ClInclude Include="ContinuousSurvivalEstimate.h">
+      <Filter>Файлы исходного кода\GitHUB</Filter>
+    </ClInclude>
+    <ClInclude Include="AdbushukurovEstimate.h">
+      <Filter>Файлы исходного кода\GitHUB</Filter>
+    </ClInclude>
+    <ClInclude Include="BreslowEstimate.h">
+      <Filter>Файлы исходного кода\GitHUB</Filter>
+    </ClInclude>
+    <ClInclude Include="NelsonAalenSurvivalEstimate.h">
+      <Filter>Файлы исходного кода\GitHUB</Filter>
+    </ClInclude>
+    <ClInclude Include="RNGPool.h">
+      <Filter>Файлы исходного кода\GitHUB</Filter>
+    </ClInclude>
+    <ClInclude Include="mt19937boost.h">
+      <Filter>Файлы исходного кода\GitHUB</Filter>
+    </ClInclude>
+    <ClInclude Include="Distribution.h">
+      <Filter>Файлы исходного кода\GitHUB</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="samples\1Chemotherapy.txt">
+      <Filter>Файлы ресурсов</Filter>
+    </Text>
+    <Text Include="samples\2Radiotherapy.txt">
+      <Filter>Файлы ресурсов</Filter>
+    </Text>
+    <Text Include="samples\CMF(group1).txt">
+      <Filter>Файлы ресурсов</Filter>
+    </Text>
+    <Text Include="samples\Control(group2).txt">
+      <Filter>Файлы ресурсов</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
