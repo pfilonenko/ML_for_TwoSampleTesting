@@ -1,7 +1,7 @@
 This folder includes following parts:
 
-1_raw:
+"1_raw/" contains raw data. In this folder a fragment is located. The full data can be downloaded at the Hugging Face (pfilonenko/ML_for_TwoSampleTesting/).
 
-2_samples:
+"2_samples/" contains splitted samples to train and simulate. In this folder fragments are located. The full data can be downloaded at the Hugging Face (pfilonenko/ML_for_TwoSampleTesting/).
 
-3_dataset_with_ML_pred:
+"3_dataset_with_ML_pred/" contains a test sample including test statistics of the proposed two-sample methods.
