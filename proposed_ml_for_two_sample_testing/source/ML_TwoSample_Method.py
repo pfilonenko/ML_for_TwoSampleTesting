@@ -573,6 +573,48 @@ class ML_TwoSample_Method:
             self.model_obj = self.processing()
             self.save_object_by_pickle(path_trained_model, self.model_obj)
 
+    # INFERENCE of the proposed model
+    def INFERENCE(self, n1, n2, cens_rate1, cens_rate2, S_peto, S_gehan, S_logrank, S_BN_GPH, S_BN_MCE, S_BN_SCE, S_Q, S_MAX, S_MIN3, S_WLg_TaroneWare, S_WLg_PetoPrentice, S_WLg_Prentice, S_WKM):
+        # data preparation
+        row = {
+            'n1': n1,
+            'n2': n2,
+            'real_perc1': cens_rate1,
+            'real_perc2': cens_rate2,
+            'Peto_test': S_peto,
+            'Gehan_test': S_gehan,
+            'logrank_test': S_logrank,
+            'BN_GPH_test': S_BN_GPH,
+            'BN_MCE_test': S_BN_MCE,
+            'BN_SCE_test': S_BN_SCE,
+            'Q_test': S_Q,
+            'MAX_Value_test': S_MAX,
+            'MIN3_test': S_MIN3,
+            'WLg_TaroneWare_test': S_WLg_TaroneWare,
+            'WLg_PetoPrentice_test': S_WLg_PetoPrentice,
+            'WLg_Prentice_test': S_WLg_Prentice,
+            'WKM_test': S_WKM
+        }
+
+        # feature engineering
+        data = pd.DataFrame()
+        data['observation'] = row
+        data = data.T
+        data = self.feature_engineering(data)
+
+        # get the trained model
+        features = self.model_obj['features']
+        model = self.model_obj['model']
+        df = data.loc[:, features]
+
+        # make prediction
+        if self.config['model_name'] != 'LightAutoML':
+            prediction = model.predict_proba(df)[0][1]
+        else:
+            prediction = model.predict(df)
+
+        return prediction
+
 # start point
 if __name__ == '__main__':
     # list of config-files
@@ -587,4 +629,27 @@ if __name__ == '__main__':
 
     # iterating over config-files
     for CONFIG_NAME in CONFIG_NAMES:
+        # load / train the model
         ml = ML_TwoSample_Method(CONFIG_NAME=CONFIG_NAME)
+
+        # inference
+        pred = ml.INFERENCE(
+            n1=20,
+            n2=20,
+            cens_rate1=0.,
+            cens_rate2=0.,
+            S_peto=-0.784453,
+            S_gehan=0.784453,
+            S_logrank=0.320514,
+            S_BN_GPH=1.845733,
+            S_BN_MCE=4.535574,
+            S_BN_SCE=1.338882,
+            S_Q=-0.784453,
+            S_MAX=0.784453,
+            S_MIN3=0.209139,
+            S_WLg_TaroneWare=0.449645,
+            S_WLg_PetoPrentice=0.095641,
+            S_WLg_Prentice=0.020414,
+            S_WKM=-0.794446,
+        )
+        print(pred)
