@@ -1,0 +1,2164 @@
+/home/pfilonenko/ai_lab/venv_phil/pythonProject/.venv/bin/python /home/pfilonenko/my_projects/nstu/ver2_FINAL/source/ML_TwoSample_Method.py 
+========================================
+CatBoost НЕ НАЙДЕНА. Начинается процесс обучения модели...
+n: 13630680, part(y=1): 50.0
+n: 7435800, part(y=1): 50.0
+n: 3719520, part(y=1): 50.0
+100%|██████████| 13/13 [00:34<00:00,  2.68s/it]
+100%|██████████| 13/13 [00:20<00:00,  1.60s/it]
+100%|██████████| 13/13 [00:09<00:00,  1.33it/s]
+model_name:  CatBoost
+Learning rate set to 0.5
+0:	learn: 0.6254696	total: 425ms	remaining: 7m 4s
+1:	learn: 0.6117150	total: 766ms	remaining: 6m 22s
+2:	learn: 0.6066868	total: 1.16s	remaining: 6m 27s
+3:	learn: 0.6021717	total: 1.51s	remaining: 6m 16s
+4:	learn: 0.6009102	total: 1.91s	remaining: 6m 19s
+5:	learn: 0.6001273	total: 2.27s	remaining: 6m 15s
+6:	learn: 0.5991644	total: 2.64s	remaining: 6m 14s
+7:	learn: 0.5984184	total: 3s	remaining: 6m 11s
+8:	learn: 0.5977563	total: 3.32s	remaining: 6m 5s
+9:	learn: 0.5970905	total: 3.68s	remaining: 6m 4s
+10:	learn: 0.5966366	total: 4.05s	remaining: 6m 4s
+11:	learn: 0.5959491	total: 4.46s	remaining: 6m 7s
+12:	learn: 0.5956103	total: 4.83s	remaining: 6m 6s
+13:	learn: 0.5951760	total: 5.22s	remaining: 6m 7s
+14:	learn: 0.5948166	total: 5.59s	remaining: 6m 6s
+15:	learn: 0.5944048	total: 6s	remaining: 6m 8s
+16:	learn: 0.5939990	total: 6.38s	remaining: 6m 8s
+17:	learn: 0.5936870	total: 6.77s	remaining: 6m 9s
+18:	learn: 0.5934401	total: 7.11s	remaining: 6m 7s
+19:	learn: 0.5931090	total: 7.47s	remaining: 6m 6s
+20:	learn: 0.5928497	total: 7.82s	remaining: 6m 4s
+21:	learn: 0.5926879	total: 8.24s	remaining: 6m 6s
+22:	learn: 0.5925395	total: 8.55s	remaining: 6m 3s
+23:	learn: 0.5923380	total: 8.98s	remaining: 6m 5s
+24:	learn: 0.5921028	total: 9.34s	remaining: 6m 4s
+25:	learn: 0.5918694	total: 9.74s	remaining: 6m 5s
+26:	learn: 0.5916745	total: 10.1s	remaining: 6m 4s
+27:	learn: 0.5914938	total: 10.5s	remaining: 6m 4s
+28:	learn: 0.5913214	total: 10.9s	remaining: 6m 4s
+29:	learn: 0.5912000	total: 11.3s	remaining: 6m 4s
+30:	learn: 0.5910256	total: 11.6s	remaining: 6m 3s
+31:	learn: 0.5908884	total: 12s	remaining: 6m 2s
+32:	learn: 0.5907011	total: 12.4s	remaining: 6m 2s
+33:	learn: 0.5905378	total: 12.7s	remaining: 6m 2s
+34:	learn: 0.5904108	total: 13.1s	remaining: 6m 2s
+35:	learn: 0.5902402	total: 13.5s	remaining: 6m 2s
+36:	learn: 0.5901121	total: 13.9s	remaining: 6m 1s
+37:	learn: 0.5899492	total: 14.3s	remaining: 6m 1s
+38:	learn: 0.5898289	total: 14.6s	remaining: 6m
+39:	learn: 0.5896696	total: 15.1s	remaining: 6m 1s
+40:	learn: 0.5895705	total: 15.4s	remaining: 5m 59s
+41:	learn: 0.5894813	total: 15.8s	remaining: 5m 59s
+42:	learn: 0.5893334	total: 16.2s	remaining: 5m 59s
+43:	learn: 0.5892075	total: 16.5s	remaining: 5m 58s
+44:	learn: 0.5891318	total: 16.9s	remaining: 5m 59s
+45:	learn: 0.5889501	total: 17.3s	remaining: 5m 57s
+46:	learn: 0.5888230	total: 17.6s	remaining: 5m 56s
+47:	learn: 0.5887298	total: 18s	remaining: 5m 56s
+48:	learn: 0.5886307	total: 18.3s	remaining: 5m 55s
+49:	learn: 0.5885435	total: 18.7s	remaining: 5m 54s
+50:	learn: 0.5884615	total: 19s	remaining: 5m 53s
+51:	learn: 0.5883501	total: 19.3s	remaining: 5m 52s
+52:	learn: 0.5882811	total: 19.7s	remaining: 5m 52s
+53:	learn: 0.5881577	total: 20.1s	remaining: 5m 52s
+54:	learn: 0.5880684	total: 20.5s	remaining: 5m 52s
+55:	learn: 0.5879598	total: 20.9s	remaining: 5m 52s
+56:	learn: 0.5878017	total: 21.3s	remaining: 5m 52s
+57:	learn: 0.5876911	total: 21.6s	remaining: 5m 51s
+58:	learn: 0.5876225	total: 22s	remaining: 5m 50s
+59:	learn: 0.5875361	total: 22.3s	remaining: 5m 49s
+60:	learn: 0.5874659	total: 22.7s	remaining: 5m 49s
+61:	learn: 0.5873654	total: 23.1s	remaining: 5m 49s
+62:	learn: 0.5872562	total: 23.4s	remaining: 5m 48s
+63:	learn: 0.5871566	total: 23.8s	remaining: 5m 48s
+64:	learn: 0.5870674	total: 24.2s	remaining: 5m 48s
+65:	learn: 0.5869903	total: 24.6s	remaining: 5m 47s
+66:	learn: 0.5868900	total: 24.9s	remaining: 5m 46s
+67:	learn: 0.5868273	total: 25.2s	remaining: 5m 45s
+68:	learn: 0.5867586	total: 25.6s	remaining: 5m 45s
+69:	learn: 0.5866839	total: 26s	remaining: 5m 44s
+70:	learn: 0.5866067	total: 26.3s	remaining: 5m 44s
+71:	learn: 0.5865512	total: 26.7s	remaining: 5m 44s
+72:	learn: 0.5864805	total: 27.1s	remaining: 5m 43s
+73:	learn: 0.5864049	total: 27.4s	remaining: 5m 43s
+74:	learn: 0.5863608	total: 27.8s	remaining: 5m 42s
+75:	learn: 0.5863045	total: 28.2s	remaining: 5m 42s
+76:	learn: 0.5862123	total: 28.6s	remaining: 5m 42s
+77:	learn: 0.5861419	total: 28.9s	remaining: 5m 41s
+78:	learn: 0.5860176	total: 29.3s	remaining: 5m 41s
+79:	learn: 0.5859588	total: 29.7s	remaining: 5m 41s
+80:	learn: 0.5858984	total: 30.1s	remaining: 5m 41s
+81:	learn: 0.5858142	total: 30.5s	remaining: 5m 41s
+82:	learn: 0.5857466	total: 30.8s	remaining: 5m 40s
+83:	learn: 0.5856421	total: 31.1s	remaining: 5m 39s
+84:	learn: 0.5855857	total: 31.4s	remaining: 5m 38s
+85:	learn: 0.5854982	total: 31.8s	remaining: 5m 38s
+86:	learn: 0.5854729	total: 32.1s	remaining: 5m 37s
+87:	learn: 0.5854194	total: 32.5s	remaining: 5m 37s
+88:	learn: 0.5853151	total: 32.9s	remaining: 5m 37s
+89:	learn: 0.5852365	total: 33.3s	remaining: 5m 36s
+90:	learn: 0.5851634	total: 33.7s	remaining: 5m 36s
+91:	learn: 0.5850957	total: 34s	remaining: 5m 35s
+92:	learn: 0.5850019	total: 34.5s	remaining: 5m 35s
+93:	learn: 0.5849143	total: 34.8s	remaining: 5m 35s
+94:	learn: 0.5848548	total: 35.2s	remaining: 5m 35s
+95:	learn: 0.5847773	total: 35.6s	remaining: 5m 35s
+96:	learn: 0.5847143	total: 36s	remaining: 5m 34s
+97:	learn: 0.5846306	total: 36.3s	remaining: 5m 34s
+98:	learn: 0.5845642	total: 36.7s	remaining: 5m 34s
+99:	learn: 0.5845244	total: 37.1s	remaining: 5m 33s
+100:	learn: 0.5844856	total: 37.4s	remaining: 5m 32s
+101:	learn: 0.5844116	total: 37.7s	remaining: 5m 31s
+102:	learn: 0.5843531	total: 38.1s	remaining: 5m 32s
+103:	learn: 0.5843149	total: 38.5s	remaining: 5m 31s
+104:	learn: 0.5842496	total: 38.9s	remaining: 5m 31s
+105:	learn: 0.5841952	total: 39.3s	remaining: 5m 31s
+106:	learn: 0.5841384	total: 39.6s	remaining: 5m 30s
+107:	learn: 0.5840590	total: 40s	remaining: 5m 30s
+108:	learn: 0.5840060	total: 40.4s	remaining: 5m 30s
+109:	learn: 0.5839360	total: 40.8s	remaining: 5m 29s
+110:	learn: 0.5838672	total: 41.1s	remaining: 5m 29s
+111:	learn: 0.5838113	total: 41.5s	remaining: 5m 29s
+112:	learn: 0.5837843	total: 41.9s	remaining: 5m 28s
+113:	learn: 0.5837210	total: 42.2s	remaining: 5m 27s
+114:	learn: 0.5836760	total: 42.5s	remaining: 5m 27s
+115:	learn: 0.5836297	total: 42.9s	remaining: 5m 27s
+116:	learn: 0.5835879	total: 43.3s	remaining: 5m 26s
+117:	learn: 0.5835430	total: 43.6s	remaining: 5m 26s
+118:	learn: 0.5834872	total: 44s	remaining: 5m 26s
+119:	learn: 0.5834234	total: 44.4s	remaining: 5m 25s
+120:	learn: 0.5833675	total: 44.8s	remaining: 5m 25s
+121:	learn: 0.5833355	total: 45.1s	remaining: 5m 24s
+122:	learn: 0.5832543	total: 45.5s	remaining: 5m 24s
+123:	learn: 0.5832184	total: 45.8s	remaining: 5m 23s
+124:	learn: 0.5831470	total: 46.3s	remaining: 5m 23s
+125:	learn: 0.5830953	total: 46.6s	remaining: 5m 23s
+126:	learn: 0.5830641	total: 47s	remaining: 5m 22s
+127:	learn: 0.5829977	total: 47.4s	remaining: 5m 22s
+128:	learn: 0.5829467	total: 47.8s	remaining: 5m 22s
+129:	learn: 0.5829052	total: 48.2s	remaining: 5m 22s
+130:	learn: 0.5828560	total: 48.5s	remaining: 5m 21s
+131:	learn: 0.5828243	total: 48.9s	remaining: 5m 21s
+132:	learn: 0.5827935	total: 49.2s	remaining: 5m 20s
+133:	learn: 0.5827370	total: 49.5s	remaining: 5m 20s
+134:	learn: 0.5826729	total: 50s	remaining: 5m 20s
+135:	learn: 0.5826168	total: 50.3s	remaining: 5m 19s
+136:	learn: 0.5825753	total: 50.6s	remaining: 5m 18s
+137:	learn: 0.5825280	total: 51s	remaining: 5m 18s
+138:	learn: 0.5824655	total: 51.4s	remaining: 5m 18s
+139:	learn: 0.5823852	total: 51.8s	remaining: 5m 18s
+140:	learn: 0.5823355	total: 52.2s	remaining: 5m 18s
+141:	learn: 0.5822838	total: 52.5s	remaining: 5m 17s
+142:	learn: 0.5822236	total: 52.9s	remaining: 5m 17s
+143:	learn: 0.5821881	total: 53.3s	remaining: 5m 16s
+144:	learn: 0.5821346	total: 53.7s	remaining: 5m 16s
+145:	learn: 0.5821038	total: 54.1s	remaining: 5m 16s
+146:	learn: 0.5820782	total: 54.5s	remaining: 5m 16s
+147:	learn: 0.5820377	total: 54.9s	remaining: 5m 15s
+148:	learn: 0.5820028	total: 55.3s	remaining: 5m 15s
+149:	learn: 0.5819355	total: 55.7s	remaining: 5m 15s
+150:	learn: 0.5818903	total: 56.1s	remaining: 5m 15s
+151:	learn: 0.5818588	total: 56.4s	remaining: 5m 14s
+152:	learn: 0.5818065	total: 56.7s	remaining: 5m 13s
+153:	learn: 0.5817681	total: 57s	remaining: 5m 13s
+154:	learn: 0.5817031	total: 57.4s	remaining: 5m 13s
+155:	learn: 0.5816669	total: 57.8s	remaining: 5m 12s
+156:	learn: 0.5816330	total: 58.1s	remaining: 5m 12s
+157:	learn: 0.5816044	total: 58.5s	remaining: 5m 11s
+158:	learn: 0.5815803	total: 58.9s	remaining: 5m 11s
+159:	learn: 0.5815329	total: 59.3s	remaining: 5m 11s
+160:	learn: 0.5814830	total: 59.6s	remaining: 5m 10s
+161:	learn: 0.5814407	total: 1m	remaining: 5m 10s
+162:	learn: 0.5814178	total: 1m	remaining: 5m 10s
+163:	learn: 0.5813891	total: 1m	remaining: 5m 9s
+164:	learn: 0.5813299	total: 1m 1s	remaining: 5m 9s
+165:	learn: 0.5812630	total: 1m 1s	remaining: 5m 8s
+166:	learn: 0.5812223	total: 1m 1s	remaining: 5m 8s
+167:	learn: 0.5811878	total: 1m 2s	remaining: 5m 7s
+168:	learn: 0.5811541	total: 1m 2s	remaining: 5m 6s
+169:	learn: 0.5811357	total: 1m 2s	remaining: 5m 6s
+170:	learn: 0.5811058	total: 1m 3s	remaining: 5m 6s
+171:	learn: 0.5810793	total: 1m 3s	remaining: 5m 5s
+172:	learn: 0.5810270	total: 1m 3s	remaining: 5m 5s
+173:	learn: 0.5810003	total: 1m 4s	remaining: 5m 5s
+174:	learn: 0.5809393	total: 1m 4s	remaining: 5m 5s
+175:	learn: 0.5808999	total: 1m 5s	remaining: 5m 4s
+176:	learn: 0.5808723	total: 1m 5s	remaining: 5m 4s
+177:	learn: 0.5808347	total: 1m 5s	remaining: 5m 3s
+178:	learn: 0.5808035	total: 1m 6s	remaining: 5m 3s
+179:	learn: 0.5807670	total: 1m 6s	remaining: 5m 2s
+180:	learn: 0.5807352	total: 1m 6s	remaining: 5m 2s
+181:	learn: 0.5806750	total: 1m 7s	remaining: 5m 2s
+182:	learn: 0.5806373	total: 1m 7s	remaining: 5m 1s
+183:	learn: 0.5806068	total: 1m 7s	remaining: 5m 1s
+184:	learn: 0.5805811	total: 1m 8s	remaining: 5m 1s
+185:	learn: 0.5805531	total: 1m 8s	remaining: 5m
+186:	learn: 0.5805235	total: 1m 9s	remaining: 5m
+187:	learn: 0.5804685	total: 1m 9s	remaining: 5m
+188:	learn: 0.5804436	total: 1m 9s	remaining: 4m 59s
+189:	learn: 0.5804167	total: 1m 10s	remaining: 4m 59s
+190:	learn: 0.5803916	total: 1m 10s	remaining: 4m 58s
+191:	learn: 0.5803487	total: 1m 10s	remaining: 4m 58s
+192:	learn: 0.5803124	total: 1m 11s	remaining: 4m 58s
+193:	learn: 0.5802730	total: 1m 11s	remaining: 4m 57s
+194:	learn: 0.5802323	total: 1m 12s	remaining: 4m 57s
+195:	learn: 0.5801891	total: 1m 12s	remaining: 4m 57s
+196:	learn: 0.5801531	total: 1m 12s	remaining: 4m 56s
+197:	learn: 0.5801254	total: 1m 13s	remaining: 4m 56s
+198:	learn: 0.5800886	total: 1m 13s	remaining: 4m 56s
+199:	learn: 0.5800485	total: 1m 13s	remaining: 4m 55s
+200:	learn: 0.5800211	total: 1m 14s	remaining: 4m 55s
+201:	learn: 0.5800003	total: 1m 14s	remaining: 4m 55s
+202:	learn: 0.5799557	total: 1m 15s	remaining: 4m 54s
+203:	learn: 0.5799339	total: 1m 15s	remaining: 4m 54s
+204:	learn: 0.5799009	total: 1m 15s	remaining: 4m 54s
+205:	learn: 0.5798806	total: 1m 16s	remaining: 4m 53s
+206:	learn: 0.5798388	total: 1m 16s	remaining: 4m 53s
+207:	learn: 0.5797905	total: 1m 17s	remaining: 4m 53s
+208:	learn: 0.5797612	total: 1m 17s	remaining: 4m 53s
+209:	learn: 0.5797308	total: 1m 17s	remaining: 4m 52s
+210:	learn: 0.5796864	total: 1m 18s	remaining: 4m 52s
+211:	learn: 0.5796641	total: 1m 18s	remaining: 4m 52s
+212:	learn: 0.5796230	total: 1m 19s	remaining: 4m 52s
+213:	learn: 0.5795993	total: 1m 19s	remaining: 4m 51s
+214:	learn: 0.5795725	total: 1m 19s	remaining: 4m 51s
+215:	learn: 0.5795457	total: 1m 20s	remaining: 4m 51s
+216:	learn: 0.5795271	total: 1m 20s	remaining: 4m 50s
+217:	learn: 0.5794842	total: 1m 20s	remaining: 4m 50s
+218:	learn: 0.5794618	total: 1m 21s	remaining: 4m 49s
+219:	learn: 0.5794264	total: 1m 21s	remaining: 4m 49s
+220:	learn: 0.5793806	total: 1m 21s	remaining: 4m 48s
+221:	learn: 0.5793345	total: 1m 22s	remaining: 4m 48s
+222:	learn: 0.5793094	total: 1m 22s	remaining: 4m 48s
+223:	learn: 0.5792855	total: 1m 23s	remaining: 4m 47s
+224:	learn: 0.5792567	total: 1m 23s	remaining: 4m 47s
+225:	learn: 0.5792320	total: 1m 23s	remaining: 4m 47s
+226:	learn: 0.5791749	total: 1m 24s	remaining: 4m 46s
+227:	learn: 0.5791540	total: 1m 24s	remaining: 4m 46s
+228:	learn: 0.5791053	total: 1m 24s	remaining: 4m 45s
+229:	learn: 0.5790636	total: 1m 25s	remaining: 4m 45s
+230:	learn: 0.5790427	total: 1m 25s	remaining: 4m 45s
+231:	learn: 0.5790163	total: 1m 26s	remaining: 4m 44s
+232:	learn: 0.5789975	total: 1m 26s	remaining: 4m 44s
+233:	learn: 0.5789614	total: 1m 26s	remaining: 4m 43s
+234:	learn: 0.5789366	total: 1m 27s	remaining: 4m 43s
+235:	learn: 0.5789150	total: 1m 27s	remaining: 4m 43s
+236:	learn: 0.5788906	total: 1m 27s	remaining: 4m 42s
+237:	learn: 0.5788550	total: 1m 28s	remaining: 4m 42s
+238:	learn: 0.5788379	total: 1m 28s	remaining: 4m 42s
+239:	learn: 0.5788089	total: 1m 28s	remaining: 4m 41s
+240:	learn: 0.5787680	total: 1m 29s	remaining: 4m 41s
+241:	learn: 0.5787411	total: 1m 29s	remaining: 4m 41s
+242:	learn: 0.5787190	total: 1m 30s	remaining: 4m 40s
+243:	learn: 0.5786743	total: 1m 30s	remaining: 4m 40s
+244:	learn: 0.5786500	total: 1m 30s	remaining: 4m 40s
+245:	learn: 0.5786210	total: 1m 31s	remaining: 4m 39s
+246:	learn: 0.5785813	total: 1m 31s	remaining: 4m 39s
+247:	learn: 0.5785558	total: 1m 32s	remaining: 4m 39s
+248:	learn: 0.5785267	total: 1m 32s	remaining: 4m 38s
+249:	learn: 0.5785041	total: 1m 32s	remaining: 4m 38s
+250:	learn: 0.5784844	total: 1m 33s	remaining: 4m 38s
+251:	learn: 0.5784406	total: 1m 33s	remaining: 4m 37s
+252:	learn: 0.5784243	total: 1m 33s	remaining: 4m 37s
+253:	learn: 0.5783954	total: 1m 34s	remaining: 4m 36s
+254:	learn: 0.5783643	total: 1m 34s	remaining: 4m 36s
+255:	learn: 0.5783431	total: 1m 34s	remaining: 4m 35s
+256:	learn: 0.5783145	total: 1m 35s	remaining: 4m 35s
+257:	learn: 0.5782951	total: 1m 35s	remaining: 4m 35s
+258:	learn: 0.5782807	total: 1m 36s	remaining: 4m 35s
+259:	learn: 0.5782381	total: 1m 36s	remaining: 4m 34s
+260:	learn: 0.5781964	total: 1m 36s	remaining: 4m 34s
+261:	learn: 0.5781625	total: 1m 37s	remaining: 4m 33s
+262:	learn: 0.5781257	total: 1m 37s	remaining: 4m 33s
+263:	learn: 0.5780947	total: 1m 37s	remaining: 4m 33s
+264:	learn: 0.5780714	total: 1m 38s	remaining: 4m 32s
+265:	learn: 0.5780362	total: 1m 38s	remaining: 4m 32s
+266:	learn: 0.5780143	total: 1m 39s	remaining: 4m 31s
+267:	learn: 0.5779936	total: 1m 39s	remaining: 4m 31s
+268:	learn: 0.5779694	total: 1m 39s	remaining: 4m 30s
+269:	learn: 0.5779404	total: 1m 40s	remaining: 4m 30s
+270:	learn: 0.5779039	total: 1m 40s	remaining: 4m 30s
+271:	learn: 0.5778823	total: 1m 40s	remaining: 4m 29s
+272:	learn: 0.5778558	total: 1m 41s	remaining: 4m 29s
+273:	learn: 0.5778361	total: 1m 41s	remaining: 4m 28s
+274:	learn: 0.5778198	total: 1m 41s	remaining: 4m 28s
+275:	learn: 0.5778000	total: 1m 42s	remaining: 4m 28s
+276:	learn: 0.5777678	total: 1m 42s	remaining: 4m 27s
+277:	learn: 0.5777286	total: 1m 42s	remaining: 4m 27s
+278:	learn: 0.5777052	total: 1m 43s	remaining: 4m 26s
+279:	learn: 0.5776736	total: 1m 43s	remaining: 4m 26s
+280:	learn: 0.5776401	total: 1m 43s	remaining: 4m 25s
+281:	learn: 0.5776268	total: 1m 44s	remaining: 4m 25s
+282:	learn: 0.5776087	total: 1m 44s	remaining: 4m 25s
+283:	learn: 0.5775742	total: 1m 45s	remaining: 4m 24s
+284:	learn: 0.5775478	total: 1m 45s	remaining: 4m 24s
+285:	learn: 0.5775220	total: 1m 45s	remaining: 4m 24s
+286:	learn: 0.5774975	total: 1m 46s	remaining: 4m 23s
+287:	learn: 0.5774740	total: 1m 46s	remaining: 4m 23s
+288:	learn: 0.5774437	total: 1m 46s	remaining: 4m 22s
+289:	learn: 0.5774247	total: 1m 47s	remaining: 4m 22s
+290:	learn: 0.5774077	total: 1m 47s	remaining: 4m 22s
+291:	learn: 0.5773780	total: 1m 47s	remaining: 4m 21s
+292:	learn: 0.5773544	total: 1m 48s	remaining: 4m 21s
+293:	learn: 0.5773413	total: 1m 48s	remaining: 4m 20s
+294:	learn: 0.5773237	total: 1m 48s	remaining: 4m 20s
+295:	learn: 0.5773017	total: 1m 49s	remaining: 4m 19s
+296:	learn: 0.5772840	total: 1m 49s	remaining: 4m 19s
+297:	learn: 0.5772643	total: 1m 49s	remaining: 4m 18s
+298:	learn: 0.5772460	total: 1m 50s	remaining: 4m 18s
+299:	learn: 0.5772277	total: 1m 50s	remaining: 4m 17s
+300:	learn: 0.5772030	total: 1m 50s	remaining: 4m 17s
+301:	learn: 0.5771650	total: 1m 51s	remaining: 4m 17s
+302:	learn: 0.5771427	total: 1m 51s	remaining: 4m 16s
+303:	learn: 0.5771264	total: 1m 52s	remaining: 4m 16s
+304:	learn: 0.5770952	total: 1m 52s	remaining: 4m 16s
+305:	learn: 0.5770787	total: 1m 52s	remaining: 4m 15s
+306:	learn: 0.5770500	total: 1m 53s	remaining: 4m 15s
+307:	learn: 0.5770217	total: 1m 53s	remaining: 4m 15s
+308:	learn: 0.5770081	total: 1m 53s	remaining: 4m 14s
+309:	learn: 0.5769875	total: 1m 54s	remaining: 4m 14s
+310:	learn: 0.5769617	total: 1m 54s	remaining: 4m 13s
+311:	learn: 0.5769466	total: 1m 55s	remaining: 4m 13s
+312:	learn: 0.5769321	total: 1m 55s	remaining: 4m 13s
+313:	learn: 0.5769056	total: 1m 55s	remaining: 4m 12s
+314:	learn: 0.5768785	total: 1m 56s	remaining: 4m 12s
+315:	learn: 0.5768626	total: 1m 56s	remaining: 4m 11s
+316:	learn: 0.5768324	total: 1m 56s	remaining: 4m 11s
+317:	learn: 0.5768090	total: 1m 57s	remaining: 4m 11s
+318:	learn: 0.5767961	total: 1m 57s	remaining: 4m 10s
+319:	learn: 0.5767671	total: 1m 57s	remaining: 4m 10s
+320:	learn: 0.5767553	total: 1m 58s	remaining: 4m 10s
+321:	learn: 0.5767292	total: 1m 58s	remaining: 4m 9s
+322:	learn: 0.5767122	total: 1m 58s	remaining: 4m 9s
+323:	learn: 0.5766977	total: 1m 59s	remaining: 4m 8s
+324:	learn: 0.5766825	total: 1m 59s	remaining: 4m 8s
+325:	learn: 0.5766633	total: 2m	remaining: 4m 8s
+326:	learn: 0.5766275	total: 2m	remaining: 4m 7s
+327:	learn: 0.5766148	total: 2m	remaining: 4m 7s
+328:	learn: 0.5765852	total: 2m 1s	remaining: 4m 7s
+329:	learn: 0.5765477	total: 2m 1s	remaining: 4m 6s
+330:	learn: 0.5765255	total: 2m 1s	remaining: 4m 6s
+331:	learn: 0.5765035	total: 2m 2s	remaining: 4m 6s
+332:	learn: 0.5764797	total: 2m 2s	remaining: 4m 5s
+333:	learn: 0.5764626	total: 2m 3s	remaining: 4m 5s
+334:	learn: 0.5764345	total: 2m 3s	remaining: 4m 4s
+335:	learn: 0.5764174	total: 2m 3s	remaining: 4m 4s
+336:	learn: 0.5764026	total: 2m 4s	remaining: 4m 4s
+337:	learn: 0.5763876	total: 2m 4s	remaining: 4m 3s
+338:	learn: 0.5763727	total: 2m 4s	remaining: 4m 3s
+339:	learn: 0.5763606	total: 2m 5s	remaining: 4m 3s
+340:	learn: 0.5763439	total: 2m 5s	remaining: 4m 2s
+341:	learn: 0.5763213	total: 2m 6s	remaining: 4m 2s
+342:	learn: 0.5762993	total: 2m 6s	remaining: 4m 2s
+343:	learn: 0.5762790	total: 2m 6s	remaining: 4m 1s
+344:	learn: 0.5762377	total: 2m 7s	remaining: 4m 1s
+345:	learn: 0.5762250	total: 2m 7s	remaining: 4m
+346:	learn: 0.5762048	total: 2m 7s	remaining: 4m
+347:	learn: 0.5761679	total: 2m 8s	remaining: 4m
+348:	learn: 0.5761471	total: 2m 8s	remaining: 3m 59s
+349:	learn: 0.5761359	total: 2m 8s	remaining: 3m 59s
+350:	learn: 0.5761164	total: 2m 9s	remaining: 3m 59s
+351:	learn: 0.5760987	total: 2m 9s	remaining: 3m 58s
+352:	learn: 0.5760842	total: 2m 10s	remaining: 3m 58s
+353:	learn: 0.5760610	total: 2m 10s	remaining: 3m 57s
+354:	learn: 0.5760508	total: 2m 10s	remaining: 3m 57s
+355:	learn: 0.5760326	total: 2m 11s	remaining: 3m 57s
+356:	learn: 0.5759950	total: 2m 11s	remaining: 3m 56s
+357:	learn: 0.5759683	total: 2m 11s	remaining: 3m 56s
+358:	learn: 0.5759470	total: 2m 12s	remaining: 3m 56s
+359:	learn: 0.5759309	total: 2m 12s	remaining: 3m 55s
+360:	learn: 0.5759107	total: 2m 13s	remaining: 3m 55s
+361:	learn: 0.5758984	total: 2m 13s	remaining: 3m 55s
+362:	learn: 0.5758807	total: 2m 13s	remaining: 3m 54s
+363:	learn: 0.5758696	total: 2m 14s	remaining: 3m 54s
+364:	learn: 0.5758399	total: 2m 14s	remaining: 3m 54s
+365:	learn: 0.5758286	total: 2m 14s	remaining: 3m 53s
+366:	learn: 0.5758129	total: 2m 15s	remaining: 3m 53s
+367:	learn: 0.5757988	total: 2m 15s	remaining: 3m 52s
+368:	learn: 0.5757735	total: 2m 15s	remaining: 3m 52s
+369:	learn: 0.5757526	total: 2m 16s	remaining: 3m 51s
+370:	learn: 0.5757373	total: 2m 16s	remaining: 3m 51s
+371:	learn: 0.5757025	total: 2m 17s	remaining: 3m 51s
+372:	learn: 0.5756815	total: 2m 17s	remaining: 3m 50s
+373:	learn: 0.5756694	total: 2m 17s	remaining: 3m 50s
+374:	learn: 0.5756524	total: 2m 18s	remaining: 3m 50s
+375:	learn: 0.5756346	total: 2m 18s	remaining: 3m 49s
+376:	learn: 0.5756168	total: 2m 18s	remaining: 3m 49s
+377:	learn: 0.5756078	total: 2m 19s	remaining: 3m 49s
+378:	learn: 0.5755882	total: 2m 19s	remaining: 3m 48s
+379:	learn: 0.5755736	total: 2m 19s	remaining: 3m 48s
+380:	learn: 0.5755527	total: 2m 20s	remaining: 3m 47s
+381:	learn: 0.5755394	total: 2m 20s	remaining: 3m 47s
+382:	learn: 0.5755299	total: 2m 20s	remaining: 3m 46s
+383:	learn: 0.5755108	total: 2m 21s	remaining: 3m 46s
+384:	learn: 0.5754915	total: 2m 21s	remaining: 3m 46s
+385:	learn: 0.5754788	total: 2m 21s	remaining: 3m 45s
+386:	learn: 0.5754493	total: 2m 22s	remaining: 3m 45s
+387:	learn: 0.5754379	total: 2m 22s	remaining: 3m 45s
+388:	learn: 0.5754206	total: 2m 23s	remaining: 3m 44s
+389:	learn: 0.5753970	total: 2m 23s	remaining: 3m 44s
+390:	learn: 0.5753711	total: 2m 23s	remaining: 3m 44s
+391:	learn: 0.5753598	total: 2m 24s	remaining: 3m 43s
+392:	learn: 0.5753359	total: 2m 24s	remaining: 3m 43s
+393:	learn: 0.5753250	total: 2m 24s	remaining: 3m 42s
+394:	learn: 0.5753150	total: 2m 25s	remaining: 3m 42s
+395:	learn: 0.5752940	total: 2m 25s	remaining: 3m 42s
+396:	learn: 0.5752813	total: 2m 26s	remaining: 3m 41s
+397:	learn: 0.5752559	total: 2m 26s	remaining: 3m 41s
+398:	learn: 0.5752280	total: 2m 26s	remaining: 3m 41s
+399:	learn: 0.5752073	total: 2m 27s	remaining: 3m 40s
+400:	learn: 0.5751958	total: 2m 27s	remaining: 3m 40s
+401:	learn: 0.5751725	total: 2m 27s	remaining: 3m 39s
+402:	learn: 0.5751613	total: 2m 28s	remaining: 3m 39s
+403:	learn: 0.5751415	total: 2m 28s	remaining: 3m 39s
+404:	learn: 0.5751275	total: 2m 28s	remaining: 3m 38s
+405:	learn: 0.5751013	total: 2m 29s	remaining: 3m 38s
+406:	learn: 0.5750849	total: 2m 29s	remaining: 3m 38s
+407:	learn: 0.5750682	total: 2m 30s	remaining: 3m 37s
+408:	learn: 0.5750504	total: 2m 30s	remaining: 3m 37s
+409:	learn: 0.5750397	total: 2m 30s	remaining: 3m 36s
+410:	learn: 0.5750186	total: 2m 31s	remaining: 3m 36s
+411:	learn: 0.5750018	total: 2m 31s	remaining: 3m 36s
+412:	learn: 0.5749897	total: 2m 31s	remaining: 3m 35s
+413:	learn: 0.5749724	total: 2m 32s	remaining: 3m 35s
+414:	learn: 0.5749522	total: 2m 32s	remaining: 3m 35s
+415:	learn: 0.5749353	total: 2m 33s	remaining: 3m 34s
+416:	learn: 0.5749105	total: 2m 33s	remaining: 3m 34s
+417:	learn: 0.5748935	total: 2m 33s	remaining: 3m 34s
+418:	learn: 0.5748834	total: 2m 34s	remaining: 3m 33s
+419:	learn: 0.5748679	total: 2m 34s	remaining: 3m 33s
+420:	learn: 0.5748562	total: 2m 34s	remaining: 3m 32s
+421:	learn: 0.5748427	total: 2m 35s	remaining: 3m 32s
+422:	learn: 0.5748223	total: 2m 35s	remaining: 3m 32s
+423:	learn: 0.5748063	total: 2m 35s	remaining: 3m 31s
+424:	learn: 0.5747932	total: 2m 36s	remaining: 3m 31s
+425:	learn: 0.5747783	total: 2m 36s	remaining: 3m 31s
+426:	learn: 0.5747593	total: 2m 36s	remaining: 3m 30s
+427:	learn: 0.5747496	total: 2m 37s	remaining: 3m 30s
+428:	learn: 0.5747246	total: 2m 37s	remaining: 3m 29s
+429:	learn: 0.5747011	total: 2m 38s	remaining: 3m 29s
+430:	learn: 0.5746878	total: 2m 38s	remaining: 3m 29s
+431:	learn: 0.5746642	total: 2m 38s	remaining: 3m 28s
+432:	learn: 0.5746486	total: 2m 39s	remaining: 3m 28s
+433:	learn: 0.5746377	total: 2m 39s	remaining: 3m 28s
+434:	learn: 0.5746262	total: 2m 39s	remaining: 3m 27s
+435:	learn: 0.5746107	total: 2m 40s	remaining: 3m 27s
+436:	learn: 0.5745977	total: 2m 40s	remaining: 3m 26s
+437:	learn: 0.5745745	total: 2m 41s	remaining: 3m 26s
+438:	learn: 0.5745573	total: 2m 41s	remaining: 3m 26s
+439:	learn: 0.5745414	total: 2m 41s	remaining: 3m 25s
+440:	learn: 0.5745202	total: 2m 42s	remaining: 3m 25s
+441:	learn: 0.5745021	total: 2m 42s	remaining: 3m 25s
+442:	learn: 0.5744910	total: 2m 42s	remaining: 3m 24s
+443:	learn: 0.5744763	total: 2m 43s	remaining: 3m 24s
+444:	learn: 0.5744523	total: 2m 43s	remaining: 3m 24s
+445:	learn: 0.5744405	total: 2m 43s	remaining: 3m 23s
+446:	learn: 0.5744296	total: 2m 44s	remaining: 3m 23s
+447:	learn: 0.5744172	total: 2m 44s	remaining: 3m 22s
+448:	learn: 0.5743970	total: 2m 45s	remaining: 3m 22s
+449:	learn: 0.5743861	total: 2m 45s	remaining: 3m 22s
+450:	learn: 0.5743692	total: 2m 45s	remaining: 3m 21s
+451:	learn: 0.5743500	total: 2m 46s	remaining: 3m 21s
+452:	learn: 0.5743402	total: 2m 46s	remaining: 3m 21s
+453:	learn: 0.5743167	total: 2m 47s	remaining: 3m 20s
+454:	learn: 0.5743075	total: 2m 47s	remaining: 3m 20s
+455:	learn: 0.5742929	total: 2m 47s	remaining: 3m 20s
+456:	learn: 0.5742747	total: 2m 48s	remaining: 3m 19s
+457:	learn: 0.5742575	total: 2m 48s	remaining: 3m 19s
+458:	learn: 0.5742465	total: 2m 48s	remaining: 3m 19s
+459:	learn: 0.5742227	total: 2m 49s	remaining: 3m 18s
+460:	learn: 0.5742113	total: 2m 49s	remaining: 3m 18s
+461:	learn: 0.5741894	total: 2m 49s	remaining: 3m 17s
+462:	learn: 0.5741717	total: 2m 50s	remaining: 3m 17s
+463:	learn: 0.5741577	total: 2m 50s	remaining: 3m 17s
+464:	learn: 0.5741468	total: 2m 51s	remaining: 3m 16s
+465:	learn: 0.5741289	total: 2m 51s	remaining: 3m 16s
+466:	learn: 0.5741011	total: 2m 51s	remaining: 3m 15s
+467:	learn: 0.5740828	total: 2m 51s	remaining: 3m 15s
+468:	learn: 0.5740640	total: 2m 52s	remaining: 3m 15s
+469:	learn: 0.5740400	total: 2m 52s	remaining: 3m 14s
+470:	learn: 0.5740277	total: 2m 53s	remaining: 3m 14s
+471:	learn: 0.5740135	total: 2m 53s	remaining: 3m 14s
+472:	learn: 0.5739973	total: 2m 53s	remaining: 3m 13s
+473:	learn: 0.5739843	total: 2m 54s	remaining: 3m 13s
+474:	learn: 0.5739701	total: 2m 54s	remaining: 3m 12s
+475:	learn: 0.5739553	total: 2m 54s	remaining: 3m 12s
+476:	learn: 0.5739378	total: 2m 55s	remaining: 3m 12s
+477:	learn: 0.5739140	total: 2m 55s	remaining: 3m 11s
+478:	learn: 0.5738964	total: 2m 55s	remaining: 3m 11s
+479:	learn: 0.5738813	total: 2m 56s	remaining: 3m 10s
+480:	learn: 0.5738632	total: 2m 56s	remaining: 3m 10s
+481:	learn: 0.5738493	total: 2m 57s	remaining: 3m 10s
+482:	learn: 0.5738379	total: 2m 57s	remaining: 3m 9s
+483:	learn: 0.5738201	total: 2m 57s	remaining: 3m 9s
+484:	learn: 0.5738069	total: 2m 58s	remaining: 3m 9s
+485:	learn: 0.5737926	total: 2m 58s	remaining: 3m 8s
+486:	learn: 0.5737720	total: 2m 58s	remaining: 3m 8s
+487:	learn: 0.5737595	total: 2m 59s	remaining: 3m 8s
+488:	learn: 0.5737491	total: 2m 59s	remaining: 3m 7s
+489:	learn: 0.5737349	total: 2m 59s	remaining: 3m 7s
+490:	learn: 0.5737204	total: 3m	remaining: 3m 6s
+491:	learn: 0.5737048	total: 3m	remaining: 3m 6s
+492:	learn: 0.5736907	total: 3m 1s	remaining: 3m 6s
+493:	learn: 0.5736793	total: 3m 1s	remaining: 3m 5s
+494:	learn: 0.5736627	total: 3m 1s	remaining: 3m 5s
+495:	learn: 0.5736521	total: 3m 2s	remaining: 3m 5s
+496:	learn: 0.5736415	total: 3m 2s	remaining: 3m 4s
+497:	learn: 0.5736299	total: 3m 2s	remaining: 3m 4s
+498:	learn: 0.5736130	total: 3m 3s	remaining: 3m 4s
+499:	learn: 0.5735904	total: 3m 3s	remaining: 3m 3s
+500:	learn: 0.5735786	total: 3m 4s	remaining: 3m 3s
+501:	learn: 0.5735703	total: 3m 4s	remaining: 3m 3s
+502:	learn: 0.5735569	total: 3m 4s	remaining: 3m 2s
+503:	learn: 0.5735448	total: 3m 5s	remaining: 3m 2s
+504:	learn: 0.5735347	total: 3m 5s	remaining: 3m 1s
+505:	learn: 0.5735220	total: 3m 5s	remaining: 3m 1s
+506:	learn: 0.5735140	total: 3m 6s	remaining: 3m 1s
+507:	learn: 0.5734920	total: 3m 6s	remaining: 3m
+508:	learn: 0.5734797	total: 3m 7s	remaining: 3m
+509:	learn: 0.5734659	total: 3m 7s	remaining: 3m
+510:	learn: 0.5734524	total: 3m 7s	remaining: 2m 59s
+511:	learn: 0.5734414	total: 3m 8s	remaining: 2m 59s
+512:	learn: 0.5734308	total: 3m 8s	remaining: 2m 58s
+513:	learn: 0.5734246	total: 3m 8s	remaining: 2m 58s
+514:	learn: 0.5734125	total: 3m 9s	remaining: 2m 58s
+515:	learn: 0.5733990	total: 3m 9s	remaining: 2m 57s
+516:	learn: 0.5733898	total: 3m 9s	remaining: 2m 57s
+517:	learn: 0.5733680	total: 3m 10s	remaining: 2m 57s
+518:	learn: 0.5733590	total: 3m 10s	remaining: 2m 56s
+519:	learn: 0.5733387	total: 3m 11s	remaining: 2m 56s
+520:	learn: 0.5733277	total: 3m 11s	remaining: 2m 56s
+521:	learn: 0.5733185	total: 3m 11s	remaining: 2m 55s
+522:	learn: 0.5733113	total: 3m 12s	remaining: 2m 55s
+523:	learn: 0.5732953	total: 3m 12s	remaining: 2m 54s
+524:	learn: 0.5732864	total: 3m 12s	remaining: 2m 54s
+525:	learn: 0.5732714	total: 3m 13s	remaining: 2m 54s
+526:	learn: 0.5732594	total: 3m 13s	remaining: 2m 53s
+527:	learn: 0.5732428	total: 3m 14s	remaining: 2m 53s
+528:	learn: 0.5732339	total: 3m 14s	remaining: 2m 53s
+529:	learn: 0.5732245	total: 3m 14s	remaining: 2m 52s
+530:	learn: 0.5732096	total: 3m 15s	remaining: 2m 52s
+531:	learn: 0.5731974	total: 3m 15s	remaining: 2m 52s
+532:	learn: 0.5731901	total: 3m 15s	remaining: 2m 51s
+533:	learn: 0.5731746	total: 3m 16s	remaining: 2m 51s
+534:	learn: 0.5731623	total: 3m 16s	remaining: 2m 50s
+535:	learn: 0.5731474	total: 3m 17s	remaining: 2m 50s
+536:	learn: 0.5731240	total: 3m 17s	remaining: 2m 50s
+537:	learn: 0.5731165	total: 3m 17s	remaining: 2m 49s
+538:	learn: 0.5731085	total: 3m 18s	remaining: 2m 49s
+539:	learn: 0.5730915	total: 3m 18s	remaining: 2m 49s
+540:	learn: 0.5730772	total: 3m 18s	remaining: 2m 48s
+541:	learn: 0.5730677	total: 3m 19s	remaining: 2m 48s
+542:	learn: 0.5730464	total: 3m 19s	remaining: 2m 48s
+543:	learn: 0.5730352	total: 3m 19s	remaining: 2m 47s
+544:	learn: 0.5730215	total: 3m 20s	remaining: 2m 47s
+545:	learn: 0.5730098	total: 3m 20s	remaining: 2m 46s
+546:	learn: 0.5730003	total: 3m 21s	remaining: 2m 46s
+547:	learn: 0.5729924	total: 3m 21s	remaining: 2m 46s
+548:	learn: 0.5729808	total: 3m 21s	remaining: 2m 45s
+549:	learn: 0.5729686	total: 3m 22s	remaining: 2m 45s
+550:	learn: 0.5729529	total: 3m 22s	remaining: 2m 45s
+551:	learn: 0.5729324	total: 3m 22s	remaining: 2m 44s
+552:	learn: 0.5729132	total: 3m 23s	remaining: 2m 44s
+553:	learn: 0.5728973	total: 3m 23s	remaining: 2m 44s
+554:	learn: 0.5728854	total: 3m 24s	remaining: 2m 43s
+555:	learn: 0.5728658	total: 3m 24s	remaining: 2m 43s
+556:	learn: 0.5728501	total: 3m 24s	remaining: 2m 42s
+557:	learn: 0.5728387	total: 3m 25s	remaining: 2m 42s
+558:	learn: 0.5728199	total: 3m 25s	remaining: 2m 42s
+559:	learn: 0.5728123	total: 3m 25s	remaining: 2m 41s
+560:	learn: 0.5728033	total: 3m 26s	remaining: 2m 41s
+561:	learn: 0.5727960	total: 3m 26s	remaining: 2m 40s
+562:	learn: 0.5727828	total: 3m 26s	remaining: 2m 40s
+563:	learn: 0.5727710	total: 3m 27s	remaining: 2m 40s
+564:	learn: 0.5727649	total: 3m 27s	remaining: 2m 39s
+565:	learn: 0.5727572	total: 3m 28s	remaining: 2m 39s
+566:	learn: 0.5727441	total: 3m 28s	remaining: 2m 39s
+567:	learn: 0.5727268	total: 3m 28s	remaining: 2m 38s
+568:	learn: 0.5727161	total: 3m 29s	remaining: 2m 38s
+569:	learn: 0.5727043	total: 3m 29s	remaining: 2m 38s
+570:	learn: 0.5726919	total: 3m 29s	remaining: 2m 37s
+571:	learn: 0.5726756	total: 3m 30s	remaining: 2m 37s
+572:	learn: 0.5726649	total: 3m 30s	remaining: 2m 36s
+573:	learn: 0.5726516	total: 3m 30s	remaining: 2m 36s
+574:	learn: 0.5726443	total: 3m 31s	remaining: 2m 36s
+575:	learn: 0.5726292	total: 3m 31s	remaining: 2m 35s
+576:	learn: 0.5726184	total: 3m 32s	remaining: 2m 35s
+577:	learn: 0.5726083	total: 3m 32s	remaining: 2m 35s
+578:	learn: 0.5725910	total: 3m 32s	remaining: 2m 34s
+579:	learn: 0.5725780	total: 3m 33s	remaining: 2m 34s
+580:	learn: 0.5725635	total: 3m 33s	remaining: 2m 34s
+581:	learn: 0.5725514	total: 3m 34s	remaining: 2m 33s
+582:	learn: 0.5725374	total: 3m 34s	remaining: 2m 33s
+583:	learn: 0.5725237	total: 3m 34s	remaining: 2m 32s
+584:	learn: 0.5725163	total: 3m 35s	remaining: 2m 32s
+585:	learn: 0.5725057	total: 3m 35s	remaining: 2m 32s
+586:	learn: 0.5724920	total: 3m 35s	remaining: 2m 31s
+587:	learn: 0.5724779	total: 3m 36s	remaining: 2m 31s
+588:	learn: 0.5724650	total: 3m 36s	remaining: 2m 31s
+589:	learn: 0.5724534	total: 3m 36s	remaining: 2m 30s
+590:	learn: 0.5724434	total: 3m 37s	remaining: 2m 30s
+591:	learn: 0.5724305	total: 3m 37s	remaining: 2m 29s
+592:	learn: 0.5724201	total: 3m 37s	remaining: 2m 29s
+593:	learn: 0.5724090	total: 3m 38s	remaining: 2m 29s
+594:	learn: 0.5723958	total: 3m 38s	remaining: 2m 28s
+595:	learn: 0.5723808	total: 3m 38s	remaining: 2m 28s
+596:	learn: 0.5723676	total: 3m 39s	remaining: 2m 28s
+597:	learn: 0.5723595	total: 3m 39s	remaining: 2m 27s
+598:	learn: 0.5723436	total: 3m 40s	remaining: 2m 27s
+599:	learn: 0.5723274	total: 3m 40s	remaining: 2m 26s
+600:	learn: 0.5723160	total: 3m 40s	remaining: 2m 26s
+601:	learn: 0.5723084	total: 3m 41s	remaining: 2m 26s
+602:	learn: 0.5722997	total: 3m 41s	remaining: 2m 25s
+603:	learn: 0.5722805	total: 3m 41s	remaining: 2m 25s
+604:	learn: 0.5722702	total: 3m 42s	remaining: 2m 25s
+605:	learn: 0.5722566	total: 3m 42s	remaining: 2m 24s
+606:	learn: 0.5722483	total: 3m 43s	remaining: 2m 24s
+607:	learn: 0.5722387	total: 3m 43s	remaining: 2m 24s
+608:	learn: 0.5722272	total: 3m 43s	remaining: 2m 23s
+609:	learn: 0.5722174	total: 3m 44s	remaining: 2m 23s
+610:	learn: 0.5722046	total: 3m 44s	remaining: 2m 22s
+611:	learn: 0.5721896	total: 3m 44s	remaining: 2m 22s
+612:	learn: 0.5721731	total: 3m 45s	remaining: 2m 22s
+613:	learn: 0.5721629	total: 3m 45s	remaining: 2m 21s
+614:	learn: 0.5721457	total: 3m 45s	remaining: 2m 21s
+615:	learn: 0.5721345	total: 3m 46s	remaining: 2m 21s
+616:	learn: 0.5721233	total: 3m 46s	remaining: 2m 20s
+617:	learn: 0.5721094	total: 3m 46s	remaining: 2m 20s
+618:	learn: 0.5720983	total: 3m 47s	remaining: 2m 19s
+619:	learn: 0.5720919	total: 3m 47s	remaining: 2m 19s
+620:	learn: 0.5720772	total: 3m 48s	remaining: 2m 19s
+621:	learn: 0.5720669	total: 3m 48s	remaining: 2m 18s
+622:	learn: 0.5720545	total: 3m 48s	remaining: 2m 18s
+623:	learn: 0.5720419	total: 3m 49s	remaining: 2m 18s
+624:	learn: 0.5720256	total: 3m 49s	remaining: 2m 17s
+625:	learn: 0.5720141	total: 3m 49s	remaining: 2m 17s
+626:	learn: 0.5719995	total: 3m 50s	remaining: 2m 16s
+627:	learn: 0.5719904	total: 3m 50s	remaining: 2m 16s
+628:	learn: 0.5719763	total: 3m 50s	remaining: 2m 16s
+629:	learn: 0.5719650	total: 3m 51s	remaining: 2m 15s
+630:	learn: 0.5719519	total: 3m 51s	remaining: 2m 15s
+631:	learn: 0.5719411	total: 3m 51s	remaining: 2m 15s
+632:	learn: 0.5719305	total: 3m 52s	remaining: 2m 14s
+633:	learn: 0.5719177	total: 3m 52s	remaining: 2m 14s
+634:	learn: 0.5719060	total: 3m 53s	remaining: 2m 13s
+635:	learn: 0.5718918	total: 3m 53s	remaining: 2m 13s
+636:	learn: 0.5718788	total: 3m 53s	remaining: 2m 13s
+637:	learn: 0.5718648	total: 3m 54s	remaining: 2m 12s
+638:	learn: 0.5718539	total: 3m 54s	remaining: 2m 12s
+639:	learn: 0.5718413	total: 3m 54s	remaining: 2m 12s
+640:	learn: 0.5718280	total: 3m 55s	remaining: 2m 11s
+641:	learn: 0.5718199	total: 3m 55s	remaining: 2m 11s
+642:	learn: 0.5718122	total: 3m 55s	remaining: 2m 11s
+643:	learn: 0.5718031	total: 3m 56s	remaining: 2m 10s
+644:	learn: 0.5717963	total: 3m 56s	remaining: 2m 10s
+645:	learn: 0.5717858	total: 3m 56s	remaining: 2m 9s
+646:	learn: 0.5717766	total: 3m 57s	remaining: 2m 9s
+647:	learn: 0.5717626	total: 3m 57s	remaining: 2m 9s
+648:	learn: 0.5717494	total: 3m 58s	remaining: 2m 8s
+649:	learn: 0.5717431	total: 3m 58s	remaining: 2m 8s
+650:	learn: 0.5717347	total: 3m 58s	remaining: 2m 8s
+651:	learn: 0.5717242	total: 3m 59s	remaining: 2m 7s
+652:	learn: 0.5717171	total: 3m 59s	remaining: 2m 7s
+653:	learn: 0.5717048	total: 3m 59s	remaining: 2m 6s
+654:	learn: 0.5716951	total: 4m	remaining: 2m 6s
+655:	learn: 0.5716857	total: 4m	remaining: 2m 6s
+656:	learn: 0.5716687	total: 4m 1s	remaining: 2m 5s
+657:	learn: 0.5716538	total: 4m 1s	remaining: 2m 5s
+658:	learn: 0.5716434	total: 4m 1s	remaining: 2m 5s
+659:	learn: 0.5716324	total: 4m 2s	remaining: 2m 4s
+660:	learn: 0.5716215	total: 4m 2s	remaining: 2m 4s
+661:	learn: 0.5716156	total: 4m 3s	remaining: 2m 4s
+662:	learn: 0.5715995	total: 4m 3s	remaining: 2m 3s
+663:	learn: 0.5715859	total: 4m 3s	remaining: 2m 3s
+664:	learn: 0.5715790	total: 4m 4s	remaining: 2m 2s
+665:	learn: 0.5715656	total: 4m 4s	remaining: 2m 2s
+666:	learn: 0.5715552	total: 4m 4s	remaining: 2m 2s
+667:	learn: 0.5715461	total: 4m 5s	remaining: 2m 1s
+668:	learn: 0.5715409	total: 4m 5s	remaining: 2m 1s
+669:	learn: 0.5715252	total: 4m 5s	remaining: 2m 1s
+670:	learn: 0.5715155	total: 4m 6s	remaining: 2m
+671:	learn: 0.5715080	total: 4m 6s	remaining: 2m
+672:	learn: 0.5715008	total: 4m 6s	remaining: 1m 59s
+673:	learn: 0.5714913	total: 4m 7s	remaining: 1m 59s
+674:	learn: 0.5714805	total: 4m 7s	remaining: 1m 59s
+675:	learn: 0.5714679	total: 4m 7s	remaining: 1m 58s
+676:	learn: 0.5714614	total: 4m 8s	remaining: 1m 58s
+677:	learn: 0.5714532	total: 4m 8s	remaining: 1m 58s
+678:	learn: 0.5714417	total: 4m 9s	remaining: 1m 57s
+679:	learn: 0.5714313	total: 4m 9s	remaining: 1m 57s
+680:	learn: 0.5714222	total: 4m 9s	remaining: 1m 56s
+681:	learn: 0.5714093	total: 4m 10s	remaining: 1m 56s
+682:	learn: 0.5713940	total: 4m 10s	remaining: 1m 56s
+683:	learn: 0.5713849	total: 4m 10s	remaining: 1m 55s
+684:	learn: 0.5713752	total: 4m 11s	remaining: 1m 55s
+685:	learn: 0.5713642	total: 4m 11s	remaining: 1m 55s
+686:	learn: 0.5713529	total: 4m 12s	remaining: 1m 54s
+687:	learn: 0.5713467	total: 4m 12s	remaining: 1m 54s
+688:	learn: 0.5713349	total: 4m 12s	remaining: 1m 54s
+689:	learn: 0.5713276	total: 4m 13s	remaining: 1m 53s
+690:	learn: 0.5713163	total: 4m 13s	remaining: 1m 53s
+691:	learn: 0.5713062	total: 4m 13s	remaining: 1m 52s
+692:	learn: 0.5712977	total: 4m 14s	remaining: 1m 52s
+693:	learn: 0.5712853	total: 4m 14s	remaining: 1m 52s
+694:	learn: 0.5712788	total: 4m 14s	remaining: 1m 51s
+695:	learn: 0.5712702	total: 4m 15s	remaining: 1m 51s
+696:	learn: 0.5712642	total: 4m 15s	remaining: 1m 51s
+697:	learn: 0.5712534	total: 4m 16s	remaining: 1m 50s
+698:	learn: 0.5712404	total: 4m 16s	remaining: 1m 50s
+699:	learn: 0.5712286	total: 4m 16s	remaining: 1m 50s
+700:	learn: 0.5712181	total: 4m 17s	remaining: 1m 49s
+701:	learn: 0.5712056	total: 4m 17s	remaining: 1m 49s
+702:	learn: 0.5711978	total: 4m 17s	remaining: 1m 48s
+703:	learn: 0.5711884	total: 4m 18s	remaining: 1m 48s
+704:	learn: 0.5711773	total: 4m 18s	remaining: 1m 48s
+705:	learn: 0.5711691	total: 4m 18s	remaining: 1m 47s
+706:	learn: 0.5711580	total: 4m 19s	remaining: 1m 47s
+707:	learn: 0.5711490	total: 4m 19s	remaining: 1m 47s
+708:	learn: 0.5711394	total: 4m 20s	remaining: 1m 46s
+709:	learn: 0.5711272	total: 4m 20s	remaining: 1m 46s
+710:	learn: 0.5711199	total: 4m 20s	remaining: 1m 45s
+711:	learn: 0.5711058	total: 4m 21s	remaining: 1m 45s
+712:	learn: 0.5710935	total: 4m 21s	remaining: 1m 45s
+713:	learn: 0.5710848	total: 4m 21s	remaining: 1m 44s
+714:	learn: 0.5710765	total: 4m 22s	remaining: 1m 44s
+715:	learn: 0.5710710	total: 4m 22s	remaining: 1m 44s
+716:	learn: 0.5710635	total: 4m 22s	remaining: 1m 43s
+717:	learn: 0.5710544	total: 4m 23s	remaining: 1m 43s
+718:	learn: 0.5710449	total: 4m 23s	remaining: 1m 43s
+719:	learn: 0.5710340	total: 4m 24s	remaining: 1m 42s
+720:	learn: 0.5710258	total: 4m 24s	remaining: 1m 42s
+721:	learn: 0.5710205	total: 4m 24s	remaining: 1m 41s
+722:	learn: 0.5710136	total: 4m 25s	remaining: 1m 41s
+723:	learn: 0.5710043	total: 4m 25s	remaining: 1m 41s
+724:	learn: 0.5709945	total: 4m 25s	remaining: 1m 40s
+725:	learn: 0.5709853	total: 4m 26s	remaining: 1m 40s
+726:	learn: 0.5709755	total: 4m 26s	remaining: 1m 40s
+727:	learn: 0.5709700	total: 4m 27s	remaining: 1m 39s
+728:	learn: 0.5709608	total: 4m 27s	remaining: 1m 39s
+729:	learn: 0.5709486	total: 4m 27s	remaining: 1m 39s
+730:	learn: 0.5709407	total: 4m 28s	remaining: 1m 38s
+731:	learn: 0.5709319	total: 4m 28s	remaining: 1m 38s
+732:	learn: 0.5709229	total: 4m 28s	remaining: 1m 37s
+733:	learn: 0.5709137	total: 4m 29s	remaining: 1m 37s
+734:	learn: 0.5709016	total: 4m 29s	remaining: 1m 37s
+735:	learn: 0.5708921	total: 4m 30s	remaining: 1m 36s
+736:	learn: 0.5708841	total: 4m 30s	remaining: 1m 36s
+737:	learn: 0.5708707	total: 4m 30s	remaining: 1m 36s
+738:	learn: 0.5708605	total: 4m 31s	remaining: 1m 35s
+739:	learn: 0.5708514	total: 4m 31s	remaining: 1m 35s
+740:	learn: 0.5708407	total: 4m 31s	remaining: 1m 35s
+741:	learn: 0.5708309	total: 4m 32s	remaining: 1m 34s
+742:	learn: 0.5708249	total: 4m 32s	remaining: 1m 34s
+743:	learn: 0.5708179	total: 4m 32s	remaining: 1m 33s
+744:	learn: 0.5708071	total: 4m 33s	remaining: 1m 33s
+745:	learn: 0.5707993	total: 4m 33s	remaining: 1m 33s
+746:	learn: 0.5707895	total: 4m 33s	remaining: 1m 32s
+747:	learn: 0.5707796	total: 4m 34s	remaining: 1m 32s
+748:	learn: 0.5707666	total: 4m 34s	remaining: 1m 32s
+749:	learn: 0.5707581	total: 4m 35s	remaining: 1m 31s
+750:	learn: 0.5707487	total: 4m 35s	remaining: 1m 31s
+751:	learn: 0.5707398	total: 4m 35s	remaining: 1m 30s
+752:	learn: 0.5707277	total: 4m 36s	remaining: 1m 30s
+753:	learn: 0.5707182	total: 4m 36s	remaining: 1m 30s
+754:	learn: 0.5707099	total: 4m 36s	remaining: 1m 29s
+755:	learn: 0.5707017	total: 4m 37s	remaining: 1m 29s
+756:	learn: 0.5706922	total: 4m 37s	remaining: 1m 29s
+757:	learn: 0.5706863	total: 4m 37s	remaining: 1m 28s
+758:	learn: 0.5706806	total: 4m 38s	remaining: 1m 28s
+759:	learn: 0.5706703	total: 4m 38s	remaining: 1m 27s
+760:	learn: 0.5706593	total: 4m 38s	remaining: 1m 27s
+761:	learn: 0.5706508	total: 4m 39s	remaining: 1m 27s
+762:	learn: 0.5706406	total: 4m 39s	remaining: 1m 26s
+763:	learn: 0.5706321	total: 4m 40s	remaining: 1m 26s
+764:	learn: 0.5706221	total: 4m 40s	remaining: 1m 26s
+765:	learn: 0.5706123	total: 4m 40s	remaining: 1m 25s
+766:	learn: 0.5706050	total: 4m 41s	remaining: 1m 25s
+767:	learn: 0.5705939	total: 4m 41s	remaining: 1m 25s
+768:	learn: 0.5705851	total: 4m 41s	remaining: 1m 24s
+769:	learn: 0.5705741	total: 4m 42s	remaining: 1m 24s
+770:	learn: 0.5705670	total: 4m 42s	remaining: 1m 23s
+771:	learn: 0.5705602	total: 4m 42s	remaining: 1m 23s
+772:	learn: 0.5705511	total: 4m 43s	remaining: 1m 23s
+773:	learn: 0.5705427	total: 4m 43s	remaining: 1m 22s
+774:	learn: 0.5705356	total: 4m 43s	remaining: 1m 22s
+775:	learn: 0.5705246	total: 4m 44s	remaining: 1m 22s
+776:	learn: 0.5705201	total: 4m 44s	remaining: 1m 21s
+777:	learn: 0.5705108	total: 4m 45s	remaining: 1m 21s
+778:	learn: 0.5705049	total: 4m 45s	remaining: 1m 20s
+779:	learn: 0.5704976	total: 4m 45s	remaining: 1m 20s
+780:	learn: 0.5704863	total: 4m 46s	remaining: 1m 20s
+781:	learn: 0.5704760	total: 4m 46s	remaining: 1m 19s
+782:	learn: 0.5704684	total: 4m 46s	remaining: 1m 19s
+783:	learn: 0.5704613	total: 4m 47s	remaining: 1m 19s
+784:	learn: 0.5704517	total: 4m 47s	remaining: 1m 18s
+785:	learn: 0.5704441	total: 4m 47s	remaining: 1m 18s
+786:	learn: 0.5704324	total: 4m 48s	remaining: 1m 18s
+787:	learn: 0.5704219	total: 4m 48s	remaining: 1m 17s
+788:	learn: 0.5704134	total: 4m 49s	remaining: 1m 17s
+789:	learn: 0.5704036	total: 4m 49s	remaining: 1m 16s
+790:	learn: 0.5703973	total: 4m 49s	remaining: 1m 16s
+791:	learn: 0.5703877	total: 4m 50s	remaining: 1m 16s
+792:	learn: 0.5703784	total: 4m 50s	remaining: 1m 15s
+793:	learn: 0.5703667	total: 4m 50s	remaining: 1m 15s
+794:	learn: 0.5703593	total: 4m 51s	remaining: 1m 15s
+795:	learn: 0.5703430	total: 4m 51s	remaining: 1m 14s
+796:	learn: 0.5703366	total: 4m 51s	remaining: 1m 14s
+797:	learn: 0.5703247	total: 4m 52s	remaining: 1m 13s
+798:	learn: 0.5703159	total: 4m 52s	remaining: 1m 13s
+799:	learn: 0.5703087	total: 4m 52s	remaining: 1m 13s
+800:	learn: 0.5702997	total: 4m 53s	remaining: 1m 12s
+801:	learn: 0.5702958	total: 4m 53s	remaining: 1m 12s
+802:	learn: 0.5702832	total: 4m 54s	remaining: 1m 12s
+803:	learn: 0.5702743	total: 4m 54s	remaining: 1m 11s
+804:	learn: 0.5702622	total: 4m 54s	remaining: 1m 11s
+805:	learn: 0.5702537	total: 4m 55s	remaining: 1m 11s
+806:	learn: 0.5702453	total: 4m 55s	remaining: 1m 10s
+807:	learn: 0.5702383	total: 4m 55s	remaining: 1m 10s
+808:	learn: 0.5702333	total: 4m 56s	remaining: 1m 9s
+809:	learn: 0.5702221	total: 4m 56s	remaining: 1m 9s
+810:	learn: 0.5702132	total: 4m 57s	remaining: 1m 9s
+811:	learn: 0.5702001	total: 4m 57s	remaining: 1m 8s
+812:	learn: 0.5701927	total: 4m 57s	remaining: 1m 8s
+813:	learn: 0.5701809	total: 4m 58s	remaining: 1m 8s
+814:	learn: 0.5701740	total: 4m 58s	remaining: 1m 7s
+815:	learn: 0.5701626	total: 4m 58s	remaining: 1m 7s
+816:	learn: 0.5701512	total: 4m 59s	remaining: 1m 7s
+817:	learn: 0.5701447	total: 4m 59s	remaining: 1m 6s
+818:	learn: 0.5701274	total: 4m 59s	remaining: 1m 6s
+819:	learn: 0.5701209	total: 5m	remaining: 1m 5s
+820:	learn: 0.5701152	total: 5m	remaining: 1m 5s
+821:	learn: 0.5701077	total: 5m 1s	remaining: 1m 5s
+822:	learn: 0.5701022	total: 5m 1s	remaining: 1m 4s
+823:	learn: 0.5700959	total: 5m 1s	remaining: 1m 4s
+824:	learn: 0.5700828	total: 5m 2s	remaining: 1m 4s
+825:	learn: 0.5700742	total: 5m 2s	remaining: 1m 3s
+826:	learn: 0.5700645	total: 5m 2s	remaining: 1m 3s
+827:	learn: 0.5700559	total: 5m 3s	remaining: 1m 2s
+828:	learn: 0.5700401	total: 5m 3s	remaining: 1m 2s
+829:	learn: 0.5700320	total: 5m 3s	remaining: 1m 2s
+830:	learn: 0.5700246	total: 5m 4s	remaining: 1m 1s
+831:	learn: 0.5700153	total: 5m 4s	remaining: 1m 1s
+832:	learn: 0.5700090	total: 5m 5s	remaining: 1m 1s
+833:	learn: 0.5699998	total: 5m 5s	remaining: 1m
+834:	learn: 0.5699896	total: 5m 5s	remaining: 1m
+835:	learn: 0.5699839	total: 5m 6s	remaining: 1m
+836:	learn: 0.5699720	total: 5m 6s	remaining: 59.7s
+837:	learn: 0.5699617	total: 5m 6s	remaining: 59.3s
+838:	learn: 0.5699500	total: 5m 7s	remaining: 59s
+839:	learn: 0.5699438	total: 5m 7s	remaining: 58.6s
+840:	learn: 0.5699366	total: 5m 7s	remaining: 58.2s
+841:	learn: 0.5699310	total: 5m 8s	remaining: 57.9s
+842:	learn: 0.5699227	total: 5m 8s	remaining: 57.5s
+843:	learn: 0.5699159	total: 5m 9s	remaining: 57.1s
+844:	learn: 0.5699056	total: 5m 9s	remaining: 56.7s
+845:	learn: 0.5698994	total: 5m 9s	remaining: 56.4s
+846:	learn: 0.5698920	total: 5m 10s	remaining: 56s
+847:	learn: 0.5698856	total: 5m 10s	remaining: 55.7s
+848:	learn: 0.5698717	total: 5m 10s	remaining: 55.3s
+849:	learn: 0.5698655	total: 5m 11s	remaining: 54.9s
+850:	learn: 0.5698536	total: 5m 11s	remaining: 54.6s
+851:	learn: 0.5698481	total: 5m 12s	remaining: 54.2s
+852:	learn: 0.5698396	total: 5m 12s	remaining: 53.8s
+853:	learn: 0.5698322	total: 5m 12s	remaining: 53.5s
+854:	learn: 0.5698248	total: 5m 13s	remaining: 53.1s
+855:	learn: 0.5698191	total: 5m 13s	remaining: 52.7s
+856:	learn: 0.5698124	total: 5m 13s	remaining: 52.4s
+857:	learn: 0.5698062	total: 5m 14s	remaining: 52s
+858:	learn: 0.5697985	total: 5m 14s	remaining: 51.6s
+859:	learn: 0.5697904	total: 5m 14s	remaining: 51.3s
+860:	learn: 0.5697819	total: 5m 15s	remaining: 50.9s
+861:	learn: 0.5697741	total: 5m 15s	remaining: 50.5s
+862:	learn: 0.5697687	total: 5m 16s	remaining: 50.2s
+863:	learn: 0.5697591	total: 5m 16s	remaining: 49.8s
+864:	learn: 0.5697481	total: 5m 16s	remaining: 49.4s
+865:	learn: 0.5697376	total: 5m 17s	remaining: 49.1s
+866:	learn: 0.5697310	total: 5m 17s	remaining: 48.7s
+867:	learn: 0.5697154	total: 5m 17s	remaining: 48.3s
+868:	learn: 0.5697074	total: 5m 18s	remaining: 48s
+869:	learn: 0.5696989	total: 5m 18s	remaining: 47.6s
+870:	learn: 0.5696882	total: 5m 18s	remaining: 47.2s
+871:	learn: 0.5696793	total: 5m 19s	remaining: 46.9s
+872:	learn: 0.5696746	total: 5m 19s	remaining: 46.5s
+873:	learn: 0.5696670	total: 5m 20s	remaining: 46.1s
+874:	learn: 0.5696616	total: 5m 20s	remaining: 45.8s
+875:	learn: 0.5696528	total: 5m 20s	remaining: 45.4s
+876:	learn: 0.5696472	total: 5m 21s	remaining: 45s
+877:	learn: 0.5696399	total: 5m 21s	remaining: 44.7s
+878:	learn: 0.5696334	total: 5m 21s	remaining: 44.3s
+879:	learn: 0.5696209	total: 5m 22s	remaining: 43.9s
+880:	learn: 0.5696118	total: 5m 22s	remaining: 43.6s
+881:	learn: 0.5695988	total: 5m 22s	remaining: 43.2s
+882:	learn: 0.5695907	total: 5m 23s	remaining: 42.8s
+883:	learn: 0.5695823	total: 5m 23s	remaining: 42.5s
+884:	learn: 0.5695763	total: 5m 23s	remaining: 42.1s
+885:	learn: 0.5695648	total: 5m 24s	remaining: 41.7s
+886:	learn: 0.5695551	total: 5m 24s	remaining: 41.4s
+887:	learn: 0.5695473	total: 5m 25s	remaining: 41s
+888:	learn: 0.5695394	total: 5m 25s	remaining: 40.6s
+889:	learn: 0.5695303	total: 5m 25s	remaining: 40.3s
+890:	learn: 0.5695224	total: 5m 26s	remaining: 39.9s
+891:	learn: 0.5695144	total: 5m 26s	remaining: 39.5s
+892:	learn: 0.5695050	total: 5m 26s	remaining: 39.2s
+893:	learn: 0.5694947	total: 5m 27s	remaining: 38.8s
+894:	learn: 0.5694894	total: 5m 27s	remaining: 38.4s
+895:	learn: 0.5694814	total: 5m 27s	remaining: 38.1s
+896:	learn: 0.5694747	total: 5m 28s	remaining: 37.7s
+897:	learn: 0.5694633	total: 5m 28s	remaining: 37.3s
+898:	learn: 0.5694559	total: 5m 29s	remaining: 37s
+899:	learn: 0.5694505	total: 5m 29s	remaining: 36.6s
+900:	learn: 0.5694435	total: 5m 29s	remaining: 36.2s
+901:	learn: 0.5694372	total: 5m 30s	remaining: 35.9s
+902:	learn: 0.5694257	total: 5m 30s	remaining: 35.5s
+903:	learn: 0.5694206	total: 5m 30s	remaining: 35.1s
+904:	learn: 0.5694129	total: 5m 31s	remaining: 34.8s
+905:	learn: 0.5694035	total: 5m 31s	remaining: 34.4s
+906:	learn: 0.5693939	total: 5m 31s	remaining: 34s
+907:	learn: 0.5693896	total: 5m 32s	remaining: 33.7s
+908:	learn: 0.5693825	total: 5m 32s	remaining: 33.3s
+909:	learn: 0.5693713	total: 5m 33s	remaining: 32.9s
+910:	learn: 0.5693638	total: 5m 33s	remaining: 32.6s
+911:	learn: 0.5693560	total: 5m 33s	remaining: 32.2s
+912:	learn: 0.5693489	total: 5m 34s	remaining: 31.8s
+913:	learn: 0.5693436	total: 5m 34s	remaining: 31.5s
+914:	learn: 0.5693351	total: 5m 34s	remaining: 31.1s
+915:	learn: 0.5693268	total: 5m 35s	remaining: 30.8s
+916:	learn: 0.5693189	total: 5m 35s	remaining: 30.4s
+917:	learn: 0.5693100	total: 5m 36s	remaining: 30s
+918:	learn: 0.5693011	total: 5m 36s	remaining: 29.7s
+919:	learn: 0.5692934	total: 5m 36s	remaining: 29.3s
+920:	learn: 0.5692833	total: 5m 37s	remaining: 28.9s
+921:	learn: 0.5692754	total: 5m 37s	remaining: 28.6s
+922:	learn: 0.5692688	total: 5m 37s	remaining: 28.2s
+923:	learn: 0.5692640	total: 5m 38s	remaining: 27.8s
+924:	learn: 0.5692570	total: 5m 38s	remaining: 27.5s
+925:	learn: 0.5692456	total: 5m 39s	remaining: 27.1s
+926:	learn: 0.5692355	total: 5m 39s	remaining: 26.7s
+927:	learn: 0.5692296	total: 5m 39s	remaining: 26.4s
+928:	learn: 0.5692184	total: 5m 40s	remaining: 26s
+929:	learn: 0.5692116	total: 5m 40s	remaining: 25.6s
+930:	learn: 0.5692010	total: 5m 40s	remaining: 25.3s
+931:	learn: 0.5691894	total: 5m 41s	remaining: 24.9s
+932:	learn: 0.5691822	total: 5m 41s	remaining: 24.5s
+933:	learn: 0.5691710	total: 5m 41s	remaining: 24.2s
+934:	learn: 0.5691635	total: 5m 42s	remaining: 23.8s
+935:	learn: 0.5691575	total: 5m 42s	remaining: 23.4s
+936:	learn: 0.5691504	total: 5m 43s	remaining: 23.1s
+937:	learn: 0.5691436	total: 5m 43s	remaining: 22.7s
+938:	learn: 0.5691327	total: 5m 43s	remaining: 22.3s
+939:	learn: 0.5691244	total: 5m 44s	remaining: 22s
+940:	learn: 0.5691100	total: 5m 44s	remaining: 21.6s
+941:	learn: 0.5691017	total: 5m 44s	remaining: 21.2s
+942:	learn: 0.5690962	total: 5m 45s	remaining: 20.9s
+943:	learn: 0.5690891	total: 5m 45s	remaining: 20.5s
+944:	learn: 0.5690820	total: 5m 45s	remaining: 20.1s
+945:	learn: 0.5690755	total: 5m 46s	remaining: 19.8s
+946:	learn: 0.5690708	total: 5m 46s	remaining: 19.4s
+947:	learn: 0.5690614	total: 5m 46s	remaining: 19s
+948:	learn: 0.5690538	total: 5m 47s	remaining: 18.7s
+949:	learn: 0.5690471	total: 5m 47s	remaining: 18.3s
+950:	learn: 0.5690387	total: 5m 48s	remaining: 17.9s
+951:	learn: 0.5690292	total: 5m 48s	remaining: 17.6s
+952:	learn: 0.5690202	total: 5m 48s	remaining: 17.2s
+953:	learn: 0.5690140	total: 5m 49s	remaining: 16.8s
+954:	learn: 0.5690079	total: 5m 49s	remaining: 16.5s
+955:	learn: 0.5689977	total: 5m 49s	remaining: 16.1s
+956:	learn: 0.5689894	total: 5m 50s	remaining: 15.7s
+957:	learn: 0.5689819	total: 5m 50s	remaining: 15.4s
+958:	learn: 0.5689713	total: 5m 50s	remaining: 15s
+959:	learn: 0.5689651	total: 5m 51s	remaining: 14.6s
+960:	learn: 0.5689527	total: 5m 51s	remaining: 14.3s
+961:	learn: 0.5689462	total: 5m 51s	remaining: 13.9s
+962:	learn: 0.5689410	total: 5m 52s	remaining: 13.5s
+963:	learn: 0.5689331	total: 5m 52s	remaining: 13.2s
+964:	learn: 0.5689293	total: 5m 53s	remaining: 12.8s
+965:	learn: 0.5689235	total: 5m 53s	remaining: 12.4s
+966:	learn: 0.5689150	total: 5m 53s	remaining: 12.1s
+967:	learn: 0.5689081	total: 5m 54s	remaining: 11.7s
+968:	learn: 0.5689035	total: 5m 54s	remaining: 11.3s
+969:	learn: 0.5688953	total: 5m 54s	remaining: 11s
+970:	learn: 0.5688882	total: 5m 55s	remaining: 10.6s
+971:	learn: 0.5688804	total: 5m 55s	remaining: 10.2s
+972:	learn: 0.5688713	total: 5m 55s	remaining: 9.88s
+973:	learn: 0.5688613	total: 5m 56s	remaining: 9.51s
+974:	learn: 0.5688535	total: 5m 56s	remaining: 9.14s
+975:	learn: 0.5688483	total: 5m 57s	remaining: 8.78s
+976:	learn: 0.5688423	total: 5m 57s	remaining: 8.41s
+977:	learn: 0.5688316	total: 5m 57s	remaining: 8.05s
+978:	learn: 0.5688236	total: 5m 58s	remaining: 7.68s
+979:	learn: 0.5688179	total: 5m 58s	remaining: 7.32s
+980:	learn: 0.5688117	total: 5m 58s	remaining: 6.95s
+981:	learn: 0.5688061	total: 5m 59s	remaining: 6.59s
+982:	learn: 0.5688000	total: 5m 59s	remaining: 6.22s
+983:	learn: 0.5687939	total: 6m	remaining: 5.85s
+984:	learn: 0.5687878	total: 6m	remaining: 5.49s
+985:	learn: 0.5687789	total: 6m	remaining: 5.12s
+986:	learn: 0.5687691	total: 6m 1s	remaining: 4.76s
+987:	learn: 0.5687606	total: 6m 1s	remaining: 4.39s
+988:	learn: 0.5687557	total: 6m 1s	remaining: 4.02s
+989:	learn: 0.5687487	total: 6m 2s	remaining: 3.66s
+990:	learn: 0.5687407	total: 6m 2s	remaining: 3.29s
+991:	learn: 0.5687342	total: 6m 2s	remaining: 2.93s
+992:	learn: 0.5687237	total: 6m 3s	remaining: 2.56s
+993:	learn: 0.5687174	total: 6m 3s	remaining: 2.19s
+994:	learn: 0.5687126	total: 6m 4s	remaining: 1.83s
+995:	learn: 0.5687055	total: 6m 4s	remaining: 1.46s
+996:	learn: 0.5686987	total: 6m 4s	remaining: 1.1s
+997:	learn: 0.5686904	total: 6m 5s	remaining: 732ms
+998:	learn: 0.5686844	total: 6m 5s	remaining: 366ms
+999:	learn: 0.5686798	total: 6m 5s	remaining: 0us
+-------- feature_importance --------
+MIN3_test                20.079107
+min_n_500+               12.369906
+BN_SCE_test              10.480411
+BN_GPH_test               8.882755
+WLg_TaroneWare_test       8.326536
+logrank_test              7.439302
+BN_MCE_test               7.327336
+Q_test                    4.505372
+WKM_test                  3.555407
+WLg_PetoPrentice_test     2.943092
+Gehan_test                2.678048
+WLg_Prentice_test         2.391072
+MAX_Value_test            1.997227
+min_n_100_500             1.862904
+Peto_test                 1.466265
+min_n_0_50                1.303138
+cens_rate_high            1.048833
+cens_rate_zero            0.737730
+min_n_50_100              0.354653
+cens_rate_low             0.154559
+cens_rate_mid             0.096347
+dtype: float64
+-------- TRAIN --------
+TP: 3925403, FP: 1512006
+FN: 2889937, TN: 5303334
+-------- VAL --------
+TP: 2128970, FP: 835304
+FN: 1588930, TN: 2882596
+-------- TEST --------
+TP: 1065280, FP: 418269
+FN: 794480, TN: 1441491
+                            TRAIN                 VAL                TEST
+Accuracy       0.6771 ± 0.0003291   0.674 ± 0.0003725   0.674 ± 0.0007225
+Precision      0.7219 ± 0.0004278  0.7182 ± 0.0006148   0.7181 ± 0.001153
+Recall          0.576 ± 0.0005444  0.5726 ± 0.0002364  0.5728 ± 0.0005646
+ROC_AUC        0.7534 ± 0.0003402    0.75 ± 0.0003407  0.7501 ± 0.0008068
+Avg_Precision  0.7817 ± 0.0003012  0.7787 ± 0.0003254  0.7789 ± 0.0008385
+Sensitivity     0.576 ± 0.0005444  0.5726 ± 0.0002364  0.5728 ± 0.0005646
+Specificity     0.7781 ± 0.000454   0.7753 ± 0.000656   0.7751 ± 0.001217
+FN_part         0.788 ± 0.0002722  0.7863 ± 0.0001182  0.7864 ± 0.0002823
+-------- permutation_importance --------
+BN_SCE_test              0.268130
+WLg_TaroneWare_test      0.267510
+BN_GPH_test              0.235309
+Gehan_test               0.178341
+MAX_Value_test           0.169252
+WKM_test                 0.165461
+logrank_test             0.131963
+MIN3_test                0.125624
+WLg_PetoPrentice_test    0.094662
+BN_MCE_test              0.076355
+Peto_test                0.072133
+Q_test                   0.042845
+WLg_Prentice_test        0.037618
+min_n_500+               0.016641
+min_n_0_50               0.004591
+min_n_100_500            0.003945
+cens_rate_high           0.003545
+cens_rate_zero           0.002492
+min_n_50_100             0.001157
+cens_rate_low            0.000468
+cens_rate_mid            0.000250
+dtype: float64
+========================================
+XGBoost НЕ НАЙДЕНА. Начинается процесс обучения модели...
+n: 13630680, part(y=1): 50.0
+n: 7435800, part(y=1): 50.0
+n: 3719520, part(y=1): 50.0
+100%|██████████| 13/13 [00:34<00:00,  2.67s/it]
+100%|██████████| 13/13 [00:18<00:00,  1.45s/it]
+100%|██████████| 13/13 [00:08<00:00,  1.45it/s]
+model_name:  XGBoost
+	 metric: 0.6420562683235159 	 best_metric: 0.6420562683235159
+	 metric: 0.6474033728717825 	 best_metric: 0.6474033728717825
+	 metric: 0.6421544420237231 	 best_metric: 0.6474033728717825
+	 metric: 0.646492240243148 	 best_metric: 0.6474033728717825
+	 metric: 0.6403116006347669 	 best_metric: 0.6474033728717825
+	 metric: 0.6686969794776622 	 best_metric: 0.6686969794776622
+	 metric: 0.6596510126684418 	 best_metric: 0.6686969794776622
+	 metric: 0.6722319051077221 	 best_metric: 0.6722319051077221
+	 metric: 0.6594015438822991 	 best_metric: 0.6722319051077221
+	 metric: 0.6464227117458781 	 best_metric: 0.6722319051077221
+-------- feature_importance --------
+MIN3_test                0.401552
+min_n_500+               0.181835
+min_n_100_500            0.091631
+min_n_0_50               0.045863
+BN_MCE_test              0.044300
+BN_SCE_test              0.034642
+min_n_50_100             0.028060
+BN_GPH_test              0.020735
+logrank_test             0.018441
+cens_rate_zero           0.016044
+WLg_TaroneWare_test      0.015659
+cens_rate_high           0.015512
+WKM_test                 0.014127
+Q_test                   0.013507
+Gehan_test               0.010410
+MAX_Value_test           0.010208
+WLg_Prentice_test        0.008386
+Peto_test                0.008234
+cens_rate_mid            0.007786
+cens_rate_low            0.006858
+WLg_PetoPrentice_test    0.006208
+dtype: float32
+-------- TRAIN --------
+TP: 3898798, FP: 1432427
+FN: 2916542, TN: 5382913
+-------- VAL --------
+TP: 2094507, FP: 813825
+FN: 1623393, TN: 2904075
+-------- TEST --------
+TP: 1048018, FP: 408194
+FN: 811742, TN: 1451566
+                            TRAIN                 VAL                TEST
+Accuracy       0.6809 ± 0.0003523  0.6722 ± 0.0004869   0.672 ± 0.0009767
+Precision      0.7313 ± 0.0003969  0.7202 ± 0.0005499   0.7197 ± 0.001378
+Recall         0.5721 ± 0.0005864  0.5634 ± 0.0006727  0.5635 ± 0.0007984
+ROC_AUC        0.7579 ± 0.0002963  0.7478 ± 0.0003375   0.7478 ± 0.000861
+Avg_Precision  0.7871 ± 0.0002453  0.7772 ± 0.0003451  0.7772 ± 0.0008124
+Sensitivity    0.5721 ± 0.0005864  0.5634 ± 0.0006727  0.5635 ± 0.0007984
+Specificity    0.7898 ± 0.0003502  0.7811 ± 0.0003963   0.7805 ± 0.001224
+FN_part         0.786 ± 0.0002932  0.7817 ± 0.0003364  0.7818 ± 0.0003992
+-------- permutation_importance --------
+WLg_TaroneWare_test      0.276556
+BN_GPH_test              0.241970
+WKM_test                 0.213715
+BN_SCE_test              0.189233
+Peto_test                0.173997
+MIN3_test                0.161633
+Gehan_test               0.133024
+MAX_Value_test           0.128459
+logrank_test             0.128141
+WLg_PetoPrentice_test    0.076992
+BN_MCE_test              0.065786
+Q_test                   0.058342
+WLg_Prentice_test        0.023799
+min_n_500+               0.019489
+min_n_100_500            0.005210
+min_n_0_50               0.002948
+cens_rate_high           0.002679
+cens_rate_zero           0.001867
+min_n_50_100             0.000606
+cens_rate_mid            0.000473
+cens_rate_low            0.000252
+dtype: float64
+========================================
+LightAutoML НЕ НАЙДЕНА. Начинается процесс обучения модели...
+n: 13630680, part(y=1): 50.0
+n: 7435800, part(y=1): 50.0
+n: 3719520, part(y=1): 50.0
+100%|██████████| 13/13 [00:34<00:00,  2.66s/it]
+100%|██████████| 13/13 [00:18<00:00,  1.45s/it]
+100%|██████████| 13/13 [00:09<00:00,  1.42it/s]
+model_name:  LightAutoML
+[22:51:26] Stdout logging level is INFO3.
+[22:51:26] Copying TaskTimer may affect the parent PipelineTimer, so copy will create new unlimited TaskTimer
+[22:51:26] Task: binary
+
+[22:51:26] Start automl preset with listed constraints:
+[22:51:26] - time: 3000.00 seconds
+[22:51:26] - CPU: 20 cores
+[22:51:26] - memory: 60 GB
+
+[22:51:26] Train data shape: (13630680, 22)
+
+[22:51:35] Feats was rejected during automatic roles guess: []
+[22:51:35] Layer 1 train process start. Time left 2990.76 secs
+[22:51:43] Start fitting Lvl_0_Pipe_0_Mod_0_LinearL2 ...
+[22:51:43] ===== Start working with fold 0 for Lvl_0_Pipe_0_Mod_0_LinearL2 =====
+[22:52:05] Linear model: C = 1e-05 score = 0.5871243316710726
+[22:52:31] Linear model: C = 5e-05 score = 0.5876059148781105
+[22:52:32] Linear model: C = 0.0001 score = 0.5876059148781105
+[22:53:01] Linear model: C = 0.0005 score = 0.5876038509014636
+[22:53:02] ===== Start working with fold 1 for Lvl_0_Pipe_0_Mod_0_LinearL2 =====
+[22:53:29] Linear model: C = 1e-05 score = 0.5868681678028353
+[22:53:54] Linear model: C = 5e-05 score = 0.5875743663317197
+[22:53:55] Linear model: C = 0.0001 score = 0.5875743663317197
+[22:54:31] Linear model: C = 0.0005 score = 0.5875099795361307
+[22:54:32] Time limit exceeded after calculating fold 1
+
+[22:54:32] Fitting Lvl_0_Pipe_0_Mod_0_LinearL2 finished. score = 0.5875901366151944
+[22:54:32] Lvl_0_Pipe_0_Mod_0_LinearL2 fitting and predicting completed
+[22:54:32] Time left 2814.15 secs
+
+[22:54:39] Training until validation scores don't improve for 100 rounds
+[23:23:11] Selector_LightGBM fitting and predicting completed
+[23:23:13] Start fitting Lvl_0_Pipe_1_Mod_0_LightGBM ...
+[23:23:13] ===== Start working with fold 0 for Lvl_0_Pipe_1_Mod_0_LightGBM =====
+[23:23:15] Training until validation scores don't improve for 100 rounds
+[23:49:24] Time limit exceeded after calculating fold 0
+
+[23:49:24] Fitting Lvl_0_Pipe_1_Mod_0_LightGBM finished. score = 0.6291461958116662
+[23:49:24] Lvl_0_Pipe_1_Mod_0_LightGBM fitting and predicting completed
+[23:49:24] Time left -478.08 secs
+
+[23:49:24] Time limit exceeded. Last level models will be blended and unused pipelines will be pruned.
+
+[23:49:24] Layer 1 training completed.
+
+[23:49:25] Blending: optimization starts with equal weights and score 0.6002452643173696
+[23:49:30] Blending: iteration 0: score = 0.6291461958116662, weights = [0. 1.]
+[23:49:34] Blending: iteration 1: score = 0.6291461958116662, weights = [0. 1.]
+[23:49:34] Blending: no score update. Terminated
+
+[23:49:35] Automl preset training completed in 3488.29 seconds
+
+[23:49:35] Model description:
+Final prediction for new objects (level 0) = 
+	 1.00000 * (1 averaged models Lvl_0_Pipe_1_Mod_0_LightGBM) 
+
+None
+-------- TRAIN --------
+TP: 3938714, FP: 1355151
+FN: 2876626, TN: 5460189
+-------- VAL --------
+TP: 2102288, FP: 785170
+FN: 1615612, TN: 2932730
+-------- TEST --------
+TP: 1051371, FP: 392718
+FN: 808389, TN: 1467042
+                            TRAIN                 VAL                TEST
+Accuracy       0.6895 ± 0.0002667   0.6771 ± 0.000547  0.6771 ± 0.0008325
+Precision       0.744 ± 0.0002753  0.7281 ± 0.0006828   0.7281 ± 0.001265
+Recall         0.5779 ± 0.0006308  0.5655 ± 0.0005985  0.5653 ± 0.0006981
+ROC_AUC        0.7681 ± 0.0003054  0.7539 ± 0.0003472   0.7539 ± 0.000777
+Avg_Precision   0.7959 ± 0.000282  0.7827 ± 0.0002821  0.7828 ± 0.0007772
+Sensitivity    0.5779 ± 0.0006308  0.5655 ± 0.0005985  0.5653 ± 0.0006981
+Specificity    0.8012 ± 0.0003369  0.7888 ± 0.0005168     0.7888 ± 0.0012
+FN_part         0.789 ± 0.0003154  0.7827 ± 0.0002993   0.7827 ± 0.000349
+-------- permutation_importance --------
+- None
+========================================
+SKLEARN_RF НЕ НАЙДЕНА. Начинается процесс обучения модели...
+n: 13630680, part(y=1): 50.0
+n: 7435800, part(y=1): 50.0
+n: 3719520, part(y=1): 50.0
+100%|██████████| 13/13 [00:34<00:00,  2.68s/it]
+100%|██████████| 13/13 [00:18<00:00,  1.39s/it]
+100%|██████████| 13/13 [00:09<00:00,  1.44it/s]
+model_name:  SKLEARN_RF
+[Parallel(n_jobs=20)]: Using backend ThreadingBackend with 20 concurrent workers.
+[Parallel(n_jobs=20)]: Done  10 tasks      | elapsed:  1.0min
+[Parallel(n_jobs=20)]: Done 160 tasks      | elapsed:  8.9min
+[Parallel(n_jobs=20)]: Done 400 out of 400 | elapsed: 21.2min finished
+[Parallel(n_jobs=20)]: Using backend ThreadingBackend with 20 concurrent workers.
+[Parallel(n_jobs=20)]: Done  10 tasks      | elapsed:    0.7s
+[Parallel(n_jobs=20)]: Done 160 tasks      | elapsed:    6.9s
+[Parallel(n_jobs=20)]: Done 400 out of 400 | elapsed:   16.7s finished
+	 metric: 0.646239812797547 	 best_metric: 0.646239812797547
+[Parallel(n_jobs=20)]: Using backend ThreadingBackend with 20 concurrent workers.
+[Parallel(n_jobs=20)]: Done  10 tasks      | elapsed:  1.1min
+[Parallel(n_jobs=20)]: Done 100 out of 100 | elapsed:  5.7min finished
+[Parallel(n_jobs=20)]: Using backend ThreadingBackend with 20 concurrent workers.
+[Parallel(n_jobs=20)]: Done  10 tasks      | elapsed:    0.7s
+[Parallel(n_jobs=20)]: Done 100 out of 100 | elapsed:    4.2s finished
+	 metric: 0.6459114015976761 	 best_metric: 0.646239812797547
+[Parallel(n_jobs=20)]: Using backend ThreadingBackend with 20 concurrent workers.
+[Parallel(n_jobs=20)]: Done  10 tasks      | elapsed:   27.0s
+[Parallel(n_jobs=20)]: Done 100 out of 100 | elapsed:  2.2min finished
+[Parallel(n_jobs=20)]: Using backend ThreadingBackend with 20 concurrent workers.
+[Parallel(n_jobs=20)]: Done  10 tasks      | elapsed:    1.7s
+[Parallel(n_jobs=20)]: Done 100 out of 100 | elapsed:    4.4s finished
+	 metric: 0.6395960084994217 	 best_metric: 0.646239812797547
+[Parallel(n_jobs=20)]: Using backend ThreadingBackend with 20 concurrent workers.
+[Parallel(n_jobs=20)]: Done  10 tasks      | elapsed:   34.4s
+[Parallel(n_jobs=20)]: Done 160 tasks      | elapsed:  4.7min
+[Parallel(n_jobs=20)]: Done 200 out of 200 | elapsed:  5.7min finished
+[Parallel(n_jobs=20)]: Using backend ThreadingBackend with 20 concurrent workers.
+[Parallel(n_jobs=20)]: Done  10 tasks      | elapsed:    0.7s
+[Parallel(n_jobs=20)]: Done 160 tasks      | elapsed:    5.9s
+[Parallel(n_jobs=20)]: Done 200 out of 200 | elapsed:    7.0s finished
+	 metric: 0.6424398181769279 	 best_metric: 0.646239812797547
+[Parallel(n_jobs=20)]: Using backend ThreadingBackend with 20 concurrent workers.
+[Parallel(n_jobs=20)]: Done  10 tasks      | elapsed:   27.1s
+[Parallel(n_jobs=20)]: Done 160 tasks      | elapsed:  3.6min
+[Parallel(n_jobs=20)]: Done 400 out of 400 | elapsed:  8.8min finished
+[Parallel(n_jobs=20)]: Using backend ThreadingBackend with 20 concurrent workers.
+[Parallel(n_jobs=20)]: Done  10 tasks      | elapsed:    0.6s
+[Parallel(n_jobs=20)]: Done 160 tasks      | elapsed:    4.8s
+[Parallel(n_jobs=20)]: Done 400 out of 400 | elapsed:   11.3s finished
+	 metric: 0.5 	 best_metric: 0.646239812797547
+[Parallel(n_jobs=20)]: Using backend ThreadingBackend with 20 concurrent workers.
+[Parallel(n_jobs=20)]: Done  10 tasks      | elapsed:  1.1min
+[Parallel(n_jobs=20)]: Done 100 out of 100 | elapsed:  5.5min finished
+[Parallel(n_jobs=20)]: Using backend ThreadingBackend with 20 concurrent workers.
+[Parallel(n_jobs=20)]: Done  10 tasks      | elapsed:    0.6s
+[Parallel(n_jobs=20)]: Done 100 out of 100 | elapsed:    4.3s finished
+	 metric: 0.6421594179509938 	 best_metric: 0.646239812797547
+[Parallel(n_jobs=20)]: Using backend ThreadingBackend with 20 concurrent workers.
+[Parallel(n_jobs=20)]: Done  10 tasks      | elapsed:   19.6s
+[Parallel(n_jobs=20)]: Done 160 tasks      | elapsed:  2.7min
+[Parallel(n_jobs=20)]: Done 200 out of 200 | elapsed:  3.2min finished
+[Parallel(n_jobs=20)]: Using backend ThreadingBackend with 20 concurrent workers.
+[Parallel(n_jobs=20)]: Done  10 tasks      | elapsed:    0.6s
+[Parallel(n_jobs=20)]: Done 160 tasks      | elapsed:    5.1s
+[Parallel(n_jobs=20)]: Done 200 out of 200 | elapsed:    6.1s finished
+	 metric: 0.6357185507948035 	 best_metric: 0.646239812797547
+[Parallel(n_jobs=20)]: Using backend ThreadingBackend with 20 concurrent workers.
+[Parallel(n_jobs=20)]: Done  10 tasks      | elapsed:   26.2s
+[Parallel(n_jobs=20)]: Done 100 out of 100 | elapsed:  2.2min finished
+[Parallel(n_jobs=20)]: Using backend ThreadingBackend with 20 concurrent workers.
+[Parallel(n_jobs=20)]: Done  10 tasks      | elapsed:    0.6s
+[Parallel(n_jobs=20)]: Done 100 out of 100 | elapsed:    2.8s finished
+	 metric: 0.5 	 best_metric: 0.646239812797547
+[Parallel(n_jobs=20)]: Using backend ThreadingBackend with 20 concurrent workers.
+[Parallel(n_jobs=20)]: Done  10 tasks      | elapsed:   49.9s
+[Parallel(n_jobs=20)]: Done 160 tasks      | elapsed:  6.9min
+[Parallel(n_jobs=20)]: Done 400 out of 400 | elapsed: 16.5min finished
+[Parallel(n_jobs=20)]: Using backend ThreadingBackend with 20 concurrent workers.
+[Parallel(n_jobs=20)]: Done  10 tasks      | elapsed:    0.6s
+[Parallel(n_jobs=20)]: Done 160 tasks      | elapsed:    5.6s
+[Parallel(n_jobs=20)]: Done 400 out of 400 | elapsed:   13.4s finished
+	 metric: 0.6422596089190135 	 best_metric: 0.646239812797547
+[Parallel(n_jobs=20)]: Using backend ThreadingBackend with 20 concurrent workers.
+[Parallel(n_jobs=20)]: Done  10 tasks      | elapsed:   49.7s
+[Parallel(n_jobs=20)]: Done 160 tasks      | elapsed:  6.9min
+[Parallel(n_jobs=20)]: Done 200 out of 200 | elapsed:  8.3min finished
+[Parallel(n_jobs=20)]: Using backend ThreadingBackend with 20 concurrent workers.
+[Parallel(n_jobs=20)]: Done  10 tasks      | elapsed:    0.6s
+[Parallel(n_jobs=20)]: Done 160 tasks      | elapsed:    4.8s
+[Parallel(n_jobs=20)]: Done 200 out of 200 | elapsed:    5.7s finished
+	 metric: 0.5 	 best_metric: 0.646239812797547
+-------- feature_importance --------
+MIN3_test                2.437233e-01
+BN_MCE_test              2.044308e-01
+BN_SCE_test              1.390472e-01
+BN_GPH_test              1.000723e-01
+min_n_500+               7.990904e-02
+MAX_Value_test           5.277292e-02
+Gehan_test               3.165950e-02
+WKM_test                 2.623248e-02
+Peto_test                2.590347e-02
+min_n_0_50               2.525418e-02
+WLg_TaroneWare_test      1.461266e-02
+min_n_100_500            1.144974e-02
+WLg_Prentice_test        1.017835e-02
+logrank_test             9.855121e-03
+min_n_50_100             9.562294e-03
+WLg_PetoPrentice_test    8.296422e-03
+Q_test                   7.009767e-03
+cens_rate_zero           2.350113e-05
+cens_rate_high           6.150053e-06
+cens_rate_low            5.686870e-07
+cens_rate_mid            3.152528e-07
+dtype: float64
+-------- TRAIN --------
+[Parallel(n_jobs=20)]: Using backend ThreadingBackend with 20 concurrent workers.
+[Parallel(n_jobs=20)]: Done  10 tasks      | elapsed:    1.5s
+[Parallel(n_jobs=20)]: Done 160 tasks      | elapsed:   12.7s
+[Parallel(n_jobs=20)]: Done 400 out of 400 | elapsed:   30.9s finished
+[Parallel(n_jobs=20)]: Using backend ThreadingBackend with 20 concurrent workers.
+[Parallel(n_jobs=20)]: Done  10 tasks      | elapsed:    1.5s
+[Parallel(n_jobs=20)]: Done 160 tasks      | elapsed:   12.7s
+[Parallel(n_jobs=20)]: Done 400 out of 400 | elapsed:   30.5s finished
+TP: 3469873, FP: 1475181
+FN: 3345467, TN: 5340159
+-------- VAL --------
+[Parallel(n_jobs=20)]: Using backend ThreadingBackend with 20 concurrent workers.
+[Parallel(n_jobs=20)]: Done  10 tasks      | elapsed:    0.9s
+[Parallel(n_jobs=20)]: Done 160 tasks      | elapsed:    7.9s
+[Parallel(n_jobs=20)]: Done 400 out of 400 | elapsed:   17.7s finished
+[Parallel(n_jobs=20)]: Using backend ThreadingBackend with 20 concurrent workers.
+[Parallel(n_jobs=20)]: Done  10 tasks      | elapsed:    0.8s
+[Parallel(n_jobs=20)]: Done 160 tasks      | elapsed:    6.9s
+[Parallel(n_jobs=20)]: Done 400 out of 400 | elapsed:   16.6s finished
+TP: 1892144, FP: 804734
+FN: 1825756, TN: 2913166
+-------- TEST --------
+[Parallel(n_jobs=20)]: Using backend ThreadingBackend with 20 concurrent workers.
+[Parallel(n_jobs=20)]: Done  10 tasks      | elapsed:    0.4s
+[Parallel(n_jobs=20)]: Done 160 tasks      | elapsed:    4.4s
+[Parallel(n_jobs=20)]: Done 400 out of 400 | elapsed:    9.1s finished
+[Parallel(n_jobs=20)]: Using backend ThreadingBackend with 20 concurrent workers.
+[Parallel(n_jobs=20)]: Done  10 tasks      | elapsed:    0.4s
+[Parallel(n_jobs=20)]: Done 160 tasks      | elapsed:    3.4s
+[Parallel(n_jobs=20)]: Done 400 out of 400 | elapsed:    8.0s finished
+TP: 945797, FP: 402944
+FN: 913963, TN: 1456816
+                            TRAIN                 VAL                TEST
+Accuracy       0.6463 ± 0.0001914   0.6462 ± 0.000507   0.6459 ± 0.000786
+Precision       0.7017 ± 0.000255  0.7016 ± 0.0007107   0.7012 ± 0.001098
+Recall         0.5091 ± 0.0003572  0.5089 ± 0.0006116  0.5086 ± 0.0008052
+ROC_AUC        0.7158 ± 0.0001465  0.7157 ± 0.0004384  0.7155 ± 0.0005663
+Avg_Precision  0.7431 ± 0.0001993   0.743 ± 0.0005558   0.743 ± 0.0005912
+Sensitivity    0.5091 ± 0.0003572  0.5089 ± 0.0006116  0.5086 ± 0.0008052
+Specificity    0.7835 ± 0.0002583  0.7836 ± 0.0005806  0.7833 ± 0.0008288
+FN_part        0.7546 ± 0.0001786  0.7545 ± 0.0003058  0.7543 ± 0.0004026
+-------- permutation_importance --------
+[Parallel(n_jobs=20)]: Using backend ThreadingBackend with 20 concurrent workers.
+[Parallel(n_jobs=20)]: Done  10 tasks      | elapsed:    0.4s
+[Parallel(n_jobs=20)]: Done 160 tasks      | elapsed:    4.0s
+[Parallel(n_jobs=20)]: Done 400 out of 400 | elapsed:    8.7s finished
+[Parallel(n_jobs=20)]: Using backend ThreadingBackend with 20 concurrent workers.
+[Parallel(n_jobs=20)]: Using backend ThreadingBackend with 20 concurrent workers.
+[Parallel(n_jobs=20)]: Using backend ThreadingBackend with 20 concurrent workers.
+[Parallel(n_jobs=20)]: Using backend ThreadingBackend with 20 concurrent workers.
+[Parallel(n_jobs=20)]: Using backend ThreadingBackend with 20 concurrent workers.
+[Parallel(n_jobs=20)]: Using backend ThreadingBackend with 20 concurrent workers.
+[Parallel(n_jobs=20)]: Using backend ThreadingBackend with 20 concurrent workers.
+[Parallel(n_jobs=20)]: Done  10 tasks      | elapsed:    2.2s
+[Parallel(n_jobs=20)]: Done  10 tasks      | elapsed:    3.0s
+[Parallel(n_jobs=20)]: Done  10 tasks      | elapsed:    3.4s
+[Parallel(n_jobs=20)]: Done  10 tasks      | elapsed:    3.3s
+[Parallel(n_jobs=20)]: Done  10 tasks      | elapsed:    3.9s
+[Parallel(n_jobs=20)]: Done  10 tasks      | elapsed:    3.3s
+[Parallel(n_jobs=20)]: Using backend ThreadingBackend with 20 concurrent workers.
+[Parallel(n_jobs=20)]: Done  10 tasks      | elapsed:    3.2s
+[Parallel(n_jobs=20)]: Using backend ThreadingBackend with 20 concurrent workers.
+[Parallel(n_jobs=20)]: Done  10 tasks      | elapsed:    3.7s
+[Parallel(n_jobs=20)]: Using backend ThreadingBackend with 20 concurrent workers.
+[Parallel(n_jobs=20)]: Using backend ThreadingBackend with 20 concurrent workers.
+[Parallel(n_jobs=20)]: Using backend ThreadingBackend with 20 concurrent workers.
+[Parallel(n_jobs=20)]: Done  10 tasks      | elapsed:    4.9s
+[Parallel(n_jobs=20)]: Using backend ThreadingBackend with 20 concurrent workers.
+[Parallel(n_jobs=20)]: Done  10 tasks      | elapsed:    5.9s
+[Parallel(n_jobs=20)]: Using backend ThreadingBackend with 20 concurrent workers.
+[Parallel(n_jobs=20)]: Done  10 tasks      | elapsed:    5.7s
+[Parallel(n_jobs=20)]: Done  10 tasks      | elapsed:    6.7s
+[Parallel(n_jobs=20)]: Done  10 tasks      | elapsed:    7.2s
+[Parallel(n_jobs=20)]: Using backend ThreadingBackend with 20 concurrent workers.
+[Parallel(n_jobs=20)]: Using backend ThreadingBackend with 20 concurrent workers.
+[Parallel(n_jobs=20)]: Done  10 tasks      | elapsed:    7.4s
+[Parallel(n_jobs=20)]: Using backend ThreadingBackend with 20 concurrent workers.
+[Parallel(n_jobs=20)]: Using backend ThreadingBackend with 20 concurrent workers.
+[Parallel(n_jobs=20)]: Done  10 tasks      | elapsed:    8.4s
+[Parallel(n_jobs=20)]: Done  10 tasks      | elapsed:    4.9s
+[Parallel(n_jobs=20)]: Using backend ThreadingBackend with 20 concurrent workers.
+[Parallel(n_jobs=20)]: Done  10 tasks      | elapsed:    8.1s
+[Parallel(n_jobs=20)]: Done  10 tasks      | elapsed:    9.0s
+[Parallel(n_jobs=20)]: Done  10 tasks      | elapsed:    7.8s
+[Parallel(n_jobs=20)]: Done 160 tasks      | elapsed:   38.8s
+[Parallel(n_jobs=20)]: Using backend ThreadingBackend with 20 concurrent workers.
+[Parallel(n_jobs=20)]: Done 160 tasks      | elapsed:   45.5s
+[Parallel(n_jobs=20)]: Done  10 tasks      | elapsed:    7.1s
+[Parallel(n_jobs=20)]: Done 160 tasks      | elapsed:   47.9s
+[Parallel(n_jobs=20)]: Done 160 tasks      | elapsed:   48.2s
+[Parallel(n_jobs=20)]: Done 160 tasks      | elapsed:   50.2s
+[Parallel(n_jobs=20)]: Done 160 tasks      | elapsed:   49.2s
+[Parallel(n_jobs=20)]: Done 160 tasks      | elapsed:   52.6s
+[Parallel(n_jobs=20)]: Done 160 tasks      | elapsed:   55.8s
+[Parallel(n_jobs=20)]: Done 160 tasks      | elapsed:   58.5s
+[Parallel(n_jobs=20)]: Done 160 tasks      | elapsed:  1.0min
+[Parallel(n_jobs=20)]: Done 160 tasks      | elapsed:  1.0min
+[Parallel(n_jobs=20)]: Done 160 tasks      | elapsed:  1.0min
+[Parallel(n_jobs=20)]: Done 160 tasks      | elapsed:   59.9s
+[Parallel(n_jobs=20)]: Done 160 tasks      | elapsed:  1.2min
+[Parallel(n_jobs=20)]: Done 160 tasks      | elapsed:  1.0min
+[Parallel(n_jobs=20)]: Done 160 tasks      | elapsed:  1.1min
+[Parallel(n_jobs=20)]: Done 160 tasks      | elapsed:  1.0min
+[Parallel(n_jobs=20)]: Done 160 tasks      | elapsed:  1.1min
+[Parallel(n_jobs=20)]: Done 160 tasks      | elapsed:  1.1min
+[Parallel(n_jobs=20)]: Done 160 tasks      | elapsed:  1.0min
+[Parallel(n_jobs=20)]: Done 400 out of 400 | elapsed:  2.3min finished
+[Parallel(n_jobs=20)]: Done 400 out of 400 | elapsed:  2.3min finished
+[Parallel(n_jobs=20)]: Done 400 out of 400 | elapsed:  2.3min finished
+[Parallel(n_jobs=20)]: Done 400 out of 400 | elapsed:  2.4min finished
+[Parallel(n_jobs=20)]: Done 400 out of 400 | elapsed:  2.4min finished
+[Parallel(n_jobs=20)]: Done 400 out of 400 | elapsed:  2.4min finished
+[Parallel(n_jobs=20)]: Done 400 out of 400 | elapsed:  2.4min finished
+[Parallel(n_jobs=20)]: Done 400 out of 400 | elapsed:  2.5min finished
+[Parallel(n_jobs=20)]: Done 400 out of 400 | elapsed:  2.4min finished
+[Parallel(n_jobs=20)]: Done 400 out of 400 | elapsed:  2.4min finished
+[Parallel(n_jobs=20)]: Done 400 out of 400 | elapsed:  2.5min finished
+[Parallel(n_jobs=20)]: Done 400 out of 400 | elapsed:  2.4min finished
+[Parallel(n_jobs=20)]: Done 400 out of 400 | elapsed:  2.4min finished
+[Parallel(n_jobs=20)]: Done 400 out of 400 | elapsed:  2.4min finished
+[Parallel(n_jobs=20)]: Done 400 out of 400 | elapsed:  2.3min finished
+[Parallel(n_jobs=20)]: Done 400 out of 400 | elapsed:  2.3min finished
+[Parallel(n_jobs=20)]: Using backend ThreadingBackend with 20 concurrent workers.
+[Parallel(n_jobs=20)]: Done 400 out of 400 | elapsed:  2.3min finished
+[Parallel(n_jobs=20)]: Done 400 out of 400 | elapsed:  2.3min finished
+[Parallel(n_jobs=20)]: Using backend ThreadingBackend with 20 concurrent workers.
+[Parallel(n_jobs=20)]: Done 400 out of 400 | elapsed:  2.2min finished
+[Parallel(n_jobs=20)]: Done  10 tasks      | elapsed:    1.7s
+[Parallel(n_jobs=20)]: Using backend ThreadingBackend with 20 concurrent workers.
+[Parallel(n_jobs=20)]: Done 400 out of 400 | elapsed:  2.1min finished
+[Parallel(n_jobs=20)]: Using backend ThreadingBackend with 20 concurrent workers.
+[Parallel(n_jobs=20)]: Done  10 tasks      | elapsed:    2.0s
+[Parallel(n_jobs=20)]: Using backend ThreadingBackend with 20 concurrent workers.
+[Parallel(n_jobs=20)]: Done  10 tasks      | elapsed:    2.1s
+[Parallel(n_jobs=20)]: Using backend ThreadingBackend with 20 concurrent workers.
+[Parallel(n_jobs=20)]: Done  10 tasks      | elapsed:    2.2s
+[Parallel(n_jobs=20)]: Using backend ThreadingBackend with 20 concurrent workers.
+[Parallel(n_jobs=20)]: Using backend ThreadingBackend with 20 concurrent workers.
+[Parallel(n_jobs=20)]: Done  10 tasks      | elapsed:    3.2s
+[Parallel(n_jobs=20)]: Done  10 tasks      | elapsed:    3.6s
+[Parallel(n_jobs=20)]: Done  10 tasks      | elapsed:    4.4s
+[Parallel(n_jobs=20)]: Using backend ThreadingBackend with 20 concurrent workers.
+[Parallel(n_jobs=20)]: Done  10 tasks      | elapsed:    4.3s
+[Parallel(n_jobs=20)]: Using backend ThreadingBackend with 20 concurrent workers.
+[Parallel(n_jobs=20)]: Using backend ThreadingBackend with 20 concurrent workers.
+[Parallel(n_jobs=20)]: Using backend ThreadingBackend with 20 concurrent workers.
+[Parallel(n_jobs=20)]: Using backend ThreadingBackend with 20 concurrent workers.
+[Parallel(n_jobs=20)]: Done  10 tasks      | elapsed:    5.3s
+[Parallel(n_jobs=20)]: Done  10 tasks      | elapsed:    4.7s
+[Parallel(n_jobs=20)]: Done  10 tasks      | elapsed:    4.7s
+[Parallel(n_jobs=20)]: Done  10 tasks      | elapsed:    4.5s
+[Parallel(n_jobs=20)]: Done  10 tasks      | elapsed:    6.8s
+[Parallel(n_jobs=20)]: Using backend ThreadingBackend with 20 concurrent workers.
+[Parallel(n_jobs=20)]: Using backend ThreadingBackend with 20 concurrent workers.
+[Parallel(n_jobs=20)]: Using backend ThreadingBackend with 20 concurrent workers.
+[Parallel(n_jobs=20)]: Using backend ThreadingBackend with 20 concurrent workers.
+[Parallel(n_jobs=20)]: Using backend ThreadingBackend with 20 concurrent workers.
+[Parallel(n_jobs=20)]: Done  10 tasks      | elapsed:    5.9s
+[Parallel(n_jobs=20)]: Done  10 tasks      | elapsed:    6.9s
+[Parallel(n_jobs=20)]: Done  10 tasks      | elapsed:    7.9s
+[Parallel(n_jobs=20)]: Done  10 tasks      | elapsed:    5.9s
+[Parallel(n_jobs=20)]: Done 160 tasks      | elapsed:   33.1s
+[Parallel(n_jobs=20)]: Using backend ThreadingBackend with 20 concurrent workers.
+[Parallel(n_jobs=20)]: Done  10 tasks      | elapsed:   10.1s
+[Parallel(n_jobs=20)]: Using backend ThreadingBackend with 20 concurrent workers.
+[Parallel(n_jobs=20)]: Done 160 tasks      | elapsed:   39.2s
+[Parallel(n_jobs=20)]: Done 160 tasks      | elapsed:   40.4s
+[Parallel(n_jobs=20)]: Done  10 tasks      | elapsed:    8.2s
+[Parallel(n_jobs=20)]: Done  10 tasks      | elapsed:    6.4s
+[Parallel(n_jobs=20)]: Done 160 tasks      | elapsed:   44.9s
+[Parallel(n_jobs=20)]: Done 160 tasks      | elapsed:   45.6s
+[Parallel(n_jobs=20)]: Done 160 tasks      | elapsed:   49.2s
+[Parallel(n_jobs=20)]: Done 160 tasks      | elapsed:   52.2s
+[Parallel(n_jobs=20)]: Done 160 tasks      | elapsed:   51.2s
+[Parallel(n_jobs=20)]: Done 160 tasks      | elapsed:   58.0s
+[Parallel(n_jobs=20)]: Done 160 tasks      | elapsed:  1.0min
+[Parallel(n_jobs=20)]: Done 160 tasks      | elapsed:  1.0min
+[Parallel(n_jobs=20)]: Done 160 tasks      | elapsed:   59.7s
+[Parallel(n_jobs=20)]: Done 160 tasks      | elapsed:  1.1min
+[Parallel(n_jobs=20)]: Done 160 tasks      | elapsed:   58.0s
+[Parallel(n_jobs=20)]: Done 160 tasks      | elapsed:  1.0min
+[Parallel(n_jobs=20)]: Done 160 tasks      | elapsed:  1.1min
+[Parallel(n_jobs=20)]: Done 160 tasks      | elapsed:  1.1min
+[Parallel(n_jobs=20)]: Done 160 tasks      | elapsed:  1.1min
+[Parallel(n_jobs=20)]: Done 160 tasks      | elapsed:  1.0min
+[Parallel(n_jobs=20)]: Done 160 tasks      | elapsed:  1.1min
+[Parallel(n_jobs=20)]: Done 400 out of 400 | elapsed:  2.1min finished
+[Parallel(n_jobs=20)]: Using backend ThreadingBackend with 20 concurrent workers.
+[Parallel(n_jobs=20)]: Done 400 out of 400 | elapsed:  2.3min finished
+[Parallel(n_jobs=20)]: Done 400 out of 400 | elapsed:  2.3min finished
+[Parallel(n_jobs=20)]: Done  10 tasks      | elapsed:    7.2s
+[Parallel(n_jobs=20)]: Done 400 out of 400 | elapsed:  2.3min finished
+[Parallel(n_jobs=20)]: Done 400 out of 400 | elapsed:  2.3min finished
+[Parallel(n_jobs=20)]: Done 400 out of 400 | elapsed:  2.4min finished
+[Parallel(n_jobs=20)]: Done 400 out of 400 | elapsed:  2.4min finished
+[Parallel(n_jobs=20)]: Done 400 out of 400 | elapsed:  2.4min finished
+[Parallel(n_jobs=20)]: Using backend ThreadingBackend with 20 concurrent workers.
+[Parallel(n_jobs=20)]: Done 400 out of 400 | elapsed:  2.5min finished
+[Parallel(n_jobs=20)]: Done 400 out of 400 | elapsed:  2.3min finished
+[Parallel(n_jobs=20)]: Done 400 out of 400 | elapsed:  2.4min finished
+[Parallel(n_jobs=20)]: Done 400 out of 400 | elapsed:  2.5min finished
+[Parallel(n_jobs=20)]: Done 400 out of 400 | elapsed:  2.4min finished
+[Parallel(n_jobs=20)]: Done 400 out of 400 | elapsed:  2.5min finished
+[Parallel(n_jobs=20)]: Done  10 tasks      | elapsed:    5.5s
+[Parallel(n_jobs=20)]: Done 400 out of 400 | elapsed:  2.3min finished
+[Parallel(n_jobs=20)]: Done 400 out of 400 | elapsed:  2.3min finished
+[Parallel(n_jobs=20)]: Done 400 out of 400 | elapsed:  2.3min finished
+[Parallel(n_jobs=20)]: Done 160 tasks      | elapsed:   34.9s
+[Parallel(n_jobs=20)]: Done 400 out of 400 | elapsed:  2.3min finished
+[Parallel(n_jobs=20)]: Done 400 out of 400 | elapsed:  2.2min finished
+[Parallel(n_jobs=20)]: Using backend ThreadingBackend with 20 concurrent workers.
+[Parallel(n_jobs=20)]: Using backend ThreadingBackend with 20 concurrent workers.
+[Parallel(n_jobs=20)]: Done 400 out of 400 | elapsed:  2.2min finished
+[Parallel(n_jobs=20)]: Using backend ThreadingBackend with 20 concurrent workers.
+[Parallel(n_jobs=20)]: Using backend ThreadingBackend with 20 concurrent workers.
+[Parallel(n_jobs=20)]: Using backend ThreadingBackend with 20 concurrent workers.
+[Parallel(n_jobs=20)]: Done  10 tasks      | elapsed:    3.1s
+[Parallel(n_jobs=20)]: Using backend ThreadingBackend with 20 concurrent workers.
+[Parallel(n_jobs=20)]: Done  10 tasks      | elapsed:    3.1s
+[Parallel(n_jobs=20)]: Done  10 tasks      | elapsed:    2.8s
+[Parallel(n_jobs=20)]: Done  10 tasks      | elapsed:    4.0s
+[Parallel(n_jobs=20)]: Using backend ThreadingBackend with 20 concurrent workers.
+[Parallel(n_jobs=20)]: Done  10 tasks      | elapsed:    3.9s
+[Parallel(n_jobs=20)]: Done  10 tasks      | elapsed:    4.5s
+[Parallel(n_jobs=20)]: Using backend ThreadingBackend with 20 concurrent workers.
+[Parallel(n_jobs=20)]: Done  10 tasks      | elapsed:    4.2s
+[Parallel(n_jobs=20)]: Using backend ThreadingBackend with 20 concurrent workers.
+[Parallel(n_jobs=20)]: Done  10 tasks      | elapsed:    4.6s
+[Parallel(n_jobs=20)]: Using backend ThreadingBackend with 20 concurrent workers.
+[Parallel(n_jobs=20)]: Done  10 tasks      | elapsed:    5.3s
+[Parallel(n_jobs=20)]: Using backend ThreadingBackend with 20 concurrent workers.
+[Parallel(n_jobs=20)]: Done 160 tasks      | elapsed:   28.2s
+[Parallel(n_jobs=20)]: Using backend ThreadingBackend with 20 concurrent workers.
+[Parallel(n_jobs=20)]: Using backend ThreadingBackend with 20 concurrent workers.
+[Parallel(n_jobs=20)]: Using backend ThreadingBackend with 20 concurrent workers.
+[Parallel(n_jobs=20)]: Using backend ThreadingBackend with 20 concurrent workers.
+[Parallel(n_jobs=20)]: Done  10 tasks      | elapsed:    3.8s
+[Parallel(n_jobs=20)]: Done  10 tasks      | elapsed:    8.1s
+[Parallel(n_jobs=20)]: Using backend ThreadingBackend with 20 concurrent workers.
+[Parallel(n_jobs=20)]: Done  10 tasks      | elapsed:    8.0s
+[Parallel(n_jobs=20)]: Done  10 tasks      | elapsed:    7.9s
+[Parallel(n_jobs=20)]: Done  10 tasks      | elapsed:    6.2s
+[Parallel(n_jobs=20)]: Done  10 tasks      | elapsed:   10.1s
+[Parallel(n_jobs=20)]: Done  10 tasks      | elapsed:    7.7s
+[Parallel(n_jobs=20)]: Using backend ThreadingBackend with 20 concurrent workers.
+[Parallel(n_jobs=20)]: Using backend ThreadingBackend with 20 concurrent workers.
+[Parallel(n_jobs=20)]: Done 160 tasks      | elapsed:   48.2s
+[Parallel(n_jobs=20)]: Done 160 tasks      | elapsed:   47.9s
+[Parallel(n_jobs=20)]: Done 160 tasks      | elapsed:   48.8s
+[Parallel(n_jobs=20)]: Done  10 tasks      | elapsed:    9.8s
+[Parallel(n_jobs=20)]: Done 160 tasks      | elapsed:   48.6s
+[Parallel(n_jobs=20)]: Done 160 tasks      | elapsed:   49.9s
+[Parallel(n_jobs=20)]: Done  10 tasks      | elapsed:    9.5s
+[Parallel(n_jobs=20)]: Done 160 tasks      | elapsed:   54.0s
+[Parallel(n_jobs=20)]: Done 160 tasks      | elapsed:   53.5s
+[Parallel(n_jobs=20)]: Done 400 out of 400 | elapsed:  1.6min finished
+[Parallel(n_jobs=20)]: Done 160 tasks      | elapsed:   55.0s
+[Parallel(n_jobs=20)]: Done 160 tasks      | elapsed:   58.2s
+[Parallel(n_jobs=20)]: Done 160 tasks      | elapsed:  1.1min
+[Parallel(n_jobs=20)]: Done 160 tasks      | elapsed:  1.0min
+[Parallel(n_jobs=20)]: Done 160 tasks      | elapsed:  1.1min
+[Parallel(n_jobs=20)]: Done 160 tasks      | elapsed:  1.0min
+[Parallel(n_jobs=20)]: Done 160 tasks      | elapsed:  1.1min
+[Parallel(n_jobs=20)]: Done 160 tasks      | elapsed:  1.1min
+[Parallel(n_jobs=20)]: Done 160 tasks      | elapsed:  1.0min
+[Parallel(n_jobs=20)]: Done 400 out of 400 | elapsed:  1.9min finished
+[Parallel(n_jobs=20)]: Done 160 tasks      | elapsed:  1.1min
+[Parallel(n_jobs=20)]: Done 160 tasks      | elapsed:  1.0min
+[Parallel(n_jobs=20)]: Using backend ThreadingBackend with 20 concurrent workers.
+[Parallel(n_jobs=20)]: Done  10 tasks      | elapsed:    7.8s
+[Parallel(n_jobs=20)]: Done 400 out of 400 | elapsed:  2.2min finished
+[Parallel(n_jobs=20)]: Done 400 out of 400 | elapsed:  2.3min finished
+[Parallel(n_jobs=20)]: Done 400 out of 400 | elapsed:  2.3min finished
+[Parallel(n_jobs=20)]: Done 400 out of 400 | elapsed:  2.3min finished
+[Parallel(n_jobs=20)]: Done 400 out of 400 | elapsed:  2.4min finished
+[Parallel(n_jobs=20)]: Done 400 out of 400 | elapsed:  2.3min finished
+[Parallel(n_jobs=20)]: Done 400 out of 400 | elapsed:  2.3min finished
+[Parallel(n_jobs=20)]: Done 400 out of 400 | elapsed:  2.3min finished
+[Parallel(n_jobs=20)]: Done 400 out of 400 | elapsed:  2.3min finished
+[Parallel(n_jobs=20)]: Done 400 out of 400 | elapsed:  2.4min finished
+[Parallel(n_jobs=20)]: Using backend ThreadingBackend with 20 concurrent workers.
+[Parallel(n_jobs=20)]: Done 400 out of 400 | elapsed:  2.3min finished
+[Parallel(n_jobs=20)]: Done 400 out of 400 | elapsed:  2.3min finished
+[Parallel(n_jobs=20)]: Done 400 out of 400 | elapsed:  2.3min finished
+[Parallel(n_jobs=20)]: Done 400 out of 400 | elapsed:  2.3min finished
+[Parallel(n_jobs=20)]: Done  10 tasks      | elapsed:    3.7s
+[Parallel(n_jobs=20)]: Done 400 out of 400 | elapsed:  2.4min finished
+[Parallel(n_jobs=20)]: Done 400 out of 400 | elapsed:  2.3min finished
+[Parallel(n_jobs=20)]: Using backend ThreadingBackend with 20 concurrent workers.
+[Parallel(n_jobs=20)]: Done 160 tasks      | elapsed:   36.6s
+[Parallel(n_jobs=20)]: Using backend ThreadingBackend with 20 concurrent workers.
+[Parallel(n_jobs=20)]: Done 400 out of 400 | elapsed:  2.0min finished
+[Parallel(n_jobs=20)]: Done  10 tasks      | elapsed:    3.0s
+[Parallel(n_jobs=20)]: Done  10 tasks      | elapsed:    2.3s
+[Parallel(n_jobs=20)]: Done 400 out of 400 | elapsed:  2.0min finished
+[Parallel(n_jobs=20)]: Using backend ThreadingBackend with 20 concurrent workers.
+[Parallel(n_jobs=20)]: Using backend ThreadingBackend with 20 concurrent workers.
+[Parallel(n_jobs=20)]: Using backend ThreadingBackend with 20 concurrent workers.
+[Parallel(n_jobs=20)]: Using backend ThreadingBackend with 20 concurrent workers.
+[Parallel(n_jobs=20)]: Using backend ThreadingBackend with 20 concurrent workers.
+[Parallel(n_jobs=20)]: Using backend ThreadingBackend with 20 concurrent workers.
+[Parallel(n_jobs=20)]: Using backend ThreadingBackend with 20 concurrent workers.
+[Parallel(n_jobs=20)]: Done  10 tasks      | elapsed:    4.3s
+[Parallel(n_jobs=20)]: Done  10 tasks      | elapsed:    4.3s
+[Parallel(n_jobs=20)]: Done  10 tasks      | elapsed:    5.2s
+[Parallel(n_jobs=20)]: Done  10 tasks      | elapsed:    5.7s
+[Parallel(n_jobs=20)]: Using backend ThreadingBackend with 20 concurrent workers.
+[Parallel(n_jobs=20)]: Done  10 tasks      | elapsed:    6.1s
+[Parallel(n_jobs=20)]: Done  10 tasks      | elapsed:    5.8s
+[Parallel(n_jobs=20)]: Using backend ThreadingBackend with 20 concurrent workers.
+[Parallel(n_jobs=20)]: Done  10 tasks      | elapsed:    4.8s
+[Parallel(n_jobs=20)]: Using backend ThreadingBackend with 20 concurrent workers.
+[Parallel(n_jobs=20)]: Done  10 tasks      | elapsed:    6.2s
+[Parallel(n_jobs=20)]: Done  10 tasks      | elapsed:    7.2s
+[Parallel(n_jobs=20)]: Using backend ThreadingBackend with 20 concurrent workers.
+[Parallel(n_jobs=20)]: Done 160 tasks      | elapsed:   28.2s
+[Parallel(n_jobs=20)]: Using backend ThreadingBackend with 20 concurrent workers.
+[Parallel(n_jobs=20)]: Using backend ThreadingBackend with 20 concurrent workers.
+[Parallel(n_jobs=20)]: Done  10 tasks      | elapsed:    3.1s
+[Parallel(n_jobs=20)]: Done  10 tasks      | elapsed:    7.2s
+[Parallel(n_jobs=20)]: Using backend ThreadingBackend with 20 concurrent workers.
+[Parallel(n_jobs=20)]: Done  10 tasks      | elapsed:    7.2s
+[Parallel(n_jobs=20)]: Done  10 tasks      | elapsed:    8.4s
+[Parallel(n_jobs=20)]: Done  10 tasks      | elapsed:    8.3s
+[Parallel(n_jobs=20)]: Using backend ThreadingBackend with 20 concurrent workers.
+[Parallel(n_jobs=20)]: Done 160 tasks      | elapsed:   37.8s
+[Parallel(n_jobs=20)]: Done  10 tasks      | elapsed:    5.6s
+[Parallel(n_jobs=20)]: Done 160 tasks      | elapsed:   40.9s
+[Parallel(n_jobs=20)]: Using backend ThreadingBackend with 20 concurrent workers.
+[Parallel(n_jobs=20)]: Done 160 tasks      | elapsed:   51.7s
+[Parallel(n_jobs=20)]: Done 160 tasks      | elapsed:   54.2s
+[Parallel(n_jobs=20)]: Done  10 tasks      | elapsed:    6.1s
+[Parallel(n_jobs=20)]: Done 160 tasks      | elapsed:   57.2s
+[Parallel(n_jobs=20)]: Done 160 tasks      | elapsed:   57.2s
+[Parallel(n_jobs=20)]: Done 160 tasks      | elapsed:   60.0s
+[Parallel(n_jobs=20)]: Done 160 tasks      | elapsed:  1.0min
+[Parallel(n_jobs=20)]: Done 160 tasks      | elapsed:   55.1s
+[Parallel(n_jobs=20)]: Done 160 tasks      | elapsed:  1.0min
+[Parallel(n_jobs=20)]: Done 400 out of 400 | elapsed:  1.8min finished
+[Parallel(n_jobs=20)]: Done 160 tasks      | elapsed:  1.0min
+[Parallel(n_jobs=20)]: Done 160 tasks      | elapsed:  1.1min
+[Parallel(n_jobs=20)]: Done 160 tasks      | elapsed:   58.3s
+[Parallel(n_jobs=20)]: Done 160 tasks      | elapsed:  1.1min
+[Parallel(n_jobs=20)]: Done 160 tasks      | elapsed:  1.1min
+[Parallel(n_jobs=20)]: Done 160 tasks      | elapsed:  1.1min
+[Parallel(n_jobs=20)]: Done 160 tasks      | elapsed:   59.4s
+[Parallel(n_jobs=20)]: Done 400 out of 400 | elapsed:  1.9min finished
+[Parallel(n_jobs=20)]: Using backend ThreadingBackend with 20 concurrent workers.
+[Parallel(n_jobs=20)]: Done 160 tasks      | elapsed:  1.0min
+[Parallel(n_jobs=20)]: Done  10 tasks      | elapsed:    8.1s
+[Parallel(n_jobs=20)]: Using backend ThreadingBackend with 20 concurrent workers.
+[Parallel(n_jobs=20)]: Done 400 out of 400 | elapsed:  2.1min finished
+[Parallel(n_jobs=20)]: Done  10 tasks      | elapsed:    6.6s
+[Parallel(n_jobs=20)]: Done 400 out of 400 | elapsed:  2.3min finished
+[Parallel(n_jobs=20)]: Done 400 out of 400 | elapsed:  2.3min finished
+[Parallel(n_jobs=20)]: Done 400 out of 400 | elapsed:  2.4min finished
+[Parallel(n_jobs=20)]: Done 400 out of 400 | elapsed:  2.4min finished
+[Parallel(n_jobs=20)]: Done 400 out of 400 | elapsed:  2.4min finished
+[Parallel(n_jobs=20)]: Done 400 out of 400 | elapsed:  2.5min finished
+[Parallel(n_jobs=20)]: Done 400 out of 400 | elapsed:  2.5min finished
+[Parallel(n_jobs=20)]: Done 400 out of 400 | elapsed:  2.4min finished
+[Parallel(n_jobs=20)]: Done 400 out of 400 | elapsed:  2.4min finished
+[Parallel(n_jobs=20)]: Using backend ThreadingBackend with 20 concurrent workers.
+[Parallel(n_jobs=20)]: Done 400 out of 400 | elapsed:  2.4min finished
+[Parallel(n_jobs=20)]: Done  10 tasks      | elapsed:    4.5s
+[Parallel(n_jobs=20)]: Done 400 out of 400 | elapsed:  2.3min finished
+[Parallel(n_jobs=20)]: Using backend ThreadingBackend with 20 concurrent workers.
+[Parallel(n_jobs=20)]: Done 400 out of 400 | elapsed:  2.4min finished
+[Parallel(n_jobs=20)]: Done 400 out of 400 | elapsed:  2.3min finished
+[Parallel(n_jobs=20)]: Done 400 out of 400 | elapsed:  2.4min finished
+[Parallel(n_jobs=20)]: Done 160 tasks      | elapsed:   51.5s
+[Parallel(n_jobs=20)]: Done 400 out of 400 | elapsed:  2.4min finished
+[Parallel(n_jobs=20)]: Done 160 tasks      | elapsed:   42.1s
+[Parallel(n_jobs=20)]: Done  10 tasks      | elapsed:    3.4s
+[Parallel(n_jobs=20)]: Done 400 out of 400 | elapsed:  2.2min finished
+[Parallel(n_jobs=20)]: Using backend ThreadingBackend with 20 concurrent workers.
+[Parallel(n_jobs=20)]: Using backend ThreadingBackend with 20 concurrent workers.
+[Parallel(n_jobs=20)]: Using backend ThreadingBackend with 20 concurrent workers.
+[Parallel(n_jobs=20)]: Done  10 tasks      | elapsed:    3.9s
+[Parallel(n_jobs=20)]: Done  10 tasks      | elapsed:    4.0s
+[Parallel(n_jobs=20)]: Done 400 out of 400 | elapsed:  2.0min finished
+[Parallel(n_jobs=20)]: Using backend ThreadingBackend with 20 concurrent workers.
+[Parallel(n_jobs=20)]: Using backend ThreadingBackend with 20 concurrent workers.
+[Parallel(n_jobs=20)]: Done  10 tasks      | elapsed:    4.7s
+[Parallel(n_jobs=20)]: Using backend ThreadingBackend with 20 concurrent workers.
+[Parallel(n_jobs=20)]: Using backend ThreadingBackend with 20 concurrent workers.
+[Parallel(n_jobs=20)]: Done  10 tasks      | elapsed:    4.3s
+[Parallel(n_jobs=20)]: Done  10 tasks      | elapsed:    5.3s
+[Parallel(n_jobs=20)]: Using backend ThreadingBackend with 20 concurrent workers.
+[Parallel(n_jobs=20)]: Done 160 tasks      | elapsed:   25.6s
+[Parallel(n_jobs=20)]: Done  10 tasks      | elapsed:    2.6s
+[Parallel(n_jobs=20)]: Done  10 tasks      | elapsed:    5.1s
+[Parallel(n_jobs=20)]: Using backend ThreadingBackend with 20 concurrent workers.
+[Parallel(n_jobs=20)]: Done  10 tasks      | elapsed:    4.2s
+[Parallel(n_jobs=20)]: Using backend ThreadingBackend with 20 concurrent workers.
+[Parallel(n_jobs=20)]: Using backend ThreadingBackend with 20 concurrent workers.
+[Parallel(n_jobs=20)]: Done  10 tasks      | elapsed:    6.7s
+[Parallel(n_jobs=20)]: Using backend ThreadingBackend with 20 concurrent workers.
+[Parallel(n_jobs=20)]: Done  10 tasks      | elapsed:    7.1s
+[Parallel(n_jobs=20)]: Done  10 tasks      | elapsed:    7.9s
+[Parallel(n_jobs=20)]: Done  10 tasks      | elapsed:    4.3s
+[Parallel(n_jobs=20)]: Done 160 tasks      | elapsed:   34.0s
+[Parallel(n_jobs=20)]: Using backend ThreadingBackend with 20 concurrent workers.
+[Parallel(n_jobs=20)]: Using backend ThreadingBackend with 20 concurrent workers.
+[Parallel(n_jobs=20)]: Using backend ThreadingBackend with 20 concurrent workers.
+[Parallel(n_jobs=20)]: Done  10 tasks      | elapsed:    5.7s
+[Parallel(n_jobs=20)]: Done  10 tasks      | elapsed:    9.9s
+[Parallel(n_jobs=20)]: Done 160 tasks      | elapsed:   43.5s
+[Parallel(n_jobs=20)]: Done  10 tasks      | elapsed:    9.2s
+[Parallel(n_jobs=20)]: Done 160 tasks      | elapsed:   48.2s
+[Parallel(n_jobs=20)]: Done 160 tasks      | elapsed:   50.6s
+[Parallel(n_jobs=20)]: Done 160 tasks      | elapsed:   54.1s
+[Parallel(n_jobs=20)]: Done 400 out of 400 | elapsed:  1.8min finished
+[Parallel(n_jobs=20)]: Using backend ThreadingBackend with 20 concurrent workers.
+[Parallel(n_jobs=20)]: Done 400 out of 400 | elapsed:  1.9min finished
+[Parallel(n_jobs=20)]: Done 160 tasks      | elapsed:   55.6s
+[Parallel(n_jobs=20)]: Done 160 tasks      | elapsed:   52.8s
+[Parallel(n_jobs=20)]: Done 160 tasks      | elapsed:   56.3s
+[Parallel(n_jobs=20)]: Done  10 tasks      | elapsed:    8.3s
+[Parallel(n_jobs=20)]: Done 160 tasks      | elapsed:  1.0min
+[Parallel(n_jobs=20)]: Done 160 tasks      | elapsed:  1.0min
+[Parallel(n_jobs=20)]: Done 160 tasks      | elapsed:   58.4s
+[Parallel(n_jobs=20)]: Done 160 tasks      | elapsed:   55.1s
+[Parallel(n_jobs=20)]: Done 160 tasks      | elapsed:  1.0min
+[Parallel(n_jobs=20)]: Done 160 tasks      | elapsed:  1.0min
+[Parallel(n_jobs=20)]: Done 160 tasks      | elapsed:   59.0s
+[Parallel(n_jobs=20)]: Done 160 tasks      | elapsed:  1.1min
+[Parallel(n_jobs=20)]: Done 400 out of 400 | elapsed:  1.8min finished
+[Parallel(n_jobs=20)]: Done 400 out of 400 | elapsed:  2.1min finished
+[Parallel(n_jobs=20)]: Done 160 tasks      | elapsed:  1.0min
+[Parallel(n_jobs=20)]: Done 400 out of 400 | elapsed:  2.2min finished
+[Parallel(n_jobs=20)]: Done 400 out of 400 | elapsed:  2.2min finished
+[Parallel(n_jobs=20)]: Using backend ThreadingBackend with 20 concurrent workers.
+[Parallel(n_jobs=20)]: Done 400 out of 400 | elapsed:  2.1min finished
+[Parallel(n_jobs=20)]: Done  10 tasks      | elapsed:    4.9s
+[Parallel(n_jobs=20)]: Done 400 out of 400 | elapsed:  2.3min finished
+[Parallel(n_jobs=20)]: Done 400 out of 400 | elapsed:  2.3min finished
+[Parallel(n_jobs=20)]: Done 400 out of 400 | elapsed:  2.2min finished
+[Parallel(n_jobs=20)]: Done 400 out of 400 | elapsed:  2.3min finished
+[Parallel(n_jobs=20)]: Done 400 out of 400 | elapsed:  2.2min finished
+[Parallel(n_jobs=20)]: Done 400 out of 400 | elapsed:  2.1min finished
+[Parallel(n_jobs=20)]: Done 400 out of 400 | elapsed:  2.2min finished
+[Parallel(n_jobs=20)]: Done 400 out of 400 | elapsed:  2.2min finished
+[Parallel(n_jobs=20)]: Done 400 out of 400 | elapsed:  2.2min finished
+[Parallel(n_jobs=20)]: Done 400 out of 400 | elapsed:  2.0min finished
+[Parallel(n_jobs=20)]: Done 400 out of 400 | elapsed:  2.0min finished
+[Parallel(n_jobs=20)]: Done 400 out of 400 | elapsed:  2.0min finished
+[Parallel(n_jobs=20)]: Done 160 tasks      | elapsed:   23.5s
+[Parallel(n_jobs=20)]: Done 400 out of 400 | elapsed:  1.6min finished
+[Parallel(n_jobs=20)]: Done 400 out of 400 | elapsed:   29.1s finished
+[Parallel(n_jobs=20)]: Using backend ThreadingBackend with 20 concurrent workers.
+[Parallel(n_jobs=20)]: Done  10 tasks      | elapsed:    0.4s
+[Parallel(n_jobs=20)]: Done 160 tasks      | elapsed:    3.3s
+[Parallel(n_jobs=20)]: Done 400 out of 400 | elapsed:    8.0s finished
+[Parallel(n_jobs=20)]: Using backend ThreadingBackend with 20 concurrent workers.
+[Parallel(n_jobs=20)]: Done  10 tasks      | elapsed:    0.4s
+[Parallel(n_jobs=20)]: Done 160 tasks      | elapsed:    3.3s
+[Parallel(n_jobs=20)]: Done 400 out of 400 | elapsed:    8.0s finished
+[Parallel(n_jobs=20)]: Using backend ThreadingBackend with 20 concurrent workers.
+[Parallel(n_jobs=20)]: Done  10 tasks      | elapsed:    0.4s
+[Parallel(n_jobs=20)]: Done 160 tasks      | elapsed:    3.3s
+[Parallel(n_jobs=20)]: Done 400 out of 400 | elapsed:    8.0s finished
+[Parallel(n_jobs=20)]: Using backend ThreadingBackend with 20 concurrent workers.
+[Parallel(n_jobs=20)]: Done  10 tasks      | elapsed:    0.4s
+[Parallel(n_jobs=20)]: Done 160 tasks      | elapsed:    3.3s
+[Parallel(n_jobs=20)]: Done 400 out of 400 | elapsed:    8.1s finished
+MIN3_test                3.329221e-02
+BN_MCE_test              2.147586e-02
+min_n_500+               9.903121e-03
+BN_SCE_test              9.479565e-03
+min_n_0_50               4.750569e-03
+BN_GPH_test              1.782207e-03
+WLg_TaroneWare_test      1.488874e-03
+logrank_test             1.336432e-03
+min_n_50_100             9.958591e-04
+WLg_Prentice_test        9.819338e-04
+min_n_100_500            8.157698e-04
+WLg_PetoPrentice_test    7.978082e-04
+MAX_Value_test           6.288833e-04
+WKM_test                 5.761364e-04
+Gehan_test               5.217598e-04
+Peto_test                3.853287e-04
+Q_test                   2.840318e-04
+cens_rate_high           5.097729e-06
+cens_rate_zero           3.465088e-06
+cens_rate_mid            2.026389e-09
+cens_rate_low           -1.604299e-07
+dtype: float64
+========================================
+SKLEARN_LogReg НЕ НАЙДЕНА. Начинается процесс обучения модели...
+n: 13630680, part(y=1): 50.0
+n: 7435800, part(y=1): 50.0
+n: 3719520, part(y=1): 50.0
+100%|██████████| 13/13 [00:34<00:00,  2.69s/it]
+100%|██████████| 13/13 [00:18<00:00,  1.40s/it]
+100%|██████████| 13/13 [00:09<00:00,  1.43it/s]
+model_name:  SKLEARN_LogReg
+	 metric: 0.6333397885903332 	 best_metric: 0.6333397885903332
+	 metric: 0.6333362919927916 	 best_metric: 0.6333397885903332
+	 metric: 0.633344764517604 	 best_metric: 0.633344764517604
+	 metric: 0.6333213642109793 	 best_metric: 0.633344764517604
+	 metric: 0.6333362919927916 	 best_metric: 0.633344764517604
+	 metric: 0.6333362919927916 	 best_metric: 0.633344764517604
+	 metric: 0.6333292987977084 	 best_metric: 0.633344764517604
+	 metric: 0.6333397885903332 	 best_metric: 0.633344764517604
+	 metric: 0.6333397885903332 	 best_metric: 0.633344764517604
+	 metric: 0.6333435541569166 	 best_metric: 0.633344764517604
+None
+-------- TRAIN --------
+TP: 4379765, FP: 2565405
+FN: 2435575, TN: 4249935
+-------- VAL --------
+TP: 2388518, FP: 1396993
+FN: 1329382, TN: 2320907
+-------- TEST --------
+TP: 1194264, FP: 699753
+FN: 665496, TN: 1160007
+                            TRAIN                 VAL                TEST
+Accuracy       0.6331 ± 0.0002872  0.6333 ± 0.0005208   0.633 ± 0.0006848
+Precision      0.6306 ± 0.0003192   0.631 ± 0.0005424  0.6305 ± 0.0007412
+Recall         0.6426 ± 0.0004609  0.6424 ± 0.0005924   0.6422 ± 0.000564
+ROC_AUC        0.6864 ± 0.0001231  0.6866 ± 0.0005641   0.686 ± 0.0009595
+Avg_Precision  0.6947 ± 0.0002337   0.695 ± 0.0006999   0.6945 ± 0.001175
+Sensitivity    0.6426 ± 0.0004609  0.6424 ± 0.0005924   0.6422 ± 0.000564
+Specificity    0.6236 ± 0.0005478  0.6243 ± 0.0007215  0.6237 ± 0.0009987
+FN_part        0.8213 ± 0.0002304  0.8212 ± 0.0002962   0.8211 ± 0.000282
+-------- permutation_importance --------
+Gehan_test               0.213631
+BN_SCE_test              0.212393
+BN_MCE_test              0.155882
+WKM_test                 0.082154
+BN_GPH_test              0.044206
+MAX_Value_test           0.025789
+Peto_test                0.015859
+WLg_Prentice_test        0.012872
+MIN3_test                0.010193
+WLg_TaroneWare_test      0.010148
+cens_rate_high           0.006772
+Q_test                   0.005295
+min_n_100_500            0.004165
+cens_rate_mid            0.003982
+WLg_PetoPrentice_test    0.002073
+cens_rate_low            0.001134
+min_n_50_100             0.000823
+logrank_test             0.000814
+cens_rate_zero           0.000441
+min_n_0_50              -0.000785
+min_n_500+              -0.004176
+dtype: float64
+========================================
+SKLEARN_GB НЕ НАЙДЕНА. Начинается процесс обучения модели...
+n: 13630680, part(y=1): 50.0
+n: 7435800, part(y=1): 50.0
+n: 3719520, part(y=1): 50.0
+100%|██████████| 13/13 [00:34<00:00,  2.68s/it]
+100%|██████████| 13/13 [00:18<00:00,  1.45s/it]
+100%|██████████| 13/13 [00:09<00:00,  1.42it/s]
+model_name:  SKLEARN_GB
+      Iter       Train Loss   Remaining Time 
+         1           1.3863            2.96m
+         2           1.3863            2.58m
+         3           1.3863            2.35m
+         4           1.3863            2.27m
+         5           1.3863            2.08m
+         6           1.3863            1.96m
+         7           1.3863            1.86m
+         8           1.3863            1.76m
+         9           1.3863            1.61m
+        10           1.3863            1.46m
+        20           1.3863            0.00s
+	 metric: 0.5 	 best_metric: 0.5
+      Iter       Train Loss   Remaining Time 
+         1           1.3679          126.17m
+         2           1.3515          111.25m
+         3           1.3356          107.35m
+         4           1.3241          110.67m
+         5           1.3163          107.13m
+         6           1.3028          110.56m
+         7           1.2936          111.26m
+         8           1.2862          111.77m
+         9           1.2788          111.33m
+        10           1.2706          112.24m
+        20           1.2325          106.99m
+        30           1.2211          105.07m
+        40           1.2154          103.47m
+        50           1.2126          101.12m
+        60           1.2108           99.18m
+        70           1.2096           97.10m
+        80           1.2096           94.10m
+        90           1.2096           91.30m
+       100           1.2090           89.30m
+       200           1.2083           66.35m
+       300           1.2080           43.79m
+       400           1.2080           21.87m
+       500           1.2077            0.00s
+	 metric: 0.6456340945157213 	 best_metric: 0.6456340945157213
+      Iter       Train Loss   Remaining Time 
+         1           1.0000           14.38m
+         2           1.0000           12.95m
+         3           1.0000           12.61m
+         4           1.0000           12.46m
+         5           1.0000           12.01m
+         6           1.0000           12.14m
+         7           1.0000           12.09m
+         8           1.0000           12.03m
+         9           1.0000           11.79m
+        10           1.0000           11.47m
+        20           1.0000            8.56m
+        30           1.0000            5.77m
+        40           1.0000            2.88m
+        50           1.0000            0.00s
+	 metric: 0.5 	 best_metric: 0.6456340945157213
+      Iter       Train Loss   Remaining Time 
+         1           1.3845            5.66m
+         2           1.3823            4.93m
+         3           1.3799            4.63m
+         4           1.3776            4.40m
+         5           1.3760            4.07m
+         6           1.3736            3.92m
+         7           1.3713            3.71m
+         8           1.3694            3.49m
+         9           1.3673            3.21m
+        10           1.3654            2.91m
+        20           1.3471            0.00s
+	 metric: 0.6396871890045456 	 best_metric: 0.6456340945157213
+      Iter       Train Loss   Remaining Time 
+         1           1.3863           30.93m
+         2           1.3863           28.35m
+         3           1.3863           27.16m
+         4           1.3863           27.75m
+         5           1.3863           27.04m
+         6           1.3863           27.12m
+         7           1.3863           27.61m
+         8           1.3863           28.15m
+         9           1.3863           27.95m
+        10           1.3863           27.79m
+        20           1.3863           26.17m
+        30           1.3863           24.48m
+        40           1.3863           23.03m
+        50           1.3863           21.68m
+        60           1.3863           20.41m
+        70           1.3863           18.80m
+        80           1.3863           17.40m
+        90           1.3863           15.79m
+       100           1.3863           14.39m
+       200           1.3863            0.00s
+	 metric: 0.5 	 best_metric: 0.6456340945157213
+      Iter       Train Loss   Remaining Time 
+         1           1.3592          311.11m
+         2           1.3386          295.00m
+         3           1.3194          290.29m
+         4           1.3046          295.31m
+         5           1.2912          288.16m
+         6           1.2797          286.60m
+         7           1.2692          285.22m
+         8           1.2608          286.24m
+         9           1.2531          284.60m
+        10           1.2472          284.48m
+        20           1.2180          275.17m
+        30           1.2111          268.16m
+        40           1.2095          262.65m
+        50           1.2079          256.12m
+        60           1.2070          251.15m
+        70           1.2070          246.39m
+        80           1.2070          240.43m
+        90           1.2070          233.75m
+       100           1.2070          229.23m
+       200           1.2068          171.68m
+       300           1.2068          113.60m
+       400           1.2064           56.66m
+       500           1.2064            0.00s
+	 metric: 0.6467743887678529 	 best_metric: 0.6467743887678529
+      Iter       Train Loss   Remaining Time 
+         1           1.0000           30.55m
+         2           1.0000           28.32m
+         3           1.0000           27.20m
+         4           1.0000           26.58m
+         5           1.0000           25.88m
+         6           1.0000           25.12m
+         7           1.0000           24.36m
+         8           1.0000           24.15m
+         9           1.0000           23.47m
+        10           1.0000           22.72m
+        20           1.0000           16.86m
+        30           1.0000           11.29m
+        40           1.0000            5.65m
+        50           1.0000            0.00s
+	 metric: 0.5 	 best_metric: 0.6467743887678529
+      Iter       Train Loss   Remaining Time 
+         1           1.3842           14.76m
+         2           1.3820           13.27m
+         3           1.3793           12.93m
+         4           1.3768           12.78m
+         5           1.3748           12.31m
+         6           1.3723           12.43m
+         7           1.3699           12.37m
+         8           1.3677           12.31m
+         9           1.3654           12.07m
+        10           1.3634           11.75m
+        20           1.3439            8.81m
+        30           1.3269            5.93m
+        40           1.3131            2.97m
+        50           1.3009            0.00s
+	 metric: 0.643172220877377 	 best_metric: 0.6467743887678529
+      Iter       Train Loss   Remaining Time 
+         1           0.9999           12.15m
+         2           0.9998           10.75m
+         3           0.9997            9.87m
+         4           0.9996            9.35m
+         5           0.9995            8.74m
+         6           0.9994            8.06m
+         7           0.9993            7.47m
+         8           0.9992            6.94m
+         9           0.9991            6.32m
+        10           0.9990            5.77m
+        20           0.9980            0.00s
+	 metric: 0.6382175421608973 	 best_metric: 0.6467743887678529
+      Iter       Train Loss   Remaining Time 
+         1           1.0000           44.80m
+         2           1.0000           40.06m
+         3           1.0000           41.01m
+         4           1.0000           40.32m
+         5           1.0000           38.80m
+         6           1.0000           38.65m
+         7           1.0000           38.97m
+         8           1.0000           38.23m
+         9           1.0000           37.62m
+        10           1.0000           37.62m
+        20           1.0000           33.44m
+        30           1.0000           29.52m
+        40           1.0000           25.40m
+        50           1.0000           21.15m
+        60           1.0000           16.93m
+        70           1.0000           12.76m
+        80           1.0000            8.52m
+        90           1.0000            4.26m
+       100           1.0000            0.00s
+	 metric: 0.5 	 best_metric: 0.6467743887678529
+-------- feature_importance --------
+BN_MCE_test              0.293182
+MIN3_test                0.178054
+BN_GPH_test              0.154984
+BN_SCE_test              0.122001
+min_n_500+               0.092283
+Q_test                   0.043473
+min_n_0_50               0.037100
+Gehan_test               0.012659
+Peto_test                0.010306
+logrank_test             0.009381
+WLg_TaroneWare_test      0.008690
+min_n_100_500            0.008466
+min_n_50_100             0.007798
+WLg_PetoPrentice_test    0.006415
+WKM_test                 0.006002
+WLg_Prentice_test        0.005193
+MAX_Value_test           0.004013
+cens_rate_high           0.000000
+cens_rate_mid            0.000000
+cens_rate_low            0.000000
+cens_rate_zero           0.000000
+dtype: float64
+-------- TRAIN --------
+TP: 3555774, FP: 1553659
+FN: 3259566, TN: 5261681
+-------- VAL --------
+TP: 1938255, FP: 846870
+FN: 1779645, TN: 2871030
+-------- TEST --------
+TP: 969053, FP: 424282
+FN: 890707, TN: 1435478
+                            TRAIN                 VAL                TEST
+Accuracy       0.6469 ± 0.0002578  0.6468 ± 0.0006091  0.6465 ± 0.0007922
+Precision      0.6959 ± 0.0003266  0.6959 ± 0.0008221  0.6955 ± 0.0009874
+Recall         0.5217 ± 0.0004271  0.5213 ± 0.0006697  0.5211 ± 0.0009736
+ROC_AUC        0.7156 ± 0.0001288  0.7155 ± 0.0005062  0.7153 ± 0.0006652
+Avg_Precision  0.7424 ± 0.0001752  0.7423 ± 0.0006285  0.7423 ± 0.0006941
+Sensitivity    0.5217 ± 0.0004271  0.5213 ± 0.0006697  0.5211 ± 0.0009736
+Specificity      0.772 ± 0.000305  0.7722 ± 0.0006592  0.7719 ± 0.0006863
+FN_part        0.7609 ± 0.0002136  0.7607 ± 0.0003349  0.7605 ± 0.0004868
+-------- permutation_importance --------
+BN_MCE_test              0.035884
+MIN3_test                0.025509
+BN_SCE_test              0.016360
+min_n_500+               0.010893
+min_n_0_50               0.004371
+BN_GPH_test              0.002973
+logrank_test             0.001533
+WLg_PetoPrentice_test    0.001312
+min_n_50_100             0.000807
+WLg_Prentice_test        0.000728
+min_n_100_500            0.000526
+WLg_TaroneWare_test      0.000514
+Q_test                   0.000440
+Gehan_test               0.000258
+MAX_Value_test           0.000239
+WKM_test                 0.000153
+Peto_test                0.000043
+cens_rate_high           0.000000
+cens_rate_mid            0.000000
+cens_rate_low            0.000000
+cens_rate_zero           0.000000
+dtype: float64
+
+Process finished with exit code 0
+
