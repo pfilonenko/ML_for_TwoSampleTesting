@@ -1,1 +1,2 @@
-boost/
+Initially this project has been proposed in Microsoft Visual Studio 12.
+To run the project, you have to apply "boost"-library (https://www.boost.org/).
