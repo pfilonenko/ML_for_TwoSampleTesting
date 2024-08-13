@@ -1,4 +1,4 @@
-This folder contains an example of resulting dataset. 
+This folder contains an example of resulting dataset. Full version of this dataset can be downloaded at the Hugging Face (pfilonenko/ML_for_TwoSampleTesting/).
 
 Such a dataset contains following fields:
 - iter: number of the Monte Carlo replication;	
