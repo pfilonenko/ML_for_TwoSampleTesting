@@ -1,5 +1,6 @@
-This folder contains an example of resulting dataset. The dataset contains following fields:
-- iter: the number of the Monte Carlo replication;	
+This folder contains an example of resulting dataset. 
+Such a dataset contains following fields:
+- iter: number of the Monte Carlo replication;	
 - H0_H1: which hypothesis is true (H0 or H1)
 - Hi: alternative hipothesis (H01-H09, H11-H19 or H21-H29)
 - n1: size of the sample 1;
@@ -7,19 +8,20 @@ This folder contains an example of resulting dataset. The dataset contains follo
 - perc: set the censoring rate for simulation;  
 - real_perc1: actual censoring rate in sample 1;
 - real_perc2: actual censoring rate in sample 2;
-- Peto_test	
-- Gehan_test	
-- logrank_test	
-- CoxMantel_test	
-- BN_GPH_test	
-- BN_MCE_test	
-- BN_SCE_test	
-- Q_test	
-- MAX_Value_test	
-- MIN3_test	
-- WLg_logrank_test	
-- WLg_TaroneWare_test	
-- WLg_Breslow_test	
-- WLg_PetoPrentice_test	
-- WLg_Prentice_test	
-- WKM_test
+
+- Peto_test: value of two-sample test statistic;
+- Gehan_test: value of two-sample test statistic;
+- logrank_test: value of two-sample test statistic;
+- CoxMantel_test: value of two-sample test statistic;
+- BN_GPH_test: value of two-sample test statistic;
+- BN_MCE_test: value of two-sample test statistic;
+- BN_SCE_test: value of two-sample test statistic;
+- Q_test: value of two-sample test statistic;
+- MAX_Value_test: value of two-sample test statistic;
+- MIN3_test: value of two-sample test statistic;
+- WLg_logrank_test: value of two-sample test statistic;
+- WLg_TaroneWare_test: value of two-sample test statistic;
+- WLg_Breslow_test: value of two-sample test statistic;
+- WLg_PetoPrentice_test: value of two-sample test statistic;
+- WLg_Prentice_test: value of two-sample test statistic;
+- WKM_test: value of two-sample test statistic.
