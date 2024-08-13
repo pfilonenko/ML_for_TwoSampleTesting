@@ -1,0 +1,20 @@
+# PATH TO SAVE RESULTS
+model_name:             'LightAutoML'
+model_dir:              '../models/LightAutoML/'
+plot_dir:               '../plots/LightAutoML/'
+report_dir:             '../reports/LightAutoML/'
+seed:                   100
+n_cores:                20
+
+# TRAIN DATA READING
+path_train_data:        '../data/2_samples/sample_train.tsv.gz'
+nrows:                  1000000000
+validate_size:          0.30
+test_size:              0.15
+kFolds:                 5
+confidence:             0.95
+
+# TRAIN PARAMETERS
+timeout:                3000 # sec
+memory_limit:           60   # GB
+verbose:                3

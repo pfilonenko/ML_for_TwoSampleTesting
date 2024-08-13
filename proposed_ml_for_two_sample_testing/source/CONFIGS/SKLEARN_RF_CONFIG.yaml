@@ -1,0 +1,27 @@
+# PATH TO SAVE RESULTS
+model_name:             'SKLEARN_RF'
+model_dir:              '../models/SKLEARN_RF/'
+plot_dir:               '../plots/SKLEARN_RF/'
+report_dir:             '../reports/SKLEARN_RF/'
+
+seed:                   100
+n_cores:                20
+
+# TRAIN DATA READING
+path_train_data:        '../data/2_samples/sample_train.tsv.gz'
+nrows:                  1000000000
+validate_size:          0.30
+test_size:              0.15
+kFolds:                 5
+confidence:             0.95
+
+# TRAIN PARAMETERS
+n_estimators:           [50, 100, 200, 400]
+max_depth:              [2, 3, 4, 6, 8]
+min_samples_split:      [2, 3, 4, 10, 100]
+min_samples_leaf:       [1, 2, 10, 100]
+max_features:           ['sqrt', 'log2', 'auto']
+bootstrap:              [True, False]
+verbose:                1
+ccp_alpha:              [0.0, 0.0001, 0.001, 0.01, 0.1, 1.0, 10.]
+optuna_n_trials:        10

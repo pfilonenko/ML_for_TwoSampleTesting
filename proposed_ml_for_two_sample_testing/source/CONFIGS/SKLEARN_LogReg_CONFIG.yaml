@@ -1,0 +1,27 @@
+# PATH TO SAVE RESULTS
+model_name:             'SKLEARN_LogReg'
+model_dir:              '../models/SKLEARN_LogReg/'
+plot_dir:               '../plots/SKLEARN_LogReg/'
+report_dir:             '../reports/SKLEARN_LogReg/'
+
+seed:                   100
+n_cores:                20
+
+# TRAIN DATA READING
+path_train_data:        '../data/2_samples/sample_train.tsv.gz'
+nrows:                  1000000000
+validate_size:          0.30
+test_size:              0.15
+kFolds:                 5
+confidence:             0.95
+
+# TRAIN PARAMETERS
+penalty:                ['l2', 'none']
+dual:                   [False]
+tol:                    [1.0e-8, 1.0e-7, 1.0e-6, 1.0e-5, 1.0e-4, 1.0e-3, 1.0e-2, 1.0e-1, 1.0e-0]
+C:                      [1.0e-4, 1.0e-3, 1.0e-2, 1.0e-1, 1.0e-0, 1.0e+1, 1.0e+2]
+fit_intercept:          [True, False]
+solver:                 'lbfgs' # {‘lbfgs’, ‘liblinear’, ‘newton-cg’, ‘newton-cholesky’, ‘sag’, ‘saga’}
+max_iter:               1000
+verbose:                0
+optuna_n_trials:        10

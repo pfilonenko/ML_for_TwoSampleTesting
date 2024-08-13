@@ -1,0 +1,24 @@
+# PATH TO SAVE RESULTS
+model_name:             'XGBoost'
+model_dir:              '../models/XGBoost/'
+plot_dir:               '../plots/XGBoost/'
+report_dir:             '../reports/XGBoost/'
+
+seed:                   100
+n_cores:                20
+
+# TRAIN DATA READING
+path_train_data:        '../data/2_samples/sample_train.tsv.gz'
+nrows:                  1000000000
+validate_size:          0.30
+test_size:              0.15
+kFolds:                 5
+confidence:             0.95
+
+# TRAIN PARAMETERS
+n_estimators:             [100, 200, 400, 800, 1600, 2400]
+max_depth:                [2, 3, 4, 6, 8]
+learning_rate:            [0.5, 0.1, 0.01, 0.001, 0.0001]
+objective:                ['binary:logistic']
+verbose:                  2
+optuna_n_trials:          10

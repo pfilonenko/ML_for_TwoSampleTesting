@@ -1,0 +1,29 @@
+# PATH TO SAVE RESULTS
+model_name:             'SKLEARN_GB'
+model_dir:              '../models/SKLEARN_GB/'
+plot_dir:               '../plots/SKLEARN_GB/'
+report_dir:             '../reports/SKLEARN_GB/'
+seed:                   100
+n_cores:                20
+
+# TRAIN DATA READING
+path_train_data:        '../data/2_samples/sample_train.tsv.gz'
+nrows:                  1000000000
+validate_size:          0.30
+test_size:              0.15
+kFolds:                 5
+confidence:             0.95
+
+# TRAIN PARAMETERS
+loss:                   ['log_loss', 'exponential']
+learning_rate:          [0.5, 0.1, 0.01, 0.001, 0.0001]
+n_estimators:           [20, 50, 100, 200, 500]
+criterion:              ['friedman_mse', 'squared_error']
+min_samples_split:      [2, 10, 100]
+min_samples_leaf:       [1, 2, 10, 100]
+max_depth:              [2, 3, 4, 6, 8]
+max_features:           ['log2', 'sqrt']
+tol:                    [1.0e-4, 1.0e-3, 1.0e-2]
+ccp_alpha:              [0.0, 0.0001, 0.001, 0.01, 0.1, 1.0, 10.]
+verbose:                1
+optuna_n_trials:        10

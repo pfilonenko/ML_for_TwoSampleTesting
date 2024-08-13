@@ -1,0 +1,11 @@
+# PATH TO SAVE RESULTS
+plot_dir:               '../plots/GSH0/'
+report_dir:             '../reports/GSH0/'
+
+# PARAMETERS
+n_cores:                1
+seed:                   100
+
+# SIMULATION DATA READING
+path_dataset_with_ML_pred: '../data/3_dataset_with_ML_pred/dataset_with_ML_pred.tsv.gz'
+nrows_simulation:       10000

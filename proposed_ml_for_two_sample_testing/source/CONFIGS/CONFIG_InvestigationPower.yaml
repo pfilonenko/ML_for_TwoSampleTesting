@@ -1,0 +1,15 @@
+# PATH TO SAVE RESULTS
+model_dir:              '../models/SIMULATION/'
+plot_dir:               '../plots/SIMULATION/'
+report_dir:             '../reports/SIMULATION/'
+
+# PARAMETERS
+n_cores:                20
+seed:                   100
+
+# SIMULATION DATA READING
+path_simulation_data:   '../data/2_samples/sample_simulation.tsv.gz'
+path_dataset_with_ML_pred: '../data/3_dataset_with_ML_pred/dataset_with_ML_pred.tsv.gz'
+nrows_simulation:       1000000000
+alpha:                  0.05
+n_chunks:               200
