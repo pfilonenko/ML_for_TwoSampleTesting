@@ -1,1 +1,25 @@
-
+This folder contains an example of resulting dataset. The dataset contains following fields:
+- iter: the number of the Monte Carlo replication;	
+- H0_H1: which hypothesis is true (H0 or H1)
+- Hi: alternative hipothesis (H01-H09, H11-H19 or H21-H29)
+- n1: size of the sample 1;
+- n2: size of the sample 2;
+- perc: set the censoring rate for simulation;  
+- real_perc1: actual censoring rate in sample 1;
+- real_perc2: actual censoring rate in sample 2;
+- Peto_test	
+- Gehan_test	
+- logrank_test	
+- CoxMantel_test	
+- BN_GPH_test	
+- BN_MCE_test	
+- BN_SCE_test	
+- Q_test	
+- MAX_Value_test	
+- MIN3_test	
+- WLg_logrank_test	
+- WLg_TaroneWare_test	
+- WLg_Breslow_test	
+- WLg_PetoPrentice_test	
+- WLg_Prentice_test	
+- WKM_test
