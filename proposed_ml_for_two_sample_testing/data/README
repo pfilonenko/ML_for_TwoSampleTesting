@@ -4,4 +4,4 @@ This folder includes following parts:
 
 "2_samples/" contains splitted samples to train and simulate. In this folder fragments are located. The full data can be downloaded at the Hugging Face (pfilonenko/ML_for_TwoSampleTesting/).
 
-"3_dataset_with_ML_pred/" contains a test sample including test statistics of the proposed two-sample methods.
+"3_dataset_with_ML_pred/" contains a test sample including test statistics of the proposed two-sample methods. In this folder a fragment is located. The full data can be downloaded at the Hugging Face (pfilonenko/ML_for_TwoSampleTesting/).
