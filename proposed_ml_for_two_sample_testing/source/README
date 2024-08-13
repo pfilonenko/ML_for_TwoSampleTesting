@@ -1,15 +1,15 @@
 CONFIG-FILES:
-CONFIGS/
+- CONFIGS/
 
 PROPOSED METHODS:
-ML_TwoSample_Method.py
+- ML_TwoSample_Method.py
 
 RESEARCH:
-InvestigationGSH0.py
-InvestigationPower.py
+- InvestigationGSH0.py
+- InvestigationPower.py
 
 ADDITIONAL METHODS:
-ConfidenceInterval.py
-EmpiricalDistributionFunction.py
-KaplanMeierEstimator.py
-Power.py
+- ConfidenceInterval.py
+- EmpiricalDistributionFunction.py
+- KaplanMeierEstimator.py
+- Power.py
