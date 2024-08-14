@@ -9,4 +9,4 @@ This repository includes following parts:
 - **proposed_ml_for_two_sample_testing** contains an executable python-project for the proposed methods. An Inference is implemented.
 - **supplementary_materials** contains results of the test power and percentage points for the proposed methods.
 
-For this reposetory there is corresponding reposetory at the Hugging Face with full version of used datasets (pfilonenko/ML_for_TwoSampleTesting/).
+For this reposetory there is corresponding reposetory at the Hugging Face with full version of used datasets ([pfilonenko/ML_for_TwoSampleTesting/](https://huggingface.co/datasets/pfilonenko/ML_for_TwoSampleTesting)).
