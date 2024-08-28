@@ -13,3 +13,4 @@ ADDITIONAL METHODS:
 - EmpiricalDistributionFunction.py
 - KaplanMeierEstimator.py
 - Power.py
+- TwoSample_Tests.py
