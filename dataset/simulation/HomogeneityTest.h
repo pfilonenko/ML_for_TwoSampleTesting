@@ -36,7 +36,7 @@ class HomogeneityTest :
 
 		virtual string TestType()=0;
 
-		//посчитать значение p-value
+		//ГЇГ®Г±Г·ГЁГІГ ГІГј Г§Г­Г Г·ГҐГ­ГЁГҐ p-value
 		double p_value(Sample &A, Sample &B, int MonteKarloSize = 30000)
 		{
 			double alpha;
@@ -79,7 +79,7 @@ class HT_KolmogorovSmirnovTest : public HomogeneityTest
 			X.SortSample();
 			Y.SortSample();
 
-			//если выборки цензурированные, то считать ничего не будем
+			//ГҐГ±Г«ГЁ ГўГ»ГЎГ®Г°ГЄГЁ Г¶ГҐГ­Г§ГіГ°ГЁГ°Г®ГўГ Г­Г­Г»ГҐ, ГІГ® Г±Г·ГЁГІГ ГІГј Г­ГЁГ·ГҐГЈГ® Г­ГҐ ГЎГіГ¤ГҐГ¬
 			if( X.IsCensored()==true || Y.IsCensored()==true )
 				return 1.0e+100;
 
@@ -154,7 +154,7 @@ class HT_LehmannRosenblatt : public HomogeneityTest
 			A.SortSample();
 			B.SortSample();
 
-			//если выборки цензурированные, то считать ничего не будем
+			//ГҐГ±Г«ГЁ ГўГ»ГЎГ®Г°ГЄГЁ Г¶ГҐГ­Г§ГіГ°ГЁГ°Г®ГўГ Г­Г­Г»ГҐ, ГІГ® Г±Г·ГЁГІГ ГІГј Г­ГЁГ·ГҐГЈГ® Г­ГҐ ГЎГіГ¤ГҐГ¬
 			if( A.IsCensored()==true || B.IsCensored()==true )
 				return 1.0e+100;
 
@@ -175,7 +175,7 @@ class HT_LehmannRosenblatt : public HomogeneityTest
 			return Sn;
 		}
 
-		int SampleSizeA,SampleSizeB;	//размер выборки для моделирования распределения статистики
+		int SampleSizeA,SampleSizeB;	//Г°Г Г§Г¬ГҐГ° ГўГ»ГЎГ®Г°ГЄГЁ Г¤Г«Гї Г¬Г®Г¤ГҐГ«ГЁГ°Г®ГўГ Г­ГЁГї Г°Г Г±ГЇГ°ГҐГ¤ГҐГ«ГҐГ­ГЁГї Г±ГІГ ГІГЁГ±ГІГЁГЄГЁ
 
 	public:
 		HT_LehmannRosenblatt()
@@ -315,7 +315,7 @@ class HT_AndersonDarlingPetitt : public HomogeneityTest
 			return ( _T1/A.N() + _T2/B.N() )/double(N);
 		}
 
-		int SampleSizeA,SampleSizeB;	//размер выборки для моделирования распределения статистики
+		int SampleSizeA,SampleSizeB;	//Г°Г Г§Г¬ГҐГ° ГўГ»ГЎГ®Г°ГЄГЁ Г¤Г«Гї Г¬Г®Г¤ГҐГ«ГЁГ°Г®ГўГ Г­ГЁГї Г°Г Г±ГЇГ°ГҐГ¤ГҐГ«ГҐГ­ГЁГї Г±ГІГ ГІГЁГ±ГІГЁГЄГЁ
 
 	public:
 		HT_AndersonDarlingPetitt()
@@ -330,7 +330,7 @@ class HT_AndersonDarlingPetitt : public HomogeneityTest
 			SampleSizeA = A.N();
 			SampleSizeB = B.N();
 
-			//если выборки цензурированные, то считать ничего не будем
+			//ГҐГ±Г«ГЁ ГўГ»ГЎГ®Г°ГЄГЁ Г¶ГҐГ­Г§ГіГ°ГЁГ°Г®ГўГ Г­Г­Г»ГҐ, ГІГ® Г±Г·ГЁГІГ ГІГј Г­ГЁГ·ГҐГЈГ® Г­ГҐ ГЎГіГ¤ГҐГ¬
 			if( A.IsCensored()==true || B.IsCensored()==true )
 				return 1.0e+100;
 
@@ -396,10 +396,10 @@ class HT_Peto : public HomogeneityTest
 	private:
 		struct Point
 		{
-			double M;	//значение
-			int C;		//флаг цензурировано ли
-			int V;		//принадлежность 1й или 2й выборке (0 или 1)
-			int rang;	//ранг (используется в Гехане)
+			double M;	//Г§Г­Г Г·ГҐГ­ГЁГҐ
+			int C;		//ГґГ«Г ГЈ Г¶ГҐГ­Г§ГіГ°ГЁГ°Г®ГўГ Г­Г® Г«ГЁ
+			int V;		//ГЇГ°ГЁГ­Г Г¤Г«ГҐГ¦Г­Г®Г±ГІГј 1Г© ГЁГ«ГЁ 2Г© ГўГ»ГЎГ®Г°ГЄГҐ (0 ГЁГ«ГЁ 1)
+			int rang;	//Г°Г Г­ГЈ (ГЁГ±ГЇГ®Г«ГјГ§ГіГҐГІГ±Гї Гў ГѓГҐГµГ Г­ГҐ)
 
 			int operator <(Point A)
 			{
@@ -506,10 +506,10 @@ class HT_Gehan : public HomogeneityTest
 	private:
 		struct Point
 		{
-			double M;	//значение
-			int C;		//флаг цензурировано ли
-			int V;		//принадлежность 1й или 2й выборке (0 или 1)
-			int rang;	//ранг (используется в Гехане)
+			double M;	//Г§Г­Г Г·ГҐГ­ГЁГҐ
+			int C;		//ГґГ«Г ГЈ Г¶ГҐГ­Г§ГіГ°ГЁГ°Г®ГўГ Г­Г® Г«ГЁ
+			int V;		//ГЇГ°ГЁГ­Г Г¤Г«ГҐГ¦Г­Г®Г±ГІГј 1Г© ГЁГ«ГЁ 2Г© ГўГ»ГЎГ®Г°ГЄГҐ (0 ГЁГ«ГЁ 1)
+			int rang;	//Г°Г Г­ГЈ (ГЁГ±ГЇГ®Г«ГјГ§ГіГҐГІГ±Гї Гў ГѓГҐГµГ Г­ГҐ)
 
 			int operator <(Point A)
 			{
@@ -680,12 +680,12 @@ class HT_Logrank : public HomogeneityTest
 		struct Point
 		{
 			double T;
-			double C;		//флаг цензурировано ли
+			double C;		//ГґГ«Г ГЈ Г¶ГҐГ­Г§ГіГ°ГЁГ°Г®ГўГ Г­Г® Г«ГЁ
 
-			double M;	//значение
-			double r;		//ранг
+			double M;	//Г§Г­Г Г·ГҐГ­ГЁГҐ
+			double r;		//Г°Г Г­ГЈ
 
-			int V;		//принадлежность 1й или 2й выборке (0 или 1)
+			int V;		//ГЇГ°ГЁГ­Г Г¤Г«ГҐГ¦Г­Г®Г±ГІГј 1Г© ГЁГ«ГЁ 2Г© ГўГ»ГЎГ®Г°ГЄГҐ (0 ГЁГ«ГЁ 1)
 
 			int operator <(Point A)
 			{
@@ -721,9 +721,9 @@ class HT_Logrank : public HomogeneityTest
 
 			double n = n1 + n2;
 			double Lg = 0.0;
-			double summ = 0;	//это будем вычитать на каждой итерации из m_i
-			double sume = 0.0;	//к этому будем плюсовать e(t_i)
-			double last_e = 0.0;//будем сохранять значение, которое назначается цензурированным
+			double summ = 0;	//ГЅГІГ® ГЎГіГ¤ГҐГ¬ ГўГ»Г·ГЁГІГ ГІГј Г­Г  ГЄГ Г¦Г¤Г®Г© ГЁГІГҐГ°Г Г¶ГЁГЁ ГЁГ§ m_i
+			double sume = 0.0;	//ГЄ ГЅГІГ®Г¬Гі ГЎГіГ¤ГҐГ¬ ГЇГ«ГѕГ±Г®ГўГ ГІГј e(t_i)
+			double last_e = 0.0;//ГЎГіГ¤ГҐГ¬ Г±Г®ГµГ°Г Г­ГїГІГј Г§Г­Г Г·ГҐГ­ГЁГҐ, ГЄГ®ГІГ®Г°Г®ГҐ Г­Г Г§Г­Г Г·Г ГҐГІГ±Гї Г¶ГҐГ­Г§ГіГ°ГЁГ°Г®ГўГ Г­Г­Г»Г¬
 			double vars = 0.0;
 			for(int i=0; i<XX.size(); i++)
 			{
@@ -823,9 +823,9 @@ class HT_Logrank : public HomogeneityTest
 class HT_QTest : public HomogeneityTest
 {
 	private:
-		bool KaplanMeyer;	//параметр для выбора оценки функций надежности
+		bool KaplanMeyer;	//ГЇГ Г°Г Г¬ГҐГІГ° Г¤Г«Гї ГўГ»ГЎГ®Г°Г  Г®Г¶ГҐГ­ГЄГЁ ГґГіГ­ГЄГ¶ГЁГ© Г­Г Г¤ГҐГ¦Г­Г®Г±ГІГЁ
 
-		int SampleSizeA,SampleSizeB;	//размер выборки для моделирования распределения статистики
+		int SampleSizeA,SampleSizeB;	//Г°Г Г§Г¬ГҐГ° ГўГ»ГЎГ®Г°ГЄГЁ Г¤Г«Гї Г¬Г®Г¤ГҐГ«ГЁГ°Г®ГўГ Г­ГЁГї Г°Г Г±ГЇГ°ГҐГ¤ГҐГ«ГҐГ­ГЁГї Г±ГІГ ГІГЁГ±ГІГЁГЄГЁ
 
 	public:
 		HT_QTest()
@@ -928,7 +928,7 @@ class HT_MAX : public HomogeneityTest
 {
 	private:
 
-		int SampleSizeA,SampleSizeB;	//размер выборки для моделирования распределения статистики
+		int SampleSizeA,SampleSizeB;	//Г°Г Г§Г¬ГҐГ° ГўГ»ГЎГ®Г°ГЄГЁ Г¤Г«Гї Г¬Г®Г¤ГҐГ«ГЁГ°Г®ГўГ Г­ГЁГї Г°Г Г±ГЇГ°ГҐГ¤ГҐГ«ГҐГ­ГЁГї Г±ГІГ ГІГЁГ±ГІГЁГЄГЁ
 
 		double F0(double x)
 		{
@@ -949,10 +949,10 @@ class HT_MAX : public HomogeneityTest
 			//0.867424	N=1660000 n1=n2=1000
 			//0.866808	N=1660000 n1=n2=2500
 			//0.866578	N=1660000 n1=n2=5000
-			//0.8408450570 потенциальная аналитика
+			//0.8408450570 ГЇГ®ГІГҐГ­Г¶ГЁГ Г«ГјГ­Г Гї Г Г­Г Г«ГЁГІГЁГЄГ 
 
-			//double r = 0.866578;	//коэффициент корреляции!!!
-			double r = sqrt(3.0)/2.0;	//коэффициент корреляции!!!
+			//double r = 0.866578;	//ГЄГ®ГЅГґГґГЁГ¶ГЁГҐГ­ГІ ГЄГ®Г°Г°ГҐГ«ГїГ¶ГЁГЁ!!!
+			double r = sqrt(3.0)/2.0;	//ГЄГ®ГЅГґГґГЁГ¶ГЁГҐГ­ГІ ГЄГ®Г°Г°ГҐГ«ГїГ¶ГЁГЁ!!!
 			if( fabs(r) == 1.0 )
 				return 2.0*phi(x);
 			else
@@ -1066,8 +1066,8 @@ class HT_BagdonaviciusNikulinGeneralizedCox : public HomogeneityTest
 	private:
 		struct MDT_struct
 		{
-			double X;	//значение
-			int V;		//принадлежность к выборке
+			double X;	//Г§Г­Г Г·ГҐГ­ГЁГҐ
+			int V;		//ГЇГ°ГЁГ­Г Г¤Г«ГҐГ¦Г­Г®Г±ГІГј ГЄ ГўГ»ГЎГ®Г°ГЄГҐ
 
 			int operator <(MDT_struct A)
 			{
@@ -1164,7 +1164,7 @@ class HT_BagdonaviciusNikulinGeneralizedCox : public HomogeneityTest
 				E12 -= a1/(y1+y2) * a3 * a4;
 				E22 += a1/(y1+y2) * pow( a3, 2 ) * a4;
 
-				//корректно
+				//ГЄГ®Г°Г°ГҐГЄГІГ­Г®
 				lam1_last = lam1_new;
 				lam2_last = lam2_new;
 
@@ -1239,14 +1239,14 @@ class HT_BagdonaviciusNikulinGeneralizedCox : public HomogeneityTest
 
 class HT_BagdonaviciusNikulinMultiple : public HomogeneityTest
 {
-//ПЕРЕПИСАН ПО СТАТЬЕ 2006 ГОДА!!! Исправлены неточности реализации в критерии BN2
+//ГЏГ…ГђГ…ГЏГ€Г‘ГЂГЌ ГЏГЋ Г‘Г’ГЂГ’ГњГ… 2006 ГѓГЋГ„ГЂ!!! Г€Г±ГЇГ°Г ГўГ«ГҐГ­Г» Г­ГҐГІГ®Г·Г­Г®Г±ГІГЁ Г°ГҐГ Г«ГЁГ§Г Г¶ГЁГЁ Гў ГЄГ°ГЁГІГҐГ°ГЁГЁ BN2
 //For the MCE model U=(U1,U2,U3)
 //The statistic U is one-, two- or three dimensional when it is obtained using the GPH, SCE or MCE model, respectively.
 	private:
 		struct MDT_struct
 		{
-			double X;	//значение
-			int V;		//принадлежность к выборке
+			double X;	//Г§Г­Г Г·ГҐГ­ГЁГҐ
+			int V;		//ГЇГ°ГЁГ­Г Г¤Г«ГҐГ¦Г­Г®Г±ГІГј ГЄ ГўГ»ГЎГ®Г°ГЄГҐ
 
 			int operator <(MDT_struct A)
 			{
@@ -1343,7 +1343,7 @@ class HT_BagdonaviciusNikulinMultiple : public HomogeneityTest
 				E23 += a1/(y1+y2) * pow( a3, 3 ) * a4;
 				E33 += a1/(y1+y2) * pow( a3, 4 ) * a4;
 
-				//корректно
+				//ГЄГ®Г°Г°ГҐГЄГІГ­Г®
 				lam1_last = lam1_new;
 				lam2_last = lam2_new;
 
@@ -1423,9 +1423,9 @@ class HT_BagdonaviciusNikulinSingle : public HomogeneityTest
 	private:
 		struct MDT_struct
 		{
-			double X;	//значение
+			double X;	//Г§Г­Г Г·ГҐГ­ГЁГҐ
 			int C;
-			int V;		//принадлежность к выборке
+			int V;		//ГЇГ°ГЁГ­Г Г¤Г«ГҐГ¦Г­Г®Г±ГІГј ГЄ ГўГ»ГЎГ®Г°ГЄГҐ
 
 			int operator <(MDT_struct A)
 			{
@@ -1476,7 +1476,7 @@ class HT_BagdonaviciusNikulinSingle : public HomogeneityTest
 
 		double K(int num, double expL, int n)
 		{
-			if( num==1 )						//закомментированное дает BN1
+			if( num==1 )						//Г§Г ГЄГ®Г¬Г¬ГҐГ­ГІГЁГ°Г®ГўГ Г­Г­Г®ГҐ Г¤Г ГҐГІ BN1
 				return expL/sqrt( double(n) );
 				//return 1.0/sqrt( double(n) );
 			else
@@ -1530,7 +1530,7 @@ class HT_BagdonaviciusNikulinSingle : public HomogeneityTest
 				E12 += ( 1.0-XX[i].C )*K1*K2*a1/(y1+y2);
 				E22 += ( 1.0-XX[i].C )*K2*K2*a1/(y1+y2);
 
-				//корректно
+				//ГЄГ®Г°Г°ГҐГЄГІГ­Г®
 				lam1_last = lam1_new;
 				lam2_last = lam2_new;
 
@@ -1609,20 +1609,20 @@ class HT_WeightedLogrank : public HomogeneityTest
 {
 //nonparametric_tests_for_censored_data_vilijandas_bagdonavici, p.80
 	private:
-		int Sel;	//выбор функции К
+		int Sel;	//ГўГ»ГЎГ®Г° ГґГіГ­ГЄГ¶ГЁГЁ ГЉ
 
 		double K(double Y, int n, double Sm)
 		{
 			switch( Sel )
 			{
 				case 1:
-					return 1.0/sqrt( n );				//logrank statistic (Cox, Mantel–Haenszel)
+					return 1.0/sqrt( n );				//logrank statistic (Cox, MantelВ–Haenszel)
 				case 2:
-					return sqrt(Y)/double(n);			//Tarone–Ware statistic
+					return sqrt(Y)/double(n);			//TaroneВ–Ware statistic
 				case 3:
-					return Y/pow( double(n), 3.0/2.0 );	//Breslow statistic (generalization of the Kruskal–Wallis statistic):
+					return Y/pow( double(n), 3.0/2.0 );	//Breslow statistic (generalization of the KruskalВ–Wallis statistic):
 				case 4:
-					return Sm/sqrt( double(n) );		//Peto–Prentice statistic
+					return Sm/sqrt( double(n) );		//PetoВ–Prentice statistic
 				case 5:
 					return Sm*Y/( sqrt(double(n))*(Y+1) );	//Prentice statistic
 			}
@@ -1657,13 +1657,13 @@ class HT_WeightedLogrank : public HomogeneityTest
 			if( strcmp(modification,"Prentice")==0 )
 				Sel = 5;
 			else
-				if( strcmp(modification,"Peto–Prentice")==0 )
+				if( strcmp(modification,"PetoВ–Prentice")==0 )
 					Sel = 4;
 				else
 					if( strcmp(modification,"Breslow")==0 )
 						Sel = 3;
 					else
-						if( strcmp(modification,"Tarone–Ware")==0 )
+						if( strcmp(modification,"TaroneВ–Ware")==0 )
 							Sel = 2;
 						else
 							Sel = 1;	//logrank
@@ -1800,7 +1800,7 @@ class HT_WeightedKaplanMeyer : public HomogeneityTest
 				Sig -= sum*sum*temp;
 			}
 
-			V *= sqrt( (S1.N()*S2.N())/(S1.N()+S2.N()) );
+			V *= sqrt( (1.0*S1.N()*S2.N())/(S1.N()+S2.N()) );
 			Sn = V/sqrt( Sig );
 
 			return Sn;
@@ -1847,7 +1847,7 @@ class HT_WeightedKaplanMeyer : public HomogeneityTest
 			}
 			sort( XX.begin(),XX.end() );
 			
-			//С1 и С2 они уже будут отсортированы
+			//Г‘1 ГЁ Г‘2 Г®Г­ГЁ ГіГ¦ГҐ ГЎГіГ¤ГіГІ Г®ГІГ±Г®Г°ГІГЁГ°Г®ГўГ Г­Г»
 			Sample C1(m1,c1),C2(m2,c2),S(m,c);
 			S.SortSample();
 
@@ -1885,7 +1885,7 @@ class HT_SynthesisTest : public HomogeneityTest
 			a3 = 1.0;
 
 			
-			//Смоделировали предельное распределение
+			//Г‘Г¬Г®Г¤ГҐГ«ГЁГ°Г®ГўГ Г«ГЁ ГЇГ°ГҐГ¤ГҐГ«ГјГ­Г®ГҐ Г°Г Г±ГЇГ°ГҐГ¤ГҐГ«ГҐГ­ГЁГҐ
 			//int N = 30000;
 			/*int N = 5;
 			vector<double> Sn( N );
