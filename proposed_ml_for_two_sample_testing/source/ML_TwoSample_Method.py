@@ -611,7 +611,7 @@ class ML_TwoSample_Method:
         if self.config['model_name'] != 'LightAutoML':
             prediction = model.predict_proba(df)[0][1]
         else:
-            prediction = model.predict(df)
+            prediction = model.predict(df).data[0][0]
 
         return prediction
 
@@ -627,6 +627,10 @@ if __name__ == '__main__':
         './CONFIGS/SKLEARN_GB_CONFIG.yaml',
     ]
 
+    # load samples
+    A = Sample('./samples/1Chemotherapy.txt')
+    B = Sample('./samples/2Radiotherapy.txt')
+
     # iterating over config-files
     for CONFIG_NAME in CONFIG_NAMES:
         # load / train the model
@@ -634,22 +638,22 @@ if __name__ == '__main__':
 
         # inference
         pred = ml.INFERENCE(
-            n1=20,
-            n2=20,
-            cens_rate1=0.,
-            cens_rate2=0.,
-            S_peto=-0.784453,
-            S_gehan=0.784453,
-            S_logrank=0.320514,
-            S_BN_GPH=1.845733,
-            S_BN_MCE=4.535574,
-            S_BN_SCE=1.338882,
-            S_Q=-0.784453,
-            S_MAX=0.784453,
-            S_MIN3=0.209139,
-            S_WLg_TaroneWare=0.449645,
-            S_WLg_PetoPrentice=0.095641,
-            S_WLg_Prentice=0.020414,
-            S_WKM=-0.794446,
+            n1                  = A.N(),
+            n2                  = B.N(),
+            cens_rate1          = A.censoring_rate(),
+            cens_rate2          = B.censoring_rate(),
+            S_peto              = GeneralizedPeto_Test().statistic(A, B),
+            S_gehan             = GeneralizedGehan_Test().statistic(A, B),
+            S_logrank           = Logrank_Test().statistic(A, B),
+            S_BN_GPH            = BN_GPH_Test().statistic(A, B),
+            S_BN_MCE            = BN_MCE_Test().statistic(A, B),
+            S_BN_SCE            = BN_SCE_Test().statistic(A, B),
+            S_Q                 = Q_Test().statistic(A, B),
+            S_MAX               = MAX_Value_Test().statistic(A, B),
+            S_MIN3              = MIN3_Test().statistic(A, B),
+            S_WLg_TaroneWare    = WeightedLogrank_Test('TaroneWare').statistic(A, B),
+            S_WLg_PetoPrentice  = WeightedLogrank_Test('PetoPrentice').statistic(A, B),
+            S_WLg_Prentice      = WeightedLogrank_Test('Prentice').statistic(A, B),
+            S_WKM               = WeightedKaplanMeier_Test().statistic(A, B),
         )
         print(pred)
