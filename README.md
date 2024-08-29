@@ -26,7 +26,6 @@ For this reposetory there is corresponding reposetory at the Hugging Face with f
 To run the proposed methods, you have to prepare following folder:
 
 ```bash
-.
 ├── samples
 │   ├── [1Chemotherapy.txt](https://github.com/pfilonenko/ML_for_TwoSampleTesting/blob/main/proposed_ml_for_two_sample_testing/source/samples/1Chemotherapy.txt)
 │   └── [2Radiotherapy.txt](https://github.com/pfilonenko/ML_for_TwoSampleTesting/blob/main/proposed_ml_for_two_sample_testing/source/samples/2Radiotherapy.txt)
