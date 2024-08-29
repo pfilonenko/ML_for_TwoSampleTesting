@@ -34,7 +34,7 @@ To run the proposed methods, you have to prepare following folder:
 └── TwoSample_Tests.py
 ```
 
-All files you needed (samples python-scripts) can be downloaded [here](https://github.com/pfilonenko/ML_for_TwoSampleTesting/tree/main/proposed_ml_for_two_sample_testing/source).
+All files described above (two samples and python-scripts) can be downloaded [here](https://github.com/pfilonenko/ML_for_TwoSampleTesting/tree/main/proposed_ml_for_two_sample_testing/source).
 
 ```python
 # Example.py
