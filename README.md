@@ -28,6 +28,13 @@ To run the proposed methods, you have to create the folder described below. All 
 ├── samples
 │   ├── 1Chemotherapy.txt
 │   └── 2Radiotherapy.txt
+├── CONFIGS
+│   ├── CatBoost_CONFIG.yaml
+│   ├── LightAutoML_CONFIG.yaml
+│   ├── SKLEARN_GB_CONFIG.yaml
+│   ├── SKLEARN_LogReg_CONFIG.yaml
+│   ├── SKLEARN_RF_CONFIG.yaml
+│   └── XGBoost_CONFIG.yaml
 ├── Example.py
 ├── ML_TwoSample_Method.py
 └── TwoSample_Tests.py
