@@ -25,10 +25,10 @@ For this reposetory there is corresponding reposetory at the Hugging Face with f
 
 ```bash
 ├── samples
-|   ├── 1Chemotherapy.txt
-|   └── 2Radiotherapy.txt
-|── ML_TwoSample_Method.py
-|── TwoSample_Tests.py
+│   ├── 1Chemotherapy.txt
+│   └── 2Radiotherapy.txt
+├── ML_TwoSample_Method.py
+├── TwoSample_Tests.py
 ```
 
 ```python
