@@ -24,15 +24,17 @@ For this reposetory there is corresponding reposetory at the Hugging Face with f
 # Example
 
 ```bash
+.
 ├── samples
 │   ├── 1Chemotherapy.txt
 │   └── 2Radiotherapy.txt
+├── Example.py
 ├── ML_TwoSample_Method.py
 ├── TwoSample_Tests.py
 ```
 
 ```python
-# libs
+# Example.py
 import numpy as np
 import pandas as pd
 
