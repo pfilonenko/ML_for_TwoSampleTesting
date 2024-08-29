@@ -22,6 +22,12 @@ For this reposetory there is corresponding reposetory at the Hugging Face with f
 5) Compute corresponding $p$-value using the table of percentage points.
 
 # Example
+
+~
+|- samples
+|-- 1Chemotherapy.txt
+|-- 2Radiotherapy.txt
+
 ```python
 # libs
 import numpy as np
