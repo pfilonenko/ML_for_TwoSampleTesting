@@ -2,6 +2,9 @@
 - [Petr PHILONENKO](https://orcid.org/0000-0002-6295-4470), Ph.D. in Computer Science;
 - [Sergey POSTOVALOV](https://orcid.org/0000-0003-3718-1936), D.Sc. in Computer Science.
 
+# About
+This repository addresses to solve the two-sample problem under right-censored observations using Machine Learning. $H_0: S_1(t) = S_2(t)$.
+
 # Repository
 This repository includes following parts:
 - **DATASET** contains the C++ project for the dataset simulation and a fragment of resulting dataset. The full dataset can be downloaded at the Hugging Face (pfilonenko/ML_for_TwoSampleTesting/).
