@@ -23,7 +23,7 @@ For this reposetory there is corresponding reposetory at the Hugging Face with f
 
 # Example
 
-To run the proposed methods, you have to create following folder:
+To run the proposed methods, you have to create the folder described below. All files (two samples and python-scripts) can be downloaded [here](https://github.com/pfilonenko/ML_for_TwoSampleTesting/tree/main/proposed_ml_for_two_sample_testing/source).
 
 ```bash
 ├── samples
@@ -34,8 +34,7 @@ To run the proposed methods, you have to create following folder:
 └── TwoSample_Tests.py
 ```
 
-All files described above (two samples and python-scripts) can be downloaded [here](https://github.com/pfilonenko/ML_for_TwoSampleTesting/tree/main/proposed_ml_for_two_sample_testing/source).
-
+The source code of the Example.py:
 ```python
 # Example.py
 import numpy as np
