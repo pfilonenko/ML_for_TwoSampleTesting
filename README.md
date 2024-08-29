@@ -3,7 +3,7 @@ TITLE: "Machine Learning for Two-Sample Testing under Right-Censored Data: A Sim
 
 AUTHORS: 
 - [Petr PHILONENKO](https://orcid.org/0000-0002-6295-4470), Ph.D. in Computer Science;
-- Sergey POSTOVALOV, D.Sc. in Computer Science.
+- [Sergey POSTOVALOV](https://orcid.org/0000-0003-3718-1936), D.Sc. in Computer Science.
 
 # Repository
 This repository includes following parts:
