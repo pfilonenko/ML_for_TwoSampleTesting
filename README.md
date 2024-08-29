@@ -31,7 +31,7 @@ To run the proposed methods, you have to prepare following folder:
 │   └── 2Radiotherapy.txt
 ├── Example.py
 ├── ML_TwoSample_Method.py
-├── TwoSample_Tests.py
+└── TwoSample_Tests.py
 ```
 
 All files you needed (samples python-scripts) can be downloaded [here](https://github.com/pfilonenko/ML_for_TwoSampleTesting/tree/main/proposed_ml_for_two_sample_testing/source).
