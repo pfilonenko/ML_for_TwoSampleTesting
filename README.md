@@ -23,9 +23,8 @@ For this repository there is corresponding repository at the Hugging Face with f
 # Example
 
 To run the proposed methods, you have to run the script **Example.py** in the folder:
-> ML_for_TwoSampleTesting/proposed_ml_for_two_sample_testing/source/
-
-[in the folder](https://github.com/pfilonenko/ML_for_TwoSampleTesting/tree/main/proposed_ml_for_two_sample_testing/source)
+> ML_for_TwoSampleTesting / proposed_ml_for_two_sample_testing / source /
+To get there, click [here](https://github.com/pfilonenko/ML_for_TwoSampleTesting/tree/main/proposed_ml_for_two_sample_testing/source).
 
 The source code of the Example.py:
 ```python
