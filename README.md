@@ -5,7 +5,6 @@ AUTHORS:
 - Sergey POSTOVALOV, D.Sc. in Computer Science.
 
 # Repository
-
 This repository includes following parts:
 - **DATASET** contains the C++ project for the dataset simulation and a fragment of resulting dataset. The full dataset can be downloaded at the Hugging Face (pfilonenko/ML_for_TwoSampleTesting/).
 - **PROPOSED_ML_FOR_TWO_SAMPLE_TESTING** contains an python-project for the proposed methods. This implementation represents the end-to-end pipeline (from two right-censored samples to the $p$-value).
@@ -13,9 +12,7 @@ This repository includes following parts:
 
 For this reposetory there is corresponding reposetory at the Hugging Face with full version of used datasets ([pfilonenko/ML_for_TwoSampleTesting/](https://huggingface.co/datasets/pfilonenko/ML_for_TwoSampleTesting)).
 
-
-
-
+# FLOW
 **TWO-SAMPLE TESTING VIA THE PROPOSED METHODS CONTAINS FOLLOWING STEPS:**
 1) Select 2 samples with right-censored observations;
 2) Compute test statistics of several classical two-sample tests;
