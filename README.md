@@ -24,11 +24,11 @@ For this reposetory there is corresponding reposetory at the Hugging Face with f
 # Example
 
 ```bash
-|- samples
-|  ├-- 1Chemotherapy.txt
-|  └-- 2Radiotherapy.txt
-|-- ML_TwoSample_Method.py
-|-- TwoSample_Tests.py
+├── samples
+|   ├── 1Chemotherapy.txt
+|   └── 2Radiotherapy.txt
+|── ML_TwoSample_Method.py
+|── TwoSample_Tests.py
 ```
 
 ```python
