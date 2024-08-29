@@ -26,6 +26,8 @@ For this reposetory there is corresponding reposetory at the Hugging Face with f
 # libs
 import numpy as np
 import pandas as pd
+
+from TwoSample_Tests import *
 from ML_TwoSample_Method import ML_TwoSample_Method
 
 # start point
@@ -71,4 +73,5 @@ if __name__ == '__main__':
         )
 
         print('Sn: {:.4}, p-value: {:.3}±{:.3}'.format(Sn,pvalue,avg_error))
+        
 ```
