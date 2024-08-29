@@ -27,8 +27,8 @@ To run the proposed methods, you have to prepare following folder:
 
 ```bash
 ├── samples
-│   ├── [1Chemotherapy.txt](https://github.com/pfilonenko/ML_for_TwoSampleTesting/blob/main/proposed_ml_for_two_sample_testing/source/samples/1Chemotherapy.txt)
-│   └── [2Radiotherapy.txt](https://github.com/pfilonenko/ML_for_TwoSampleTesting/blob/main/proposed_ml_for_two_sample_testing/source/samples/2Radiotherapy.txt)
+│   ├── 1Chemotherapy.txt
+│   └── 2Radiotherapy.txt
 ├── Example.py
 ├── ML_TwoSample_Method.py
 ├── TwoSample_Tests.py
