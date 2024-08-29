@@ -614,9 +614,9 @@ class ML_TwoSample_Method:
             Sn = model.predict(df).data[0][0]
 
         # p-value
-        (pvalue, max_error) = self.P_VALUE(Sn, n1, n2, cens_rate1, cens_rate2)
+        (pvalue, avg_error) = self.P_VALUE(Sn, n1, n2, cens_rate1, cens_rate2)
 
-        return Sn, pvalue, max_error
+        return Sn, pvalue, avg_error
 
     # P-VALUE
     def P_VALUE(self, Sn, n1, n2, cens_rate1, cens_rate2):
