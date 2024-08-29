@@ -609,11 +609,47 @@ class ML_TwoSample_Method:
 
         # make prediction
         if self.config['model_name'] != 'LightAutoML':
-            prediction = model.predict_proba(df)[0][1]
+            Sn = model.predict_proba(df)[0][1]
         else:
-            prediction = model.predict(df).data[0][0]
+            Sn = model.predict(df).data[0][0]
 
-        return prediction
+        # p-value
+        (pvalue, max_error) = self.P_VALUE(Sn, n1, n2, cens_rate1, cens_rate2)
+
+        return Sn, pvalue, max_error
+
+    # P-VALUE
+    def P_VALUE(self, Sn, n1, n2, cens_rate1, cens_rate2):
+        # reading the percent points
+        test = self.config['model_name'] + '_test'
+        perc_points = pd.read_csv('../reports/GSH0/percent_points.tsv.gz', sep='\t')
+        perc_points = perc_points[perc_points['test'] == test]
+
+        # set sample parameters
+        perc_points['avg_n'] = (n1 + n2) / 2.
+        perc_points['w_perc'] = (cens_rate1*n1 + cens_rate2*n2) / (n1 + n2)
+
+        # find differences
+        perc_points['avg_n'] = np.abs(perc_points['avg_n'] - perc_points['n'])
+        perc_points['w_perc'] = np.abs(perc_points['w_perc'] - perc_points['perc'])
+
+        # find optimal (=closest) sample size and censoring rate
+        perc_points['func'] = perc_points['avg_n'] * perc_points['w_perc']
+        min_val = perc_points['func'].min()
+        perc_points = perc_points[perc_points['func'] == min_val]
+
+        # find closest value of the G(S|H0) to Sn
+        perc_points['Sn'] = Sn
+        perc_points['diff'] = np.abs(perc_points['Sn'] - perc_points['F_AVG(q)'])
+        min_val = perc_points['diff'].min()
+        perc_points = perc_points[perc_points['diff'] == min_val]
+        d = perc_points.iloc[0].to_dict()
+
+        # pvalue and avg_error
+        pvalue = d['p']
+        avg_error = max(d['|F_MAX(q)-F_AVG(q)|'], d['|F_AVG(q)-F_MIN(q)|'])
+
+        return pvalue, avg_error
 
 # start point
 if __name__ == '__main__':
@@ -637,7 +673,7 @@ if __name__ == '__main__':
         ml = ML_TwoSample_Method(CONFIG_NAME=CONFIG_NAME)
 
         # inference
-        pred = ml.INFERENCE(
+        (Sn, pvalue, avg_error) = ml.INFERENCE(
             n1                  = A.N(),
             n2                  = B.N(),
             cens_rate1          = A.censoring_rate(),
@@ -656,4 +692,5 @@ if __name__ == '__main__':
             S_WLg_Prentice      = WeightedLogrank_Test('Prentice').statistic(A, B),
             S_WKM               = WeightedKaplanMeier_Test().statistic(A, B),
         )
-        print(pred)
+
+        print(f'Sn: {Sn}, p-value: {pvalue}, max_error: {avg_error}')
