@@ -23,7 +23,7 @@ For this reposetory there is corresponding reposetory at the Hugging Face with f
 
 # Example
 
-To run the proposed methods, you have to prepare following folder with two scripts (ML_TwoSample_Method.py and TwoSample_Tests.py) which are located in this repositort at the ...
+To run the proposed methods, you have to prepare following folder with two scripts (**ML_TwoSample_Method.py** and **TwoSample_Tests.py**) which are located in this repositort at the ...
 ```bash
 .
 ├── samples
