@@ -23,7 +23,7 @@ For this reposetory there is corresponding reposetory at the Hugging Face with f
 
 # Example
 
-To run the proposed methods, you have to prepare following folder:
+To run the proposed methods, you have to create following folder:
 
 ```bash
 ├── samples
