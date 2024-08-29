@@ -22,6 +22,7 @@ For this reposetory there is corresponding reposetory at the Hugging Face with f
 5) Compute corresponding $p$-value using the table of percentage points.
 
 # Example
-> import numpy as np
-> import pandas as pd
-> 
+```
+import numpy as np
+import pandas as pd
+```
