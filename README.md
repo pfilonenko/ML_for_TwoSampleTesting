@@ -10,7 +10,7 @@ This repository includes following parts:
 
 For this repository there is corresponding repository at the Hugging Face with full version of used datasets ([pfilonenko/ML_for_TwoSampleTesting/](https://huggingface.co/datasets/pfilonenko/ML_for_TwoSampleTesting)).
 
-# Flow
+# Pipeline for the proposed two-sample methods
 **TWO-SAMPLE TESTING VIA THE PROPOSED METHODS CONTAINS FOLLOWING STEPS:**
 1) Select 2 samples with right-censored observations;
 2) Compute test statistics of several classical two-sample tests;
