@@ -21,7 +21,7 @@ For this reposetory there is corresponding reposetory at the Hugging Face with f
 4) Compute test statistic of the proposed method;
 5) Compute corresponding $p$-value using the table of percentage points.
 
-![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](https://github.com/pfilonenko/ML_for_TwoSampleTesting/blob/main/ML_flow.png)
+![Pipeline of the proposed methods](https://github.com/pfilonenko/ML_for_TwoSampleTesting/blob/main/ML_flow.png)
 
 # Example
 
