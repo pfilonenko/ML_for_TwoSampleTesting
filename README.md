@@ -4,6 +4,8 @@ AUTHORS:
 - Petr PHILONENKO, Ph.D. in Computer Science;
 - Sergey POSTOVALOV, D.Sc. in Computer Science.
 
+# Repository
+
 This repository includes following parts:
 - **DATASET** contains the C++ project for the dataset simulation and a fragment of resulting dataset. The full dataset can be downloaded at the Hugging Face (pfilonenko/ML_for_TwoSampleTesting/).
 - **PROPOSED_ML_FOR_TWO_SAMPLE_TESTING** contains an python-project for the proposed methods. This implementation represents the end-to-end pipeline (from two right-censored samples to the $p$-value).
