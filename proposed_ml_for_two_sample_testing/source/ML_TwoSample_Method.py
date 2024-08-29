@@ -693,4 +693,4 @@ if __name__ == '__main__':
             S_WKM               = WeightedKaplanMeier_Test().statistic(A, B),
         )
 
-        print(f'Sn: {Sn}, p-value: {pvalue}, avg_error: {avg_error}')
+        print('Sn: {:.4}, p-value: {:.3}±{:.3}'.format(Sn,pvalue,avg_error))
