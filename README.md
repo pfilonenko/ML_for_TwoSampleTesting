@@ -21,7 +21,7 @@ For this reposetory there is corresponding reposetory at the Hugging Face with f
 4) Compute test statistic of the proposed method;
 5) Compute corresponding $p$-value using the table of percentage points.
 
-![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](blob:https://web.telegram.org/7994f75f-227b-401b-9628-8933839756c9)
+![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](https://www.overleaf.com/project/65054c31e236f418d15631b4/file/66bf3581f72dbc9cd640556b)
 
 
 # Example
