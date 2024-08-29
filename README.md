@@ -21,6 +21,9 @@ For this reposetory there is corresponding reposetory at the Hugging Face with f
 4) Compute test statistic of the proposed method;
 5) Compute corresponding $p$-value using the table of percentage points.
 
+![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](https://myoctocat.com/assets/images/base-octocat.svg)
+
+
 # Example
 
 To run the proposed methods, you have to create the folder described below. All files (two samples and python-scripts) can be downloaded [here](https://github.com/pfilonenko/ML_for_TwoSampleTesting/tree/main/proposed_ml_for_two_sample_testing/source).
