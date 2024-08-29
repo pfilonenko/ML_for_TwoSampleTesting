@@ -20,3 +20,8 @@ For this reposetory there is corresponding reposetory at the Hugging Face with f
 3) Load test statistics into the proposed method;
 4) Compute test statistic of the proposed method;
 5) Compute corresponding $p$-value using the table of percentage points.
+
+# Example
+> import numpy as np
+> import pandas as pd
+> 
