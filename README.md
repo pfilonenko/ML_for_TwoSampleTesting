@@ -3,9 +3,9 @@
 - [Sergey POSTOVALOV](https://orcid.org/0000-0003-3718-1936), D.Sc. in Computer Science.
 
 # About
-This repository addresses to solve the two-sample problem under right-censored observations using Machine Learning. 
+This repository is a part of the paper addressed to solve the two-sample problem under right-censored observations using Machine Learning.
 
-$H_0: S_1(t) = S_2(t)$ vs $H: S_1(t) \neq S_2(t)$.
+The problem statement can be formualted as $H_0: S_1(t) = S_2(t)$ vs $H: S_1(t) \neq S_2(t)$.
 
 
 # Repository
