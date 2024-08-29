@@ -7,6 +7,8 @@ This repository addresses to solve the two-sample problem under right-censored o
 
 $H_0: S_1(t) = S_2(t)$.
 
+vs
+
 $H: S_1(t) \neq S_2(t)$.
 
 
