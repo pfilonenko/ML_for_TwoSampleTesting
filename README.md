@@ -2,7 +2,7 @@
 - [Petr PHILONENKO](https://orcid.org/0000-0002-6295-4470), Ph.D. in Computer Science;
 - [Sergey POSTOVALOV](https://orcid.org/0000-0003-3718-1936), D.Sc. in Computer Science.
 
-[About](docs/About.md)
+[About](About/README.md)
 
 # About
 This repository is a supplement to the paper addressed to solve the two-sample problem under right-censored observations using Machine Learning.
