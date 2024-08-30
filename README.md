@@ -12,7 +12,7 @@ This repository includes following parts:
 - **PROPOSED_ML_FOR_TWO_SAMPLE_TESTING** contains an python-project for the proposed methods. This implementation represents the end-to-end pipeline (from two right-censored samples to the $p$-value).
 - **SUPPLEMENTARY_MATERIALS** contains results of the test power and percentage points for the proposed methods.
 
-For this repository there is corresponding repository at the [Hugging Face](https://huggingface.co/datasets/pfilonenko/ML_for_TwoSampleTesting) with full version of used datasets.
+For this repository there is corresponding repository at [Hugging Face](https://huggingface.co/datasets/pfilonenko/ML_for_TwoSampleTesting) with full version of used datasets.
 
 # Pipeline for the proposed two-sample methods
 **TWO-SAMPLE TESTING VIA THE PROPOSED METHODS CONTAINS FOLLOWING STEPS:**
