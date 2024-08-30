@@ -5,7 +5,11 @@
 # About
 This repository is a part of the paper addressed to solve the two-sample problem under right-censored observations using Machine Learning.
 
-The problem statement can be formualted as $H_0: S_1(t) = S_2(t)$ vs $H: S_1(t) \neq S_2(t)$ where $S_1(t)$ and $S_2(t)$ are survival functions of samples $X_1$ and $X_2$.
+The problem statement can be formualted as 
+
+$H_0: S_1(t) = S_2(t)$ vs $H: S_1(t) \neq S_2(t)$ 
+
+where $S_1(t)$ and $S_2(t)$ are survival functions of samples $X_1$ and $X_2$.
 
 
 # Repository
