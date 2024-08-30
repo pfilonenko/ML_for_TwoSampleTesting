@@ -24,11 +24,11 @@ class simulation_for_machine_learning{
 		// Process of simulation
 		void Simulation(int iter, vector<HomogeneityTest*> &D, int rank, mt19937boost Gw)
 		{
-			// ÒÙÓÏËÓ‚‡ÎË Ì‡Á‚‡ÌËÂ Ù‡ÈÎ‡ ‰Îˇ ÒÓı‡ÌÂÌËˇ
+			// √±√¥√Æ√∞√¨√®√∞√Æ√¢√†√´√® √≠√†√ß√¢√†√≠√®√• √¥√†√©√´√† √§√´√ø √±√Æ√µ√∞√†√≠√•√≠√®√ø
 			char file_to_save[512];
 			sprintf(file_to_save,".//to_machine_learning_2024//to_machine_learning[rank=%d].csv", rank);
 
-			// ÂÒÎË ˝ÚÓ Ò‡Ï‡ˇ ÔÂ‚‡ˇ ËÚÂ‡ˆËˇ, ÚÓ ÒÓı‡ÌËÎË ¯‡ÔÍÛ Ù‡ÈÎ‡
+			// √•√±√´√® √Ω√≤√Æ √±√†√¨√†√ø √Ø√•√∞√¢√†√ø √®√≤√•√∞√†√∂√®√ø, √≤√Æ √±√Æ√µ√∞√†√≠√®√´√® √∏√†√Ø√™√≥ √¥√†√©√´√†
 			if( iter == 0 )
 			{
 				FILE *ou = fopen(file_to_save,"w");
@@ -85,7 +85,7 @@ class simulation_for_machine_learning{
 						int n = sample_sizes[jj];
 
 						// ---- Simulation samples ----
-						//competing hypothesis Õ0
+						//competing hypothesis √ç0
 						Sample A0(*H0_1.D,n,Gw);
 						Sample B0(*H0_1.D,n,Gw);
 						if( per > 0 )
@@ -94,7 +94,7 @@ class simulation_for_machine_learning{
 							B0.CensoredTypeThird(*H1_1.D,Gw);
 						}
 
-						//competing hypothesis Õ1
+						//competing hypothesis √ç1
 						Sample A1(*H0_1.D,n,Gw);
 						Sample B1(*H0_2.D,n,Gw);
 						if( per > 0 )
@@ -104,7 +104,7 @@ class simulation_for_machine_learning{
 						}
 
 						// ---- Computation of the test statistics & Save to file ----
-						//Sn and p-value computation under Õ0
+						//Sn and p-value computation under √ç0
 						FILE *ou = fopen(file_to_save, "a");
 						auto perc1 = A0.RealCensoredPercent();
 						auto perc2 = B0.RealCensoredPercent();
@@ -121,7 +121,7 @@ class simulation_for_machine_learning{
 						}
 						fprintf(ou, "\n");
 
-						//Sn and p-value computation under Õ1
+						//Sn and p-value computation under √ç1
 						perc1 = A1.RealCensoredPercent();
 						perc2 = B1.RealCensoredPercent();
 						fprintf(ou,"%d;", iter);
@@ -146,7 +146,7 @@ class simulation_for_machine_learning{
 		// Constructor of the class
 		simulation_for_machine_learning(vector<HomogeneityTest*> &D)
 		{
-			int N = 40000;	// number of the Monte-Carlo replications
+			int N = 37650;	// number of the Monte-Carlo replications
 			#pragma omp parallel for
 			for(int k=0; k<N; k++)
 			{
