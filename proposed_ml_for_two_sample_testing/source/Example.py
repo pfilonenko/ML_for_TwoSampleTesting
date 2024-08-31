@@ -8,14 +8,14 @@ from ML_TwoSample_Method import ML_TwoSample_Method
 # start point
 if __name__ == '__main__':
     # list of config-files
-    CONFIG_NAMES = [
-        './CONFIGS/CatBoost_CONFIG.yaml',
-        './CONFIGS/XGBoost_CONFIG.yaml',
-        './CONFIGS/LightAutoML_CONFIG.yaml',
-        './CONFIGS/SKLEARN_RF_CONFIG.yaml',
+    CONFIG_NAMES = [    
         './CONFIGS/SKLEARN_LogReg_CONFIG.yaml',
+        './CONFIGS/SKLEARN_RF_CONFIG.yaml',
         './CONFIGS/SKLEARN_GB_CONFIG.yaml',
-    ]
+        './CONFIGS/XGBoost_CONFIG.yaml',
+        './CONFIGS/CatBoost_CONFIG.yaml',
+        #'./CONFIGS/LightAutoML_CONFIG.yaml',    # before to run, you have to go to the '../models/LightAutoML/' 
+    ]                                            # and to unrar the trained model
 
     # load samples
     A = Sample('./samples/1Chemotherapy.txt')
