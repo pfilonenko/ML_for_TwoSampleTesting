@@ -1,6 +1,6 @@
 #include"simulation_for_machine_learning.h"
 
-//Ñîçäàòü âñå êðèòåðèè
+//Selected two-sample tests
 vector<HomogeneityTest*> AllTests()
 {
 	vector<HomogeneityTest*> D;
@@ -24,9 +24,9 @@ vector<HomogeneityTest*> AllTests()
 	D.push_back( new HT_SynthesisTest );	//MIN3 test
 	
 	D.push_back( new HT_WeightedLogrank("logrank") );
-	D.push_back( new HT_WeightedLogrank("Tarone–Ware") );
+	D.push_back( new HT_WeightedLogrank("Taroneâ€“Ware") );
 	D.push_back( new HT_WeightedLogrank("Breslow") );
-	D.push_back( new HT_WeightedLogrank("Peto–Prentice") );
+	D.push_back( new HT_WeightedLogrank("Petoâ€“Prentice") );
 	D.push_back( new HT_WeightedLogrank("Prentice") );
 	
 	D.push_back( new HT_WeightedKaplanMeyer );
