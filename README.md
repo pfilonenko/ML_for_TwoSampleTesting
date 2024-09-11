@@ -1,10 +1,8 @@
 Apache-2.0
 
 # Machine Learning for Two-Sample Testing under Right-Censored Data: A Simulation Study
-<!-- - [Petr PHILONENKO](https://orcid.org/0000-0002-6295-4470), Ph.D. in Computer Science; -->
-<!-- - [Sergey POSTOVALOV](https://orcid.org/0000-0003-3718-1936), D.Sc. in Computer Science.  -->
-- Author1, Ph.D. in Computer Science;
-- Author2, D.Sc. in Computer Science;
+- [Petr PHILONENKO](https://orcid.org/0000-0002-6295-4470), Ph.D. in Computer Science;
+- [Sergey POSTOVALOV](https://orcid.org/0000-0003-3718-1936), D.Sc. in Computer Science.
 
 # About
 This repository is a supplement to the paper addressed to solve the two-sample problem under right-censored observations using Machine Learning.
